@@ -1,4 +1,4 @@
-# Equipo 10 - Introducción a Señales Biomédicas
+# Equipo 11 - Introducción a Señales Biomédicas
 <p align="center">
 <img src="Software\electrocardiografo-reposo-paciente.avif" alt="imagen" width="70%">
 
