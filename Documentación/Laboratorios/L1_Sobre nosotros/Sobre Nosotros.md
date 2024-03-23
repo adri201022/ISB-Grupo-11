@@ -1,6 +1,7 @@
 # Entregable 1 : Sobre nosotros
 ### Adrian Alberto Gutierrez Gonzales
  Soy estudiante de 4° año que esta interesado por la área de ingeniería de tejidos. Mi interes por esta área se debe a estoy interesado en el campo de la medicina regenerativa, además que ofrece nuevas perspectivas para el tratamiento de enfermedades crónicas.
+ 
 ![alt text](../Imagenes/Imagen.jpg)
 
 ### Micaela Ivy Horny Insua
