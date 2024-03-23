@@ -4,7 +4,7 @@
 
 ## Integrantes
 - Micaela Ivy Horny Insua
-- Adrian A Alberto Gutierrez Gonzales
+- Adrian Alberto Gutierrez Gonzales
 - Gian Pierre Santivañez Condor
 - Rodrigo Alfonso Gonzales Cabrera
 
