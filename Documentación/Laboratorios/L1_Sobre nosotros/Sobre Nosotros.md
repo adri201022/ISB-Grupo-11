@@ -1,8 +1,9 @@
 # Entregable 1 : Sobre nosotros
 ### Adrian Alberto Gutierrez Gonzales
  Soy estudiante de 4° año que esta interesado por la área de ingeniería de tejidos. Mi interes por esta área se debe a estoy interesado en el campo de la medicina regenerativa, además que ofrece nuevas perspectivas para el tratamiento de enfermedades crónicas.
- 
-(https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e75b29fe-8cb2-4f40-923b-b55d0c8da04d)
+ <p align="center">
+<img src="[Software\electrocardiografo-reposo-paciente.avif](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e75b29fe-8cb2-4f40-923b-b55d0c8da04d)" alt="imagen" width="70%">
+
 
 
 ### Micaela Ivy Horny Insua
