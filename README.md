@@ -16,3 +16,6 @@
 5. Contenido del curso
 6. Participantes
 7. Docentes del curso
+
+### Sobre nosotros :
+   [Entregable 1](L1_Sobre%20nosotros)
