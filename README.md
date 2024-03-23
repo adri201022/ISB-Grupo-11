@@ -18,4 +18,3 @@
 7. Docentes del curso
 
 ### Sobre nosotros :
-   [Entregable 1](L1_Sobre%20nosotros)
