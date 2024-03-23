@@ -1,10 +1,8 @@
 # Entregable 1 : Sobre nosotros
 ### Adrian Alberto Gutierrez Gonzales
  Soy estudiante de 4° año que esta interesado por la área de ingeniería de tejidos. Mi interes por esta área se debe a estoy interesado en el campo de la medicina regenerativa, además que ofrece nuevas perspectivas para el tratamiento de enfermedades crónicas.
- <p align="center">
-<img src="[Software\electrocardiografo-reposo-paciente.avif](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e75b29fe-8cb2-4f40-923b-b55d0c8da04d)" alt="imagen" width="70%">
-
-
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e29d5811-be79-4aad-babb-a212c8e4c9ca" width="70%">
 
 ### Micaela Ivy Horny Insua
 Mis concentraciones de interés son ingeniería de tejidos y biomateriales e ingeniería clínica. Me atraen porque la ingeniería de tejidos abre la puerta a la regeneración de órganos, mientras que la ingeniería clínica permite mejorar dispositivos médicos y sistemas de diagnóstico, combinando mi pasión por la ingeniería con el deseo de hacer contribuciones significativas en el campo de la salud. Como una persona comprometida, dinámica y curiosa, estoy emocionada por explorar nuevas fronteras y aplicar mi creatividad para abordar el desafío de realizar un proyecto en el área de señales biomédicas.
