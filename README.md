@@ -2,7 +2,7 @@
 <p align="center">
 <img src="Documentación\Material_adicional\imagen_readme.PNG" alt="imagen" width="70%">
 
-<span style="font-size: smaller;"><span style="font-size: smaller;">Ultimate guide to the ECG test,  Seer Medical, Jan. 10, 2022. https://seermedical.com/blog/ecg-test-guide (accessed Apr. 01, 2024)</span></span>
+<p align="center"><small>Figura 1: Desarrollo de la prueba de ECG. (Seermedical, 2023)</small></p>
 
 ## Tabla de Contenidos
 1. [¿Qué es una bioseñal?](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#1-qu%C3%A9-es-una-biose%C3%B1al)
@@ -10,19 +10,20 @@
 3. [Temática del proyecto](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#3-tem%C3%A1tica-del-proyecto)
 4. [Participantes](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#4-participantes)
 5. [Docentes del curso](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#5-docentes-del-curso)
+6. [Referencias](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#6-referencias)
 
 ## 1. ¿Qué es una bioseñal?
 <div style="text-align: justify;">
-    El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios.
-
-<span style ="font-size: smaller;"> <span style="font-size: smaller;">“Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional,” Smia.mx, 2017. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127 (accessed Apr. 01, 2024)</span></span>
+    El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios. (Reyes, 2017)
 
 ## 2. Contenido del curso
-Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas.
+Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas. (De La Cruz Rodríguez, 2024)
 
 Las unidades del curso con su respectivo contenido de acuerdo al sílabo proporcionado en clase:
 <p align="center">
 <img src="Documentación\Material_adicional\contenido_curso.JPG" width="70%">
+<p align="center"><small>Figura 2: Contenido del curso. (De La Cruz Rodríguez, 2024)</small></p>
+
 
 ## 3. Temática del proyecto
 
@@ -62,3 +63,11 @@ Buenas soy Rodrigo Gonzales, estudiante de 4to año de la carrera de ingeniería
 ## 5. Docentes del curso
 - Mg. De la Cruz Rodriguez U. Lewis (umbert.de.la.cruz@upch.pe)
 - Mg. Meza Rodriguez Moises (moises.meza@upch.pe)
+
+## 6. Referencias
+De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
+
+Reyes, C. (2017). Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. SMIA. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127
+
+Seermedical. (2023, 28 febrero). Ultimate guide to the ECG test - Seer Medical. Seer Medical. https://seermedical.com/blog/ecg-test-guide
+
