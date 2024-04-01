@@ -14,10 +14,15 @@
 ## 1. ¿Qué es una bioseñal?
 <div style="text-align: justify;">
     El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios.
-</div>
+
 <span style ="font-size: smaller;"> <span style="font-size: smaller;">“Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional,” Smia.mx, 2017. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127 (accessed Apr. 01, 2024)</span></span>
 
 ## 2. Contenido del curso
+Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas.
+
+Las unidades del curso con su respectivo contenido de acuerdo al sílabo proporcionado en clase:
+<p align="center">
+<img src="Documentación\Material_adicional\contenido del curso.PNG" alt="imagen" width="80%">
 
 ## 3. Temática del proyecto
 
