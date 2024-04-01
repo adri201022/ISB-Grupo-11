@@ -57,6 +57,7 @@ Buenas soy Rodrigo Gonzales, estudiante de 4to año de la carrera de ingeniería
 
 <p align="center">
 <img src= "https://github.com/adri201022/ISB-Grupo-11/assets/164541653/9a4bebb7-2f29-4956-adf4-3e3efe1afb68" width="30%", length="30%">
+</div>
 
 ## 5. Docentes del curso
 - Mg. De la Cruz Rodriguez U. Lewis (umbert.de.la.cruz@upch.pe)
