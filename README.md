@@ -22,7 +22,7 @@ Este curso proporciona una formación básica y sólida en sistemas de adquisici
 
 Las unidades del curso con su respectivo contenido de acuerdo al sílabo proporcionado en clase:
 <p align="center">
-<img src="Documentación\Material_adicional\contenido del curso.PNG" alt="imagen" width="80%">
+<img src="Documentación\Material_adicional\contenido del curso.PNG" width="70%">
 
 ## 3. Temática del proyecto
 
