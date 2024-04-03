@@ -36,6 +36,16 @@ Se abordan varios aspectos importantes relacionados con el manejo de datos estru
 
 ## 3. Temática del proyecto
 
+**Planteamiento de la problemática**
+
+La distrofia muscular es un grupo de enfermedades que provocan debilidad progresiva y pérdida de masa muscular. Los genes anormales (mutaciones) interfieren en la producción de proteínas necesarias para formar músculos saludables (Mayo Clinic, 2022). Los síntomas incluyen caídas frecuentes, dificultad para levantarse, saltar, subir escaleras y en algunos casos, trastornos del lenguaje. En particular, la distrofia muscular de Duchenne es una condición que afecta entre uno cada 3500 a uno de cada 5000 niños varones a nivel global y representa un desafío para la calidad de vida de los pacientes (El momento es ahora, 2023).
+
+Los pacientes con distrofia muscular en Perú enfrentan desafíos significativos en su proceso de rehabilitación debido a la falta de recursos médicos especializados. Las terapias físicas convencionales pueden ser limitadas en su capacidad para monitorear y evaluar la función muscular de manera precisa, lo que dificulta el diseño de programas de rehabilitación personalizados y efectivos para cada paciente. Además, la ausencia de una cura definitiva agrega una capa adicional de dificultad para quienes padecen esta enfermedad.
+
+**Propuesta de solución**
+
+Para abordar esta problemática, proponemos integrar tecnología EMG (electromiografía) en sesiones de terapia física para pacientes con distrofia muscular en Perú. La electromiografía (EMG) es un método diagnóstico empleado para examinar la condición de los músculos y las células nerviosas que los regulan, llamadas neuronas motoras. Se plantea diseñar un prototipo de dispositivo EMG. Este prototipo debería ser compacto, fácil de usar y adecuado para las necesidades específicas de los pacientes con distrofia muscular en Perú. Durante las sesiones de terapia física, se registrarían las señales EMG mientras los pacientes realizan ejercicios específicos. Los datos EMG se mostrarían en tiempo real a los terapeutas y pacientes, lo que les permitiría ajustar la técnica de los ejercicios para maximizar la activación muscular y optimizar la rehabilitación. La implementación de esta solución no solo permitirá una rehabilitación más efectiva, sino que también proporcionará una herramienta precisa para la evaluación del progreso del tratamiento a lo largo del tiempo (Mayo Clinic, 2019).
+
 ## 4. Participantes
 ### Adrian Alberto Gutierrez Gonzales
 (adrian.gutierrez@upch.pe)
@@ -79,3 +89,9 @@ Seermedical. (2023, 28 febrero). Ultimate guide to the ECG test - Seer Medical. 
 Reyes, C. (2017). Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. SMIA. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127
 
 De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
+
+“Distrofia muscular-Distrofia muscular - Síntomas y causas - Mayo Clinic,” Mayo Clinic, 2022. https://www.mayoclinic.org/es/diseases-conditions/muscular-dystrophy/symptoms-causes/syc-20375388 (accessed Apr. 03, 2024).
+
+‌“El Momento es Ahora | Los niños con Distrofia Muscular de Duchenne (DMD) nos necesitan,” Elmomentoesahora.pe, 2023. https://elmomentoesahora.pe/ (accessed Apr. 03, 2024).
+
+“Electromiografía - Mayo Clinic,” Mayoclinic.org, 2019. https://www.mayoclinic.org/es/tests-procedures/emg/about/pac-20393913#:~:text=La%20electromiograf%C3%ADa%20(EMG)%20es%20un,los%20controlan%20(neuronas%20motoras). (accessed Apr. 03, 2024).
