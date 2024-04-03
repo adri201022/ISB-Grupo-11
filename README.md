@@ -17,13 +17,22 @@
     El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios. (Reyes, 2017)
 
 ## 2. Contenido del curso
-Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas. (De La Cruz Rodríguez, 2024)
+Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas.
 
-Las unidades del curso con su respectivo contenido de acuerdo al sílabo proporcionado en clase:
-<p align="center">
-<img src="Documentación\Material_adicional\contenido_curso.JPG" width="70%">
-<p align="center"><small>Figura 2: Contenido del curso. (De La Cruz Rodríguez, 2024)</small></p>
+**UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG YEEG**
 
+Explora las señales biomédicas más comunes: EMG (Electromiograma), ECG (Electrocardiograma) y EEG (Electroencefalograma). Se detalla la fisiología y características de cada señal, incluyendo la adquisición de datos, la anatomía asociada y los métodos de medición específicos para cada una. Además, se abordan conceptos básicos de Git y GitHub, así como técnicas de adquisición y análisis de señales.
+
+**UNIDAD 2: PROCESAMIENTO Y ANÁLISIS DE SEÑALES ECG, EMG y EEG**
+
+Se centra en técnicas avanzadas de procesamiento de señales biomédicas, abordando el uso de filtros digitales. Luego, profundiza en el tratamiento de señales para EMG, ECG y EEG, cubriendo análisis básicos de las señales, como la detección de actividad muscular para EMG, algoritmos de detección QRS y variabilidad de la frecuencia cardíaca para ECG, y análisis de frecuencia para EEG, incluyendo bandas de frecuencia como alpha, beta, gamma y theta.
+
+
+**UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS ESTRUCTURADOS EINTELIGENCIA ARTIFICIAL**
+
+Se abordan varios aspectos importantes relacionados con el manejo de datos estructurados en el contexto de señales biomédicas. Se incluye el análisis estadístico de los datos, la creación de conjuntos de datos a partir de señales biomédicas adquiridas y una introducción a la Inteligencia Artificial y TinyML. Además, se enseña cómo crear modelos de Machine Learning utilizando Edgeimpulse para aplicaciones en dispositivos de bajo consumo de energía.
+
+(De La Cruz Rodríguez, 2024)
 
 ## 3. Temática del proyecto
 
