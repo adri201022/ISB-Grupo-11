@@ -2,7 +2,7 @@
 <p align="center">
 <img src="Documentación\Material_adicional\imagen_readme.PNG" alt="imagen" width="70%">
 
-<p align="center"><small>Figura 1: Desarrollo de la prueba de ECG. (Seermedical, 2023)</small></p>
+<p align="center"><small>Figura 1: Desarrollo de la prueba de ECG. [1]</small></p>
 
 ## Tabla de Contenidos
 1. [¿Qué es una bioseñal?](https://github.com/adri201022/ISB-Grupo-11?tab=readme-ov-file#1-qu%C3%A9-es-una-biose%C3%B1al)
@@ -14,7 +14,7 @@
 
 ## 1. ¿Qué es una bioseñal?
 <div style="text-align: justify;">
-    El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios. [1]
+    El término Bioseñal se usa para describir todas las señales que pueden ser medidas y controladas de manera continua en organismos vivos. Esto incluye tanto señales eléctricas como no eléctricas. Por ejemplo, las señales eléctricas comprenden el EEG, el MEG y el ECG, mientras que las no eléctricas abarcan sonidos como el habla y los sonidos respiratorios. [2]
 
 ## 2. Contenido del curso
 Este curso proporciona una formación básica y sólida en sistemas de adquisición y procesamiento de señales biomédicas, abordando materias como fisiología, electrónica, informática médica y procesamiento de señales. Se incluye un proyecto centrado en el procesamiento de señales biomédicas y se ofrecen bases para que los alumnos profundicen en temas avanzados como Tiny Machine Learning e análisis de datos estructurados en el contexto de señales biomédicas.
@@ -30,7 +30,7 @@ Se centra en técnicas avanzadas de procesamiento de señales biomédicas, abord
 
 **UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS ESTRUCTURADOS EINTELIGENCIA ARTIFICIAL**
 
-Se abordan varios aspectos importantes relacionados con el manejo de datos estructurados en el contexto de señales biomédicas. Se incluye el análisis estadístico de los datos, la creación de conjuntos de datos a partir de señales biomédicas adquiridas y una introducción a la Inteligencia Artificial y TinyML. Además, se enseña cómo crear modelos de Machine Learning utilizando Edgeimpulse para aplicaciones en dispositivos de bajo consumo de energía.[2]
+Se abordan varios aspectos importantes relacionados con el manejo de datos estructurados en el contexto de señales biomédicas. Se incluye el análisis estadístico de los datos, la creación de conjuntos de datos a partir de señales biomédicas adquiridas y una introducción a la Inteligencia Artificial y TinyML. Además, se enseña cómo crear modelos de Machine Learning utilizando Edgeimpulse para aplicaciones en dispositivos de bajo consumo de energía.[3]
 
 
 ## 3. Temática del proyecto
@@ -45,13 +45,13 @@ La distrofia muscular de Duchenne (DMD) es una enfermedad neuromuscular degenera
  * Subir escaleras
  * Sn algunos casos, trastornos del lenguaje.
 
-En la actualidad no se cuenta con una cura absoluta para la enfermedad, pero existen terapias que pueden ralentizar la progresión de la enfermedad. Esta afecta a uno de cada 3800- 6300 varones nacidos. Además, que su prevalencia mundial es de 1 por cada 20 000 varones. A nivel nacional, no se cuenta con datos estadísticos sobre la prevalencia de la enfermedad; sin embargo, de acuerdo con la asociación Duchenne parent Project Perú, existen entre 3000 a 4000 personas que padecen de DMD.[3]
+En la actualidad no se cuenta con una cura absoluta para la enfermedad, pero existen terapias que pueden ralentizar la progresión de la enfermedad. Esta afecta a uno de cada 3800- 6300 varones nacidos. Además, que su prevalencia mundial es de 1 por cada 20 000 varones. A nivel nacional, no se cuenta con datos estadísticos sobre la prevalencia de la enfermedad; sin embargo, de acuerdo con la asociación Duchenne parent Project Perú, existen entre 3000 a 4000 personas que padecen de DMD.[4]
 
 Los pacientes con distrofia muscular de Duchene en Perú enfrentan desafíos significativos en su proceso de rehabilitación debido a la falta de recursos médicos especializados. Las terapias físicas convencionales pueden ser limitadas en su capacidad para monitorear y evaluar la función muscular de manera precisa, lo que dificulta el diseño de programas de rehabilitación personalizados y efectivos para cada paciente. Además, la ausencia de una cura definitiva agrega una capa adicional de dificultad para quienes padecen esta enfermedad.
 
 **Propuesta de solución**
 
-Para abordar esta problemática, proponemos integrar tecnología EMG (electromiografía) en sesiones de terapia física para pacientes con distrofia muscular de Duchene en Perú. La electromiografía (EMG) es un método diagnóstico empleado para examinar la condición de los músculos y las células nerviosas que los regulan, llamadas neuronas motoras. Se plantea diseñar un prototipo de dispositivo EMG. Este prototipo debería ser compacto, fácil de usar y adecuado para las necesidades específicas de los pacientes con distrofia muscular de Duchene en Perú. Durante las sesiones de terapia física, se registrarían las señales EMG mientras los pacientes realizan ejercicios específicos. Los datos EMG se mostrarían en tiempo real a los terapeutas y pacientes, lo que les permitiría ajustar la técnica de los ejercicios para maximizar la activación muscular y optimizar la rehabilitación. La implementación de esta solución no solo permitirá una rehabilitación más efectiva, sino que también proporcionará una herramienta precisa para la evaluación del progreso del tratamiento a lo largo del tiempo [4]
+Para abordar esta problemática, proponemos integrar tecnología EMG (electromiografía) en sesiones de terapia física para pacientes con distrofia muscular de Duchene en Perú. La electromiografía (EMG) es un método diagnóstico empleado para examinar la condición de los músculos y las células nerviosas que los regulan, llamadas neuronas motoras. Se plantea diseñar un prototipo de dispositivo EMG. Este prototipo debería ser compacto, fácil de usar y adecuado para las necesidades específicas de los pacientes con distrofia muscular de Duchene en Perú. Durante las sesiones de terapia física, se registrarían las señales EMG mientras los pacientes realizan ejercicios específicos. Los datos EMG se mostrarían en tiempo real a los terapeutas y pacientes, lo que les permitiría ajustar la técnica de los ejercicios para maximizar la activación muscular y optimizar la rehabilitación. La implementación de esta solución no solo permitirá una rehabilitación más efectiva, sino que también proporcionará una herramienta precisa para la evaluación del progreso del tratamiento a lo largo del tiempo [5]
 
 ## 4. Participantes
 ### Adrian Alberto Gutierrez Gonzales
@@ -91,12 +91,12 @@ Buenas soy Rodrigo Gonzales, estudiante de 4to año de la carrera de ingeniería
 - Mg. Meza Rodriguez Moises (moises.meza@upch.pe)
 
 ## 6. Referencias
-Seermedical. (2023, 28 febrero). Ultimate guide to the ECG test - Seer Medical. Seer Medical. https://seermedical.com/blog/ecg-test-guide
+[1] Seermedical, “Ultimate Guide to the ECG test,” Seer Medical, https://seermedical.com/blog/ecg-test-guide (accessed Apr. 3, 2024). 
 
-[1 ]Reyes, C. (2017). Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. SMIA. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127
+[2]Reyes, C. (2017). Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. SMIA. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127
 
-[2]De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
+[3]De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
 
-[3] I. Badía  and E. P. Oros , “Distrofia muscular de Duchenne. Artículo monográfico.,” ▷ RSI - Revista Sanitaria de Investigación, https://revistasanitariadeinvestigacion.com/distrofia-muscular-de-duchenne-articulo-monografico/#google_vignette (accessed Apr. 3, 2024). 
+[4] I. Badía  and E. P. Oros , “Distrofia muscular de Duchenne. Artículo monográfico.,” ▷ RSI - Revista Sanitaria de Investigación, https://revistasanitariadeinvestigacion.com/distrofia-muscular-de-duchenne-articulo-monografico/#google_vignette (accessed Apr. 3, 2024). 
 
-[4] “Electromiografía - Mayo Clinic,” Mayoclinic.org, 2019. https://www.mayoclinic.org/es/tests-procedures/emg/about/pac-20393913#:~:text=La%20electromiograf%C3%ADa%20(EMG)%20es%20un,los%20controlan%20(neuronas%20motoras). (accessed Apr. 03, 2024).
+[5] “Electromiografía - Mayo Clinic,” Mayoclinic.org, 2019. https://www.mayoclinic.org/es/tests-procedures/emg/about/pac-20393913#:~:text=La%20electromiograf%C3%ADa%20(EMG)%20es%20un,los%20controlan%20(neuronas%20motoras). (accessed Apr. 03, 2024).
