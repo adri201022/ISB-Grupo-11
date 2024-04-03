@@ -74,9 +74,8 @@ Buenas soy Rodrigo Gonzales, estudiante de 4to año de la carrera de ingeniería
 - Mg. Meza Rodriguez Moises (moises.meza@upch.pe)
 
 ## 6. Referencias
-De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
+Seermedical. (2023, 28 febrero). Ultimate guide to the ECG test - Seer Medical. Seer Medical. https://seermedical.com/blog/ecg-test-guide
 
 Reyes, C. (2017). Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. SMIA. https://smia.mx/comia/2017/index.php?option=com_content&view=article&id=12&Itemid=127
 
-Seermedical. (2023, 28 febrero). Ultimate guide to the ECG test - Seer Medical. Seer Medical. https://seermedical.com/blog/ecg-test-guide
-
+De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
