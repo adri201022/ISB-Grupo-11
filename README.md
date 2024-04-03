@@ -39,11 +39,11 @@ Se abordan varios aspectos importantes relacionados con el manejo de datos estru
 
 La distrofia muscular de Duchenne (DMD) es una enfermedad neuromuscular degenerativa de origen genético, que está caracterizada por la debilitación de los músculos y la pérdida progresiva del andar. Esta enfermedad afecta a los niños, ya que los síntomas principales aparecen entres los 2 a 3 años. Los cuales son los siguientes:
 
- * caídas frecuentes
- * dificultad para levantarse
- * saltar
- * subir escaleras
- * en algunos casos, trastornos del lenguaje.
+ * Caídas frecuentes
+ * Dificultad para levantarse
+ * Saltar
+ * Subir escaleras
+ * Sn algunos casos, trastornos del lenguaje.
 
 En la actualidad no se cuenta con una cura absoluta para la enfermedad, pero existen terapias que pueden ralentizar la progresión de la enfermedad. Esta afecta a uno de cada 3800- 6300 varones nacidos. Además, que su prevalencia mundial es de 1 por cada 20 000 varones. A nivel nacional, no se cuenta con datos estadísticos sobre la prevalencia de la enfermedad; sin embargo, de acuerdo con la asociación Duchenne parent Project Perú, existen entre 3000 a 4000 personas que padecen de DMD.[3]
 
