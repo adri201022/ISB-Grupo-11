@@ -30,8 +30,19 @@ Generador de señales y osciloscopio digital.
    Para realizar el laboratorio correctamente se necesitaron conocimientos previos sobre la utilización de las herramientas mencionadas: Arduino, osciloscopio y genereador de ondas. Se explicará una descripción de conocimientos requeridos para usar estas herramientas.
    1.  Arduino nano 33 IoT:      
 Es una placa de desarrollo compacta que esta basada en el microcontrolador ARM Cortex-M0+SAMD21 de 32 bits. Es una versió mejorada del calisco arduino nano que esta diseñada para proyectos de internet de las cosas (IoT). Además incorpora un módulo WI-FI y Bluetooth que permite la conexión inalambrica a redes locales y dispsitivos periféricos compatibles y cuenta con una diversa compatibiliadad con bibliotecas y herramientas de desarrollo para facilitar la creación de proyectos de IoT, como sería la integración con plataformas en la nube y servicios web.
-  2.  Generador de ondas:
-  4.  
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2ec973ba-647f-40cb-87c0-01291fca391b"   width="50%">
+  
+   2.  Generador de Señales:
+Es un instrumento que proporciona señales electricas. Se utiliza para poder obtener señales peridodicas controlando su periodo y su amplitud. Además de las ondas básicas como senoidal, cuadrada y triangular algunos generar ondas más complejas como rampa, puslo, diente de sierra, etc. Los controladores de señales tambien puede permitir ajustar la frecuencia de salida de manera precisa y en un amplio rango, desde frecuencias muy bajas hasta radiofrecuencia.
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/32ad1541-c87c-4f62-8dcb-3d1ac2932978"   width="50%">
+
+   3.  Osciloscopio digital:
+El osciloscopo es un instrumento de medición que es utilizado en el campo de electónica. Su función principal es representar graficamente señales electricas variables en el tiempo. Esta se ve representada en una pantalla donde el eje horizontal es el eje X, representa el tiempo, mientras que el eje vertical es el eje Y, representa la amplitud.
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e376781c-009e-424a-aca7-eaa4da1855bf"   width="50%">
+
 ## Gráficas de señales obtenidas del osciloscopio
 
 ## Ploteo de señales en Arduino
