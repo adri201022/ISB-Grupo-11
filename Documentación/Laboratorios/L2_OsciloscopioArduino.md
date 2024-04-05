@@ -1,5 +1,11 @@
 # Laboratorio N°2 - Adquisión de señales y graficación en Arduino
 
+## Integrantes
+- Adrian Alberto Gutierrez Gonzales (adrian.gutierrez@upch.pe)
+- Micaela Ivy Horny Insua (micaela.horny@upch.pe)
+- Gian Pierre Santivañez Condor (gian.santivanez@upch.pe)
+- Rodrigo Alfonso Gonzales Cabrera (rodrigo.gonzales@upch.pe)
+
 ## Objetivos específicos de la práctica
 - Adquirir señales conocidas como señal cuadrada, triangular, senoidal, rampa, etc.
 - Entender los criterios de selección de la frecuencia de muestreo.
@@ -20,12 +26,6 @@ Generador de señales y osciloscopio digital.
 ## Entregables
 - Plotear al menos 3 señales en Arduino IDE provenientes del generador de señales.
 - Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio.
-
-## Integrantes
-- Adrian Alberto Gutierrez Gonzales (adrian.gutierrez@upch.pe)
-- Micaela Ivy Horny Insua (micaela.horny@upch.pe)
-- Gian Pierre Santivañez Condor (gian.santivanez@upch.pe)
-- Rodrigo Alfonso Gonzales Cabrera (rodrigo.gonzales@upch.pe)
 
 ## Señales generadas en el oscilador de señales
 
