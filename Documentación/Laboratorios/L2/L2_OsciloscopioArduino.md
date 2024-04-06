@@ -122,5 +122,6 @@ Como se logra observar cuando la señal graficada del Arduino IDE no tiene el ca
 ## 8. Archivo de la señal ploteada en Arduino IDE
 - [Señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/codelab2.ino)
 
+## 9. Referencias bibliográficas
 
 
