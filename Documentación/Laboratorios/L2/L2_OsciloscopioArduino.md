@@ -110,7 +110,8 @@ Como se lográ observar cuando no se presenta un capacitor para que filtre el ru
 
 Como se logra observar cuando la señal graficada del Arduino IDE no tiene el capacitor esta se asemeja mucho a la señal dada por el osciloscopio, no es del todo igual pero si mantiene una forma sinusoidal, si se colocará un capacitor correcto el filtrado lograría que  la señal graficada por el Arduino IDE sea casi identica a la del osciloscopio, pero como se contó un capacitor erróneo y no colocó una resistencia correcta es que se puede obervar que cuando se cuenta con este capacitor la señal se distorsiona y no se asemeja a nada a la señal del osciloscopio.
 
-
+## Archivo de la señal ploteada en Arduino IDE
+- [Señal ploteada en Arduino IDE]()
 
 
 
