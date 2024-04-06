@@ -6,7 +6,7 @@
 - Gian Pierre Santivañez Condor (gian.santivanez@upch.pe)
 - Rodrigo Alfonso Gonzales Cabrera (rodrigo.gonzales@upch.pe)
 ### Tabla de contenidos
-1. [Objetivos específicos de la práctica](https://github.com/jorgemedina2804/Grupo-11-Introduccion-a-Senhales-Biomedica/blob/main/ISB/Laboratorios/L3_Uso%20de%20BiTalino%20para%20EMG/L3.md#1-objetivos-de-la-pr%C3%A1ctica-de-laboratorio)
+1. [Objetivos específicos de la práctica](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#objetivos-espec%C3%ADficos-de-la-pr%C3%A1ctica)
 2. [Materiales y equipos](https://github.com/jorgemedina2804/Grupo-11-Introduccion-a-Senhales-Biomedica/blob/main/ISB/Laboratorios/L3_Uso%20de%20BiTalino%20para%20EMG/L3.md#2-fotos-de-las-conexiones-usadas)
 3. [Entregables](https://github.com/jorgemedina2804/Grupo-11-Introduccion-a-Senhales-Biomedica/blob/main/ISB/Laboratorios/L3_Uso%20de%20BiTalino%20para%20EMG/L3.md#3-video-de-se%C3%B1al-en-silencio-el%C3%A9ctrico-o-reposo)
 4. [Fundamentos teóricos](https://github.com/jorgemedina2804/Grupo-11-Introduccion-a-Senhales-Biomedica/blob/main/ISB/Laboratorios/L3_Uso%20de%20BiTalino%20para%20EMG/L3.md#4-imagen-del-emg-obtenido-en-python)
