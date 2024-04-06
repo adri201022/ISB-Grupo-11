@@ -116,6 +116,7 @@ Como se lográ observar cuando no se presenta un capacitor para que filtre el ru
 <img src="Documentación/Material_adicional/Frecuencia de corte.png">
 <p align="center"><small>Figura x: Fórmula [x]</small></p>
 
+De la fórmula tenemos el valor de C, el valor de fc lo vamos a estimar de acuerdo a las diferentes mediciones realizadas en el laboratorio
 
 ## 7. Comparasión entre las gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
    - 500 Hz
