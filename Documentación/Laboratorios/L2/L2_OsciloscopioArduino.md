@@ -12,7 +12,7 @@
 4. [Fundamentos teóricos](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#4-fundamentos-te%C3%B3ricos)
 5. [Gráficas de señales obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#5-gr%C3%A1ficas-de-se%C3%B1ales-obtenidas-del-osciloscopio)
 6. [Ploteo de señales en Arduino](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#6-ploteo-de-se%C3%B1ales-en-arduino)
-7. [Comparasión entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#7-comparasi%C3%B3n-entre-las-gr%C3%A1ficas-obtenidas-del-arduino-ide-y-las-gr%C3%A1ficas-obtenidas-del-osciloscopio)
+7. [Comparación entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#7-comparasi%C3%B3n-entre-las-gr%C3%A1ficas-obtenidas-del-arduino-ide-y-las-gr%C3%A1ficas-obtenidas-del-osciloscopio)
 8. [Archivo de la señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#8-archivo-de-la-se%C3%B1al-ploteada-en-arduino-ide)
 9. [Referencias bibliográficas](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#9-referencias-bibliogr%C3%A1ficas)
 
@@ -119,7 +119,7 @@ Como se lográ observar cuando no se presenta un capacitor para que filtre el ru
 
 De la fórmula tenemos el valor de C, el valor de fc lo vamos a estimar de acuerdo a las diferentes mediciones realizadas en el laboratorio se nos indicó probar con 1, 5 y 10 Hz respectivamente, de esas mediciones observamos que a 5 la señal seguía estable y al añadir el capacitor esta se deformaba, cuando se usaba la de 10 se obtenia un resultado más estable por lo que su frecuencia de corte estará entre esos rangos, podemos tomar un 7.5Hz para los cálculos y utilizando la fórmula obtenemos una resistencia interna de 45.08 ohmios
 
-## 7. Comparasión entre las gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
+## 7. Comparación entre las gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
    - 500 Hz
  
 <p align="center">
