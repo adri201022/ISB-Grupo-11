@@ -44,5 +44,29 @@ El osciloscopo es un instrumento de medición que es utilizado en el campo de el
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e376781c-009e-424a-aca7-eaa4da1855bf"   width="50%">
 
 ## Gráficas de señales obtenidas del osciloscopio
+ El procedimiento que realizamos fue el siguiente:
+ * Configuramos el generador de señales para poder obtener una señal sinusoidal de 1KHz de frecuencia con un voltaje pico-pico de 3.3V y y 1.5 V de offset, en en canal 1.
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b202d4e7-0a91-453f-85fd-a7a8f00b2f81"   width="50%">
 
+* Se procedió a colocar el cable BNC male - male entre el osciloscopio digital y el generador de señales, se hizo esto para poder observar en el osciloscopio digital que lso fatos colocados y la ubicación de la onda sea correcta.
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/9d761c48-99e8-454a-b9c0-ef11adfb6951"   width="50%">
+
+* Una vez configruados eso procedimos a generar las señales en el osciloscopio digital con distintas frecuencias.
+
+  - 1 KHz
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c117a0cb-f5c1-471b-9aaf-94fc2da81253"   width="50%">
+  
+   - 100 Hz:
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/8f19fdeb-f78a-434e-95e8-b19dbbf8d556"   width="50%">   
+  
+   - 500 Hz
+ 
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/dce2dd66-3c01-43bc-a72b-af669f5e88ce"   width="50%">
+
+   
 ## Ploteo de señales en Arduino
