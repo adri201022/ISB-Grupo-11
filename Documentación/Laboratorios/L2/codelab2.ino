@@ -5,9 +5,9 @@
 **************************************/
 
 unsigned long lastMsg = 0;
-float F = 5;                   // 1 hz
-double Fs = 10 * F;               // 10 hz
-double Ts_ms = (1 / Fs) * 1000;  // 100 ms
+float F = 500;                   // 500 hz
+double Fs = 10 * F;               // 5000 hz
+double Ts_ms = (1 / Fs) * 1000;  // 200 ms
 int valor;                        // Variable global
 
 void setup() {
