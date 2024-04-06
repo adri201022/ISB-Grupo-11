@@ -116,7 +116,7 @@ Como se lográ observar cuando no se presenta un capacitor para que filtre el ru
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c0270b2c-5ab8-4eac-a171-2599b9203fef"   width="20%">
 
 
-De la fórmula tenemos el valor de C, el valor de fc lo vamos a estimar de acuerdo a las diferentes mediciones realizadas en el laboratorio
+De la fórmula tenemos el valor de C, el valor de fc lo vamos a estimar de acuerdo a las diferentes mediciones realizadas en el laboratorio se nos indicó probar con 1, 5 y 10 Hz respectivamente, de esas mediciones observamos que a 5 la señal seguía estable y al añadir el capacitor esta se deformaba, cuando se usaba la de 10 se obtenia un resultado más estable por lo que su frecuencia de corte estará entre esos rangos, podemos tomar un 7.5Hz para los cálculos y utilizando la fórmula obtenemos una resistencia interna de 45.08 ohmios
 
 ## 7. Comparasión entre las gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
    - 500 Hz
