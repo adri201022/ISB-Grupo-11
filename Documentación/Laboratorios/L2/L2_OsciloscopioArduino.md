@@ -39,19 +39,23 @@ Generador de señales y osciloscopio digital.
 ## 4. Fundamentos teóricos
    Para realizar el laboratorio correctamente se necesitaron conocimientos previos sobre la utilización de las herramientas mencionadas: Arduino, osciloscopio y genereador de ondas. Se explicará una descripción de conocimientos requeridos para usar estas herramientas.
    1.  Arduino nano 33 IoT:      
-Es una placa de desarrollo compacta que esta basada en el microcontrolador ARM Cortex-M0+SAMD21 de 32 bits. Es una versió mejorada del calisco arduino nano que esta diseñada para proyectos de internet de las cosas (IoT). Además incorpora un módulo WI-FI y Bluetooth que permite la conexión inalambrica a redes locales y dispsitivos periféricos compatibles y cuenta con una diversa compatibiliadad con bibliotecas y herramientas de desarrollo para facilitar la creación de proyectos de IoT, como sería la integración con plataformas en la nube y servicios web.
+Es una placa de desarrollo compacta que esta basada en el microcontrolador ARM Cortex-M0+SAMD21 de 32 bits. Es una versió mejorada del calisco arduino nano que esta diseñada para proyectos de internet de las cosas (IoT). Además incorpora un módulo WI-FI y Bluetooth que permite la conexión inalambrica a redes locales y dispsitivos periféricos compatibles y cuenta con una diversa compatibiliadad con bibliotecas y herramientas de desarrollo para facilitar la creación de proyectos de IoT, como sería la integración con plataformas en la nube y servicios web. [1]
 <p align="center">
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2ec973ba-647f-40cb-87c0-01291fca391b"   width="50%">
-  
+<p align="center"><small>Figura 1: Arduino nano 33 IoT. [1]</small></p>
+
+
    2.  Generador de Señales:
-Es un instrumento que proporciona señales electricas. Se utiliza para poder obtener señales peridodicas controlando su periodo y su amplitud. Además de las ondas básicas como senoidal, cuadrada y triangular algunos generar ondas más complejas como rampa, puslo, diente de sierra, etc. Los controladores de señales tambien puede permitir ajustar la frecuencia de salida de manera precisa y en un amplio rango, desde frecuencias muy bajas hasta radiofrecuencia.
+Es un instrumento que proporciona señales electricas. Se utiliza para poder obtener señales peridodicas controlando su periodo y su amplitud. Además de las ondas básicas como senoidal, cuadrada y triangular algunos generar ondas más complejas como rampa, puslo, diente de sierra, etc. Los controladores de señales tambien puede permitir ajustar la frecuencia de salida de manera precisa y en un amplio rango, desde frecuencias muy bajas hasta radiofrecuencia. [2]
 <p align="center">
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/32ad1541-c87c-4f62-8dcb-3d1ac2932978"   width="50%">
+<p align="center"><small>Figura 2: Generador de señales. [3]</small></p>
 
    3.  Osciloscopio digital:
-El osciloscopo es un instrumento de medición que es utilizado en el campo de electónica. Su función principal es representar graficamente señales electricas variables en el tiempo. Esta se ve representada en una pantalla donde el eje horizontal es el eje X, representa el tiempo, mientras que el eje vertical es el eje Y, representa la amplitud.
+El osciloscopo es un instrumento de medición que es utilizado en el campo de electónica. Su función principal es representar graficamente señales electricas variables en el tiempo. Esta se ve representada en una pantalla donde el eje horizontal es el eje X, representa el tiempo, mientras que el eje vertical es el eje Y, representa la amplitud. [4]
 <p align="center">
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e376781c-009e-424a-aca7-eaa4da1855bf"   width="50%">
+<p align="center"><small>Figura 3: Osciloscopio digital. [5]</small></p>
 
 ## 5. Gráficas de señales obtenidas del osciloscopio
  El procedimiento que realizamos fue el siguiente:
@@ -106,7 +110,7 @@ El osciloscopo es un instrumento de medición que es utilizado en el campo de el
 <p align="center">
 <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7ec57c7b-699c-41e0-bd8a-49c1fdfe509e"   width="50%">
 
-Como se lográ observar cuando no se presenta un capacitor para que filtre el ruido, las señales que se muestran en el ploteo se asemejan a las formas de ondas que se desean , pero cuando se coloca el capacitor esas señales con las formas de ondas deseadas desaparecen y se empieza a formar como una señal erratica, pero esto en teoria no debería suceder ya que con el filtrado las gráficas se deberian ver mejor. Esto se debe al valor del capacitor que se esta usando el cual es de 470 uF, ya que cuando se utiliza un capacitor para filtrar la señal es necesario toamr en cuenta la constante de tiempo del circuito RC. Como en nuestro caso estamos usando un capacitor de 470 uF y una frecuencia de 500 Hz, nosotros debimos habe elegido uan resistencia adecuada en serie con el capacitor, ya que si la resistencua es demasiado baja nuestra constente de tiempo sera muy pequeña y por ende el capacitor no tendra el tiempo suficiente para poder cargar o descargar completamente entre los ciclos de la señal de entrada y esto genera que la señal filtrasa sea distorsionada. En nuestro caso no usamos ninguna resistencia en paralelo por lo cual tuvimos ese error. A continuación les mostraremos el cálculo del valor de resistencia aproximado que se debio colocar.
+Como se lográ observar cuando no se presenta un capacitor para que filtre el ruido, las señales que se muestran en el ploteo se asemejan a las formas de ondas que se desean , pero cuando se coloca el capacitor esas señales con las formas de ondas deseadas desaparecen y se empieza a formar como una señal erratica, pero esto en teoria no debería suceder ya que con el filtrado las gráficas se deberian ver mejor. Esto se debe al valor del capacitor que se esta usando el cual es de 470 uF, ya que cuando se utiliza un capacitor para filtrar la señal es necesario tomar en cuenta la constante de tiempo del circuito RC. Como en nuestro caso estamos usando un capacitor de 470 uF y una frecuencia de 500 Hz, nosotros debimos haber elegido una resistencia adecuada en serie con el capacitor, ya que si la resistencua es demasiado baja nuestra constente de tiempo sera muy pequeña y por ende el capacitor no tendra el tiempo suficiente para poder cargar o descargar completamente entre los ciclos de la señal de entrada y esto genera que la señal filtrasa sea distorsionada. En nuestro caso no usamos ninguna resistencia en paralelo por lo cual tuvimos ese error [6]. A continuación les mostraremos el cálculo del valor de resistencia aproximado que se debio colocar.
 
 ## 7. Comparasión entre las gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
    - 500 Hz
@@ -124,5 +128,20 @@ Como se logra observar cuando la señal graficada del Arduino IDE no tiene el ca
 - [Señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/codelab2.ino)
 
 ## 9. Referencias bibliográficas
+
+[1] «Nano 33 IoT», Arduino. Disponible en: https://docs.arduino.cc/hardware/nano-33-iot/. [Accedido: 5 de abril de 2024]
+
+[2] Javired, «Qué es un generador de señales: funcionamiento y sus aplicaciones», Electrositio, 23 de julio de 2022. Disponible en: https://electrositio.com/que-es-un-generador-de-senales-funcionamiento-y-sus-aplicaciones/. [Accedido: 5 de abril de 2024]
+
+[3] «Generadores De Señales», Mapa Conceptual, 29 de abril de 2020. Disponible en: https://www.mapa-conceptual.net/generadores-de-senales/
+
+[4] «Osciloscopio», Ingenierizando, 10 de octubre de 2022. Disponible en: https://www.ingenierizando.com/laboratorio/osciloscopio/. [Accedido: 5 de abril de 2024]
+
+
+[5] «GW Instek GDS-2304A - Osciloscopio digital de banco 300 MHz», Cedesa. Disponible en: https://www.cedesa.com.mx/gw-instek/osciloscopios/digitales/GDS-2304A/. [Accedido: 5 de abril de 2024]
+
+[6] «Filtro por condensador», Cienciasfera. Disponible en: https://cienciasfera.com/materiales/electrotecnia/tema20/4_filtro_por_condensador.html#:~:text=El%20condensador%20se%20cargar%C3%A1%20mientras%20la%20tensi%C3%B3n%20de,que%20volver%C3%A1%20a%20cargarse%20y%20repetir%20el%20ciclo. [Accedido: 5 de abril de 2024]
+
+
 
 
