@@ -6,14 +6,14 @@
 - Gian Pierre Santivañez Condor (gian.santivanez@upch.pe)
 - Rodrigo Alfonso Gonzales Cabrera (rodrigo.gonzales@upch.pe)
 ### Tabla de contenidos
-1. [Objetivos específicos de la práctica](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#objetivos-espec%C3%ADficos-de-la-pr%C3%A1ctica)
-2. [Materiales y equipos](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#materiales-y-equipos)
-3. [Entregables](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#entregables)
-4. [Fundamentos teóricos](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#fundamentos-te%C3%B3ricos)
-5. [Gráficas de señales obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#gr%C3%A1ficas-de-se%C3%B1ales-obtenidas-del-osciloscopio)
-6. [Ploteo de señales en Arduino](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#ploteo-de-se%C3%B1ales-en-arduino)
-7. [Comparasión entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#comparasi%C3%B3n-entre-l%C3%A1s-gr%C3%A1ficas-obtenidas-del-arduino-ide-y-las-gr%C3%A1ficas-obtenidas-del-osciloscopio)
-8. [Archivo de la señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#archivo-de-la-se%C3%B1al-ploteada-en-arduino-ide)
+1. [Objetivos específicos de la práctica](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#1-objetivos-espec%C3%ADficos-de-la-pr%C3%A1ctica)
+2. [Materiales y equipos](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#2-materiales-y-equipos)
+3. [Entregables](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#3-entregables)
+4. [Fundamentos teóricos](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#4-fundamentos-te%C3%B3ricos)
+5. [Gráficas de señales obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#5-gr%C3%A1ficas-de-se%C3%B1ales-obtenidas-del-osciloscopio)
+6. [Ploteo de señales en Arduino](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#6-ploteo-de-se%C3%B1ales-en-arduino)
+7. [Comparasión entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#7-comparasi%C3%B3n-entre-las-gr%C3%A1ficas-obtenidas-del-arduino-ide-y-las-gr%C3%A1ficas-obtenidas-del-osciloscopio)
+8. [Archivo de la señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#8-archivo-de-la-se%C3%B1al-ploteada-en-arduino-ide)
 
 ## 1. Objetivos específicos de la práctica
 - Adquirir señales conocidas como señal cuadrada, triangular, senoidal, rampa, etc.
