@@ -70,3 +70,47 @@ El osciloscopo es un instrumento de medición que es utilizado en el campo de el
 
    
 ## Ploteo de señales en Arduino
+* Ahora procederemos a mostrar las señales ploteadas en el Arduino IDE que vienen provenientes de nuestro generador de señales, mostraremos como salen las gráficas a 500 hz en sus formas sinusoidal, cuadrada y triangular. Además que como se ven cuando estas se les coloca un condesador como un filtro.
+  
+  - 500 Hz sinusoidal (sin capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a5ed9fa2-a4c7-4629-876c-890b1d637935"   width="50%">
+  
+  - 500 Hz sinusoidal (con capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a5a22e3f-d7a4-4fd8-b9f1-b8e899f76db4"   width="50%">
+   
+  - 500 Hz cuadrangular (sin capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/5f2f3eb4-0ca8-41ff-8877-de5fdd9e74a0"   width="50%"> 
+   
+  - 500 Hz cuadrangular (con capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/055af7c0-a590-421d-a9e3-6d08ccdf8b00"   width="50%">
+
+  - 500 Hz triangular (sin capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7ee717fd-1779-400c-a301-038d74cadeca"   width="50%">
+
+  - 500 Hz triangular (con capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7ec57c7b-699c-41e0-bd8a-49c1fdfe509e"   width="50%">
+
+Como se lográ observar cuando no se presenta un capacitor para que filtre el ruido, las señales que se muestran en el ploteo se asemejan a las formas de ondas que se desean , pero cuando se coloca el capacitor esas señales con las formas de ondas deseadas desaparecen y se empieza a formar como una señal erratica, pero esto en teoria no debería suceder ya que con el filtrado las gráficas se deberian ver mejor. Esto se debe al valor del capacitor que se esta usando el cual es de 470 uF, ya que cuando se utiliza un capacitor para filtrar la señal es necesario toamr en cuenta la constante de tiempo del circuito RC. Como en nuestro caso estamos usando un capacitor de 470 uF y una frecuencia de 500 Hz, nosotros debimos habe elegido uan resistencia adecuada en serie con el capacitor, ya que si la resistencua es demasiado baja nuestra constente de tiempo sera muy pequeña y por ende el capacitor no tendra el tiempo suficiente para poder cargar o descargar completamente entre los ciclos de la señal de entrada y esto genera que la señal filtrasa sea distorsionada. En nuestro caso no usamos ninguna resistencia en paralelo por lo cual tuvimos ese error. A continuación les mostraremos el cálculo del valor de resistencia aproximado que se debio colocar.
+
+## Comparasión entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio:
+   - 500 Hz
+ 
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/dce2dd66-3c01-43bc-a72b-af669f5e88ce"   width="50%">
+
+  - 500 Hz sinusoidal (sin capacitor) :
+<p align="center">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a5ed9fa2-a4c7-4629-876c-890b1d637935"   width="50%">
+
+Como se logra observar cuando la señal graficada del Arduino IDE no tiene el capacitor esta se asemeja mucho a la señal dada por el osciloscopio, no es del todo igual pero si mantiene una forma sinusoidal, si se colocará un capacitor correcto el filtrado lograría que  la señal graficada por el Arduino IDE sea casi identica a la del osciloscopio, pero como se contó un capacitor erróneo y no colocó una resistencia correcta es que se puede obervar que cuando se cuenta con este capacitor la señal se distorsiona y no se asemeja a nada a la señal del osciloscopio.
+
+
+
+
+
