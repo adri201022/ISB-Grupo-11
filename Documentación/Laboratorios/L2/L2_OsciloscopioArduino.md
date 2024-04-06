@@ -149,6 +149,6 @@ Como se logra observar cuando la señal graficada del Arduino IDE no tiene el ca
 
 [6] «Filtro por condensador», Cienciasfera. Disponible en: https://cienciasfera.com/materiales/electrotecnia/tema20/4_filtro_por_condensador.html#:~:text=El%20condensador%20se%20cargar%C3%A1%20mientras%20la%20tensi%C3%B3n%20de,que%20volver%C3%A1%20a%20cargarse%20y%20repetir%20el%20ciclo. [Accedido: 5 de abril de 2024]
 
-
+[7] “Filtro Pasa Bajos y respuesta en frecuencia con bode y 555,” Electgpl Electrónica, https://electgpl.blogspot.com/2018/11/filtro-pasa-bajos-y-respuesta-en.html#google_vignette (accessed Apr. 5, 2024). 
 
 
