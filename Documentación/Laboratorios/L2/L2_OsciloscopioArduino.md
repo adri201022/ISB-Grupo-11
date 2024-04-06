@@ -14,6 +14,7 @@
 6. [Ploteo de señales en Arduino](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#6-ploteo-de-se%C3%B1ales-en-arduino)
 7. [Comparasión entre lás gráficas obtenidas del Arduino IDE y las gráficas obtenidas del osciloscopio](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#7-comparasi%C3%B3n-entre-las-gr%C3%A1ficas-obtenidas-del-arduino-ide-y-las-gr%C3%A1ficas-obtenidas-del-osciloscopio)
 8. [Archivo de la señal ploteada en Arduino IDE](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#8-archivo-de-la-se%C3%B1al-ploteada-en-arduino-ide)
+9. [Referencias bibliográficas](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L2/L2_OsciloscopioArduino.md#9-referencias-bibliogr%C3%A1ficas)
 
 ## 1. Objetivos específicos de la práctica
 - Adquirir señales conocidas como señal cuadrada, triangular, senoidal, rampa, etc.
