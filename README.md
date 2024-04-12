@@ -67,7 +67,8 @@ Para abordar esta problemática, proponemos integrar tecnología EMG (electromio
 
 Mis concentraciones de interés son ingeniería de tejidos y biomateriales e ingeniería clínica. Me atraen porque la ingeniería de tejidos abre la puerta a la regeneración de órganos, mientras que la ingeniería clínica permite mejorar dispositivos médicos y sistemas de diagnóstico, combinando mi pasión por la ingeniería con el deseo de hacer contribuciones significativas en el campo de la salud. Como una persona comprometida, dinámica y curiosa, estoy emocionada por explorar nuevas fronteras y aplicar mi creatividad para abordar el desafío de realizar un proyecto en el área de señales biomédicas.
 <p align="center">
-<img src="" width="40%", length="40%"> 
+<img src="![imagen micaela](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/2cfe430d-8743-45aa-9ca1-d8d90228d322)
+" width="40%", length="40%"> 
 
 ### Gian Pierre Santivañez Condor
 (gian.santivanez@upch.pe)
