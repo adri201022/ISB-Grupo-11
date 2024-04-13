@@ -104,23 +104,23 @@ Se presentan los gráficos de los datos recopilados mediante el uso de BITalino 
 #### Electrodos de registro:
 Se hicieron uso de 3 electrodos (G1, G2 y tierra)
 
-Electrodo activo (G1): Se coloca sobre el vientre muscular del músculo bíceps braquial (posición anterior), aproximadamente a una tercera parte de la distancia entre el pliegue del codo y el acromion (hueso del hombro).
+- Electrodo activo (G1): Se coloca sobre el vientre muscular del músculo bíceps braquial (posición anterior), aproximadamente a una tercera parte de la distancia entre el pliegue del codo y el acromion (hueso del hombro). 
 
-Electrodo de referencia (G2): Se sitúa en un punto cercano al electrodo activo G1, en el mismo músculo bíceps braquial, pero un poco más distal del codo siguiendo la posición del mismo eje que la del electrodo G1.
+- Electrodo de referencia (G2): Se sitúa en un punto cercano al electrodo activo G1, en el mismo músculo bíceps braquial, pero un poco más distal del codo siguiendo la posición del mismo eje que la del electrodo G1.
 
-Electrodo tierra: Colocado en una ubicación neutral en la zona posterior del antebrazo, alejado del hueso del carpo (hueso pisiforme), para proporcionar una referencia común para las mediciones así como evitar posibles interferencias en la medición.
+- Electrodo tierra: Colocado en una ubicación neutral en la zona posterior del antebrazo, alejado del hueso del carpo (hueso pisiforme), para proporcionar una referencia común para las mediciones así como evitar posibles interferencias en la medición.
 
 #### Mediciones:
 
 Se registran y analizan las siguientes mediciones:
 
-Distancias: Se miden las distancias entre los puntos de estimulación y registro para calcular la longitud del segmento de conducción nerviosa.
+- Distancias: Se miden las distancias entre los puntos de estimulación (G1 y G2) para calcular la longitud del segmento de conducción nerviosa.
 
-Latencias: Se registran los tiempos transcurridos desde la estimulación hasta la aparición de la respuesta muscular, tanto en el punto distal como en el proximal.
+- Latencias: Se registran los tiempos transcurridos desde la estimulación hasta la aparición de la respuesta muscular, tanto en el punto distal como en el proximal.
 
-Amplitudes: Se mide la magnitud de la respuesta muscular registrada por los electrodos, lo que proporciona información sobre la integridad de la conducción nerviosa.
+- Amplitudes: Se mide la magnitud de la respuesta muscular registrada por los electrodos, lo que proporciona información sobre la integridad de la conducción nerviosa.
 
-Velocidad de conducción: Se calcula la velocidad de conducción nerviosa entre los puntos de estimulación distal y proximal, lo que indica la eficiencia con la que el impulso nervioso se transmite a lo largo del nervio mediano en el segmento evaluado.
+- Velocidad de conducción: Se calcula la velocidad de conducción nerviosa entre los puntos de estimulación distal y proximal, lo que indica la eficiencia con la que el impulso nervioso se transmite a lo largo del nervio mediano en el segmento evaluado.
 
 ## **Archivos** <a name="id7"></a>
 * [Datos de las pruebas de EMG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/EMG_data)
