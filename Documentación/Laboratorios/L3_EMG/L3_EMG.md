@@ -122,6 +122,23 @@ Se registran y analizan las siguientes mediciones:
 
 - Velocidad de conducción: Se calcula la velocidad de conducción nerviosa entre los puntos de estimulación distal y proximal, lo que indica la eficiencia con la que el impulso nervioso se transmite a lo largo del nervio mediano en el segmento evaluado.
 
+### Explicación de la señal ploteada:
+#### Del usuario 1:
+##### En reposo:
+Se observa una gráfica casi lineal donde las amplitudes de los picos son bajas, esto por el ruido que se puede estar detectando, no se observa ningún estímulo en reposo.
+##### Sin oposición:
+Se observa una gráfica con algunos intervalos de amplitud, esto corresponde al estímulo que se genera en el músculo por el propio peso del brazo que al levantarse o comenzar a levantarlo se generarlo
+##### Con oposición:
+Se observa una gráfica con varios picos de amplitud, en el 1er caso la fuerza de oposición fue bastante por lo que se necesitó mucho esfuerzo para levantar el brazo y ahí en ese forcejeo se producieron varios picos altos y por el tambaleo del movimiento hubo un poco de contaminación en la señal
+
+#### Del usuario 2:
+##### En reposo:
+Se observa una gráfica casi lineal donde las amplitudes de los picos son bajas, esto por el ruido que se puede estar detectando, no se observa ningún estímulo en reposo. No se presentan diferencias respecto al usuario 1
+##### Sin oposición:
+Se observa una gráfica con algunos intervalos de amplitud, esto corresponde al estímulo que se genera en el músculo por el propio peso del brazo que al levantarse o comenzar a levantarlo se generarlo, en este caso el peso del brazo es menor por lo que se emplea una menor fuerza que se ve reflejado en picos de amplitud ligeramente menores
+##### Con oposición:
+Se observa una gráfica con varios picos de amplitud, en el 1er caso la fuerza de oposición fue bastante por lo que se necesitó mucho esfuerzo para levantar el brazo; sin embargo, en este caso el brazo quedó un poco inmovilizado por la fuerza de oposición lo que impidió al músculo estar en una posición adecuada para ejercer la mayor fuerza
+
 ## **Archivos** <a name="id7"></a>
 * [Datos de las pruebas de EMG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/EMG_data)
 
