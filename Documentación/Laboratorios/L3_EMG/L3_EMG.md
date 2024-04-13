@@ -12,9 +12,10 @@
 3. [Fotos de conexión usada](#id3)
 4. [Videos de la señal](#id4)
 5. [Ploteo de la señal en OpenSignals](#id5)
-6. [Resumen y explicación de la señal ploteada](#id6)
-7. [Archivos](#id7)
-8. [Ploteo de la señal en Python](#id8)
+6. [Ploteo de la señal en python](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/L3_EMG.md#ploteo-de-la-se%C3%B1al-en-python-)
+7. [Resumen y explicación de la señal ploteada](#id6)
+8. [Archivo de los datos de la señal ploteada*](#id7)
+9. [Códido del ploteo de la señal en Python*](#id8)
 
 ## **Objetivos** <a name="id1"></a>
 - Adquirir señales biomédicas de EMG y ECG.
