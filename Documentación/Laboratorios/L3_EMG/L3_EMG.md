@@ -44,6 +44,8 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 </div>
 
+## **Videos de la señal** <a name="id4"></a>
+
 ## **Ploteo de la señal en OpenSignals** <a name="id5"></a>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
