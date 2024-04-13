@@ -69,29 +69,29 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 Se presenta el ploteo de los datos obtenidos por medio de los electrodos en OpenSignals.
 ### Ploteo del Usuario 1:
 * En reposo:
-   
-![Rodrigo_Reposo](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/af4b6bd9-f27d-48ba-8d37-6bab68e4f9ae)
+  
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/af4b6bd9-f27d-48ba-8d37-6bab68e4f9ae" width="800" height="400"> </p>
+
  
 * Sin oposición:
 
-![Rodrigo_SinOposicion](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3a6bd5fd-b164-4500-9b26-f54753605719)
-
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3a6bd5fd-b164-4500-9b26-f54753605719" width="800" height="400"> </p>
 * Con oposición:
 
-![Rodrigo_Oposicion](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e204c362-a0ba-4119-ae41-a6f1fabea123)
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e204c362-a0ba-4119-ae41-a6f1fabea123" width="800" height="400"> </p>
 
 ### Ploteo del Usuario 2:
 * En reposo:
 
-![Adrian_Reposo](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/5045ebcb-3280-408c-a7a1-4c7187c812dd)
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/5045ebcb-3280-408c-a7a1-4c7187c812dd" width="800" height="400"> </p>
 
 * Sin oposición:
 
-![Adrian_SinOposicion](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3239e1ec-42f5-48ef-ac5e-cdfe6482a8a4)
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3239e1ec-42f5-48ef-ac5e-cdfe6482a8a4" width="800" height="400"> </p>
 
 * Con oposición:
 
-![Adrian_Oposicion](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84)
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84" width="800" height="400"> </p>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
 
