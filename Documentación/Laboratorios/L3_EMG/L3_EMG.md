@@ -38,11 +38,11 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 <div style="display: flex; justify-content: space-between;">
     <div style="text-align: center;">
-        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" style="width: 80%;">
+        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" style="width: 50%;">
         <p>Usuario de prueba 1</p>
     </div>
     <div style="text-align: center;">
-        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"  style="width: 80%;">
+        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"  style="width: 50%;">
         <p>Usuario de prueba 2</p>
     </div>
 </div>
