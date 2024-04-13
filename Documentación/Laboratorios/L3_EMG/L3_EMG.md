@@ -12,10 +12,10 @@
 3. [Fotos de conexión usada](#id3)
 4. [Videos de la señal](#id4)
 5. [Ploteo de la señal en OpenSignals](#id5)
-6. [Ploteo de la señal en python](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/L3_EMG.md#ploteo-de-la-se%C3%B1al-en-python-)
-7. [Resumen y explicación de la señal ploteada](#id6)
-8. [Archivo de los datos de la señal ploteada*](#id7)
-9. [Códido del ploteo de la señal en Python*](#id8)
+6. [Ploteo de la señal en python](#id6)
+7. [Resumen y explicación de la señal ploteada](#id7)
+8. [Archivo de los datos de la señal ploteada](#id8)
+9. [Códido del ploteo de la señal en Python](#id9)
 
 ## **Objetivos** <a name="id1"></a>
 - Adquirir señales biomédicas de EMG y ECG.
@@ -99,7 +99,7 @@ Se presentan los gráficos de los datos recopilados mediante el uso de BITalino 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84" width="700" height="350"> </p>
 <p align="center"> <small>Figura 8: Ploteo de los datos con oposición.</small> </p>
 
-## **Ploteo de la señal en Python** <a name="id5"></a>
+## **Ploteo de la señal en Python** <a name="id6"></a>
 Se mostraran las gráficas obtenidas de python, algunas de las imágenes se le ha hecho zoom para que logre apreciar mejor la señal.
 ### Gráficos del Usuario 1:
 * En reposo:
@@ -133,7 +133,7 @@ Se mostraran las gráficas obtenidas de python, algunas de las imágenes se le h
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c8a982f-2026-4f30-af7b-7aaa905aaeac" width="650" height="350"> </p>
 <p align="center"> <small>Figura 8: Ploteo de los datos con oposición.</small> </p>
 
-## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
+## **Resumen y explicación de la señal ploteada** <a name="id7"></a>
 ### Técnica del estudio de conducción nerviosa motora del nervio mediano en el músculo bíceps braquial:
 
 #### Electrodos de registro:
@@ -174,8 +174,8 @@ Se observa una gráfica con algunos intervalos de amplitud, esto corresponde al 
 ##### Con oposición:
 Se observa una gráfica con varios picos de amplitud, en el 1er caso la fuerza de oposición fue bastante por lo que se necesitó mucho esfuerzo para levantar el brazo; sin embargo, en este caso el brazo quedó un poco inmovilizado por la fuerza de oposición lo que impidió al músculo estar en una posición adecuada para ejercer la mayor fuerza
 
-## **Archivo de los datos de la señal ploteada** <a name="id7"></a>
+## **Archivo de los datos de la señal ploteada** <a name="id8"></a>
 * [Datos de las pruebas de EMG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/EMG_data)
 
-## **Códido del ploteo de la señal en Python** <a name="id8"></a>
+## **Códido del ploteo de la señal en Python** <a name="id9"></a>
 * [Código del ploteo en python (.py)](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/Ploteo%20de%20se%C3%B1ales%20en%20python.py)
