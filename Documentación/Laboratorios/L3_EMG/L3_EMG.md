@@ -40,7 +40,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 |  **Usuario de prueba 1**  | **Usuario de prueba 2** 
 |:------------:|:---------------:|
-|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"></p>|
+|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728" width="60%" height="60%"></p>|
 
 </div>
 
