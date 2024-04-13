@@ -101,5 +101,6 @@ Se presentan los gráficos de los datos recopilados mediante el uso de BITalino 
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
 
 ## **Archivos** <a name="id7"></a>
+* [Datos de las pruebas de EMG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/EMG_data)
 
 ## **Ploteo de la señal en Python** <a name="id8"></a>
