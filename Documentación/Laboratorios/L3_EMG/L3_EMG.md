@@ -36,18 +36,13 @@
 La colocación de los electrodos en el usuario de prueba se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electromiografía (EMG), diseñada para familiarizarse con las bioseñales específicas de EMG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo y BITalino-cables para ambos usuarios de prueba.
 </p>
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="text-align: center; flex: 1;">
-        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" style="width: 50%;">
-        <p>Usuario de prueba 1</p>
-    </div>
-    <div style="text-align: center; flex: 2;">
-        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"  style="width: 50%;">
-        <p>Usuario de prueba 2</p>
-    </div>
-</div>
+<div align="center">
 
-## **Videos de la señal** <a name="id4"></a>
+|  **Usuario de prueba 1**  | **Usuario de prueba 2** 
+|:------------:|:---------------:|
+|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"></p>|
+
+</div>
 
 ## **Ploteo de la señal en OpenSignals** <a name="id5"></a>
 
