@@ -35,12 +35,17 @@
 <p style="text-align: justify;">
 La colocación de los electrodos en el usuario de prueba se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electromiografía (EMG), diseñada para familiarizarse con las bioseñales específicas de EMG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo y BITalino-cables para ambos usuarios de prueba.
 </p>
-<p align="center">
-<p align="left"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" width="400" height="266"></p>
-</p>
-<p align="right">
-<p align="right"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728" width="400" height="266"></p>
-</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <div style="text-align: center;">
+        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" style="width: 80%;">
+        <p>Usuario de prueba 1</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728"  style="width: 80%;">
+        <p>Usuario de prueba 2</p>
+    </div>
+</div>
 
 ## **Videos de la señal** <a name="id4"></a>
 
