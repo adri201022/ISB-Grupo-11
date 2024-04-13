@@ -55,6 +55,15 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 </div>
 
+### **Prueba con el usuario 2**
+<div align="center">
+
+|  **Brazo en reposo**  | **Brazo sin oposición** | **Brazo con oposición** |
+|:------------:|:---------------:|:------------:|
+|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6ececc85-96b9-4806-8a99-0acdefeb3112"></video>|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/de2c7ee9-e73b-452b-b10b-cb37625330d8"></video>|<video src= "https://github.com/adri201022/ISB-Grupo-11/assets/164538327/b3042135-7c77-4097-a587-9714cbf989bc"></video>|
+
+</div>
+
 ## **Ploteo de la señal en OpenSignals** <a name="id5"></a>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
