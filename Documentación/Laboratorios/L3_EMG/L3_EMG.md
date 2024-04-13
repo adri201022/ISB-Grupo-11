@@ -1,12 +1,12 @@
 # Informe de Laboratorio 3: Uso de BiTalino para EMG
 
-# Integrantes
+## Integrantes
 - Adrian Alberto Gutierrez Gonzales (adrian.gutierrez@upch.pe)
 - Micaela Ivy Horny Insua (micaela.horny@upch.pe)
 - Gian Pierre Santivañez Condor (gian.santivanez@upch.pe)
 - Rodrigo Alfonso Gonzales Cabrera (rodrigo.gonzales@upch.pe)
 
-# Tabla de contenidos
+## Tabla de contenidos
 1. [Objetivos](#id1)
 2. [Materiales y equipos](#id2)
 3. [Fotos de conexión usada](#id3)
@@ -32,6 +32,15 @@
 </div>
 
 ## **Fotos de conexión usada** <a name="id3"></a>
+<p style="text-align: justify;">
+La colocación de los electrodos en el usuario de prueba se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electromiografía (EMG), diseñada para familiarizarse con las bioseñales específicas de EMG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo y BITalino-cables para ambos usuarios de prueba.
+</p>
+<p align="center">
+<p align="left"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9849a554-d809-40de-9e8d-308abb3c09d9" width="400" height="266"></p>
+</p>
+<p align="right">
+<p align="right"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/889464c0-1196-4a90-b079-ade899835728" width="400" height="266"></p>
+</p>
 
 ## **Videos de la señal** <a name="id4"></a>
 
