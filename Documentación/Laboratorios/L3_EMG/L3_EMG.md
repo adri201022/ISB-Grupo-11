@@ -66,32 +66,37 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 ## **Ploteo de la señal en OpenSignals** <a name="id5"></a>
 
-Se presenta el ploteo de los datos obtenidos por medio de los electrodos en OpenSignals.
-### Ploteo del Usuario 1:
+Se presentan los gráficos de los datos recopilados mediante el uso de BITalino y OpenSignals de cada uno de los usuarios, a través de los electrodos correspondientes.
+### Gráficos del Usuario 1:
 * En reposo:
   
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/af4b6bd9-f27d-48ba-8d37-6bab68e4f9ae" width="800" height="400"> </p>
-
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/af4b6bd9-f27d-48ba-8d37-6bab68e4f9ae" width="700" height="350"> </p>
+<p align="center"> <small>Figura 3: Ploteo de los datos en reposo.</small> </p>
  
 * Sin oposición:
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3a6bd5fd-b164-4500-9b26-f54753605719" width="800" height="400"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3a6bd5fd-b164-4500-9b26-f54753605719" width="700" height="350"> </p>
+<p align="center"> <small>Figura 4: Ploteo de los datos sin oposición.</small> </p>
 * Con oposición:
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e204c362-a0ba-4119-ae41-a6f1fabea123" width="800" height="400"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e204c362-a0ba-4119-ae41-a6f1fabea123" width="700" height="350"> </p>
+<p align="center"> <small>Figura 5: Ploteo de los datos con oposición.</small> </p>
 
-### Ploteo del Usuario 2:
+### Gráficos del Usuario 2:
 * En reposo:
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/5045ebcb-3280-408c-a7a1-4c7187c812dd" width="800" height="400"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/5045ebcb-3280-408c-a7a1-4c7187c812dd" width="700" height="350"> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
 
 * Sin oposición:
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3239e1ec-42f5-48ef-ac5e-cdfe6482a8a4" width="800" height="400"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/3239e1ec-42f5-48ef-ac5e-cdfe6482a8a4" width="700" height="350"> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos sin oposición.</small> </p>
 
 * Con oposición:
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84" width="800" height="400"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84" width="700" height="350"> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos con oposición.</small> </p>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
 
