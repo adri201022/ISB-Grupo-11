@@ -98,6 +98,40 @@ Se presentan los gráficos de los datos recopilados mediante el uso de BITalino 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274cd343-fe7f-496f-aee9-e5fafb39eb84" width="700" height="350"> </p>
 <p align="center"> <small>Figura 8: Ploteo de los datos con oposición.</small> </p>
 
+## **Ploteo de la señal en Python** <a name="id5"></a>
+Se mostraran las gráficas obtenidas de python, algunas de las imágenes se le ha hecho zoom para que logre apreciar mejor la señal.
+### Gráficos del Usuario 1:
+* En reposo:
+  
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2fe54a39-91d9-4557-9bc3-7e6eee0c6608" width="650" height="350"> 
+<p align="center"> <small>Figura 3: Ploteo de los datos en reposo.</small> </p>
+ 
+* Sin oposición:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/453e8c5b-6fd2-4f14-a1c5-305d0a98ae46" width="650" height="350"> 
+<p align="center"> <small>Figura 4: Ploteo de los datos sin oposición.</small> </p>
+* Con oposición:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/f47af37d-cd66-4fc1-a70b-ddc76afa7351" width="650" height="350"> </p>
+<p align="center"> <small>Figura 5: Ploteo de los datos con oposición.</small> </p>
+
+### Gráficos del Usuario 2:
+* En reposo:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/daff1997-6c1e-4134-8f28-17facd22859f" width="650" height="350"> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
+
+* Sin oposición:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/58460092-705b-4b59-8f98-3385a113a702" width="650" height="350"> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos sin oposición.</small> </p>
+
+
+* Con oposición:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c8a982f-2026-4f30-af7b-7aaa905aaeac" width="650" height="350"> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos con oposición.</small> </p>
+
 ## **Resumen y explicación de la señal ploteada** <a name="id6"></a>
 ### Técnica del estudio de conducción nerviosa motora del nervio mediano en el músculo bíceps braquial:
 
@@ -139,7 +173,8 @@ Se observa una gráfica con algunos intervalos de amplitud, esto corresponde al 
 ##### Con oposición:
 Se observa una gráfica con varios picos de amplitud, en el 1er caso la fuerza de oposición fue bastante por lo que se necesitó mucho esfuerzo para levantar el brazo; sin embargo, en este caso el brazo quedó un poco inmovilizado por la fuerza de oposición lo que impidió al músculo estar en una posición adecuada para ejercer la mayor fuerza
 
-## **Archivos** <a name="id7"></a>
+## **Archivo de los datos de la señal ploteada** <a name="id7"></a>
 * [Datos de las pruebas de EMG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/EMG_data)
 
-## **Ploteo de la señal en Python** <a name="id8"></a>
+## **Códido del ploteo de la señal en Python** <a name="id8"></a>
+* [Código del ploteo en python (.py)](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L3_EMG/Ploteo%20de%20se%C3%B1ales%20en%20python.py)
