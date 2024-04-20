@@ -43,6 +43,11 @@ Cuando una onda de despolarización se desplaza hacia un electrodo, se registra 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/f09c100a-3ac1-47a6-ab35-cef6be7e55ce" width="400" height="300"> </p>
 <p align="center"> <small>Figura 2: Los sitios de colocación estándar para las derivaciones precordiales [4].</small> </p>
 
+La **onda P** es una pequeña deflexión que representa la despolarización auricular. El **intervalo PR** es el tiempo entre la primera deflexión de la onda P y la primera deflexión del complejo QRS. El **complejo QRS** representa la despolarización ventricular. Para los no experimentados, uno de los aspectos más confusos de la lectura del ECG es la etiqueta de estas ondas. La regla es: si la onda inmediatamente después de la onda P es una deflexión ascendente, es una onda R; si es una deflexión descendente, es una onda Q. Las **ondas Q** pequeñas corresponden a la despolarización del septum interventricular. Las ondas Q también pueden relacionarse con la respiración y generalmente son pequeñas y delgadas. También pueden indicar un infarto de miocardio antiguo (en cuyo caso son grandes y anchas). La **onda R** refleja la despolarización de la masa principal de los ventrículos, por lo tanto, es la onda más grande. La **onda S** significa la despolarización final de los ventrículos, en la base del corazón. El **segmento ST**, también conocido como intervalo ST, es el tiempo entre el final del complejo QRS y el inicio de la onda T. Refleja el período de potencial cero entre la despolarización y la repolarización ventricular. Las **ondas T** representan la repolarización ventricular (la repolarización auricular está oscurecida por el complejo QRS) [4].
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/61681b8b-8030-4764-ad36-36711f3bc43b" width="400" height="300"> </p>
+<p align="center"> <small>Figura 3: El patrón básico de actividad eléctrica en todo el corazón. [4].</small> </p>
+
 ### Aplicaciones
 <p style="text-align: justify;">
   
@@ -75,7 +80,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 <div align="center">
 
-|  **Figura 3: Prueba con usuario**  | **Figura 4: Prueba con simulador de paro cardíaco** 
+|  **Figura 4: Prueba con usuario**  | **Figura 5: Prueba con simulador de paro cardíaco** 
 |:------------:|:---------------:|
 |<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/925752c6-bd24-4f0f-a469-47593b03ce60" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9c875430-87de-4aeb-b7bb-d25da83601b4" width="60%" height="60%"></p>|
 
@@ -107,43 +112,43 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 * Antes de actividad (reposo):
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/0640e803-0752-4684-b347-e05737b1e874" width="700" height="350"> </p>
-<p align="center"> <small>Figura 5: Ploteo de los datos en reposo.</small> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
 
 * Durante respiraciones rápidas:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/53855182-b069-4fb8-abd2-af3e96019c27" width="700" height="350"> </p>
-<p align="center"> <small>Figura 6: Ploteo de los datos durante respiraciones rápidas.</small> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos durante respiraciones rápidas.</small> </p>
 
 * Durante actividad física:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8940821e-8eb5-408f-89b8-9582e3474791" width="700" height="350"> </p>
-<p align="center"> <small>Figura 7: Ploteo de los datos durante actividad física.</small> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos durante actividad física.</small> </p>
 
 * Despues de actividad física:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/579accd9-b6ea-4540-99f9-23cd08f1ebe9" width="700" height="350"> </p>
-<p align="center"> <small>Figura 8: Ploteo de los datos despues de actividad física.</small> </p>
+<p align="center"> <small>Figura 9: Ploteo de los datos despues de actividad física.</small> </p>
 
 ### Simulación de paro cardíaco
 * CVP:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/c483d4c0-6a30-41af-b52c-e86847b17718" width="700" height="350"> </p>
-<p align="center"> <small>Figura 9: Ploteo de los datos durante CVP.</small> </p>
+<p align="center"> <small>Figura 10: Ploteo de los datos durante CVP.</small> </p>
 
 * Taquicardia ventricular:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b710cdcd-befa-4c41-9abc-b3fbb7cf95ee" width="700" height="350"> </p>
-<p align="center"> <small>Figura 10: Ploteo de los datos durante taquicardia ventricular.</small> </p>
+<p align="center"> <small>Figura 11: Ploteo de los datos durante taquicardia ventricular.</small> </p>
 
 * Fibrilacion auricular:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e844e987-2361-4d3e-8e15-76cbf404625a" width="700" height="350"> </p>
-<p align="center"> <small>Figura 11: Ploteo de los datos durante fibrilación auricular.</small> </p>
+<p align="center"> <small>Figura 12: Ploteo de los datos durante fibrilación auricular.</small> </p>
 
 * Asistolia
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/558dfba9-42a2-4728-8add-3f933c024d2c" width="700" height="350"> </p>
-<p align="center"> <small>Figura 12: Ploteo de los datos durante asistolia.</small> </p>
+<p align="center"> <small>Figura 13: Ploteo de los datos durante asistolia.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a>
 
