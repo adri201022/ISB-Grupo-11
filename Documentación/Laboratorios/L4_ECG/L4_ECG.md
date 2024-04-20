@@ -23,21 +23,27 @@
 
 ### Una visión fisiológica del corazón
 <p style="text-align: justify;">
+  
 El corazón realiza dos funciones principales: bombea sangre rica en oxígeno desde la aurícula izquierda hasta la aorta y el resto del cuerpo, y bombea sangre pobre en oxígeno desde la aurícula derecha hacia los pulmones. Estas acciones se deben a las contracciones regulares y repetitivas del músculo cardíaco, que son generadas por señales eléctricas conocidas como potenciales de acción. La actividad eléctrica del corazón comienza en el nódulo sinoauricular (SA), ubicado en la aurícula derecha, también llamado marcapasos del corazón. Desde aquí, las señales se propagan al nódulo atrioventricular (AV) y luego a través de las ramas del haz de His y las fibras de Purkinje, lo que permite la activación coordinada de las células ventriculares para bombear sangre eficientemente [1]. 
+
 </p>
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/00483b35-750f-4cef-a4b2-3d545925a5cf" width="400" height="300"> </p>
 <p align="center"> <small>Figura 1: Ciclo cardíaco: Zonas del corazón [2].</small> </p>
 
 <p style="text-align: justify;">
+  
 El ciclo cardíaco incluye dos fases principales: la diástole, en la que las cámaras cardíacas se llenan de sangre, y la sístole, durante la cual se contraen las cámaras cardíacas para bombear la sangre fuera del corazón. Durante este proceso, se generan cambios eléctricos que pueden ser detectados en la superficie de la piel mediante un electrocardiograma (ECG). Cada parte del corazón tiene tiempos específicos para la excitación y propagación de las señales eléctricas, lo que influye en los patrones observados en el ECG [3].
+  
 </p>
 
 ### Adquisición de un ECG
 
 ### Aplicaciones
 <p style="text-align: justify;">
+  
 En el contexto de las aplicaciones médicas, la señal del electrocardiograma (ECG) juega un papel crucial en la identificación de anomalías, como la elevación del segmento ST, donde la señal no regresa a su línea base después del complejo QRS. Esta observación nos proporciona indicios sobre posibles obstrucciones en el suministro de oxígeno a los tejidos del corazón, lo que podría desencadenar un ataque cardíaco. Otro factor relevante es la variabilidad de la frecuencia cardíaca (VFC), ya que puede ofrecer información sobre la salud general del corazón y puede evaluarse mediante el análisis de los intervalos entre los picos R [2].
+
 </p>
 
 ## **Objetivos** <a name="id2"></a>
@@ -58,7 +64,9 @@ En el contexto de las aplicaciones médicas, la señal del electrocardiograma (E
 
 ## **Fotos de conexión usada** <a name="id4"></a>
 <p style="text-align: justify;">
+  
 La colocación de los electrodos en el usuario de prueba se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electrocardiografía (ECG) [2], diseñada para familiarizarse con las bioseñales específicas de ECG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo para la derivación I: IN+(rojo) & IN-(negro) en las muñecas y REF(blanco) en la cresta ilíaca. Adicionalmente, se observan las colocaciones BITalino-cables, al igual que electrodos-simulador.
+
 </p>
 
 <div align="center">
