@@ -57,7 +57,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 | **Antes de actividad (reposo)** | **Durante respiraciones rápidas** | **Durante actividad física** | **Después de actividad física** |
 |:------------:|:---------------:|:------------:|:------------:|
-|<video src=""></video>|<video src=""></video>|<video src= ""></video>|<video src= ""></video>|
+|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/0aef43ef-bb0c-400b-b4b5-be6115a063b6"></video>|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a35c091c-3a6f-4416-b200-dbec00e28229"></video>|<video src= "https://github.com/adri201022/ISB-Grupo-11/assets/164538327/96173425-d994-4c9f-96cb-0864b4c7a409"></video>|<video src= "https://github.com/adri201022/ISB-Grupo-11/assets/164538327/8c6fdfc4-8ab2-4a7b-94a5-5a03209e1ec9"></video>|
 
 </div>
 
