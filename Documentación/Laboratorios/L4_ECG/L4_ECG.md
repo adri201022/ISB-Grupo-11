@@ -56,10 +56,6 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 <div align="center">
 
 | **Antes de actividad (reposo)** | **Durante respiraciones rápidas** | **Durante actividad física** | **Después de actividad física** |
-|:------------:|:---------------:|:------------:|:------------:|
-|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/5e95f0c3-f1d3-41bc-9e2d-58d7d24cf8b4"></video>|<video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/5d88b39e-38da-43da-a8d6-4046aef8e5ed"></video>|<video src= "https://github.com/adri201022/ISB-Grupo-11/assets/164538327/633e99b8-0350-4416-a4f2-8daf8bea16ef"></video>|<video src= "https://github.com/adri201022/ISB-Grupo-11/assets/164538327/03ed0916-50cb-4b50-b88d-55b8196b068e"></video>|
-
-| **Antes de actividad (reposo)** | **Durante respiraciones rápidas** | **Durante actividad física** | **Después de actividad física** |
 |:--------------------------------:|:---------------------------------:|:----------------------------:|:--------------------------------:|
 | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/5e95f0c3-f1d3-41bc-9e2d-58d7d24cf8b4" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/5d88b39e-38da-43da-a8d6-4046aef8e5ed" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/633e99b8-0350-4416-a4f2-8daf8bea16ef" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/03ed0916-50cb-4b50-b88d-55b8196b068e" width="200" height="150" controls></video> |
 
@@ -70,7 +66,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 |  **CVP (VI)**  | **Taq. vent. 160 lpm** | **Fib. vent. severa** | **Asistolia** |
 |:------------:|:---------------:|:------------:|:------------:|
-|<video src=""></video>|<video src=""></video>|<video src= ""></video>|<video src= ""></video>|
+| <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6635b400-6426-44e2-ae86-d348da1f3887" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a48faa9a-92a5-4887-b891-336287c95599" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/d2614676-a40e-4211-8260-6377a6172635" width="200" height="150" controls></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9eec286f-0f4e-4b33-a9e2-5221e1e80f8c" width="200" height="150" controls></video> |
 
 </div>
 
