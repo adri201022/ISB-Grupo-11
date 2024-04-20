@@ -18,9 +18,9 @@
 9. [Códido del ploteo de la señal en Python](#id9)
 
 ## **Objetivos** <a name="id1"></a>
-- Adquirir señales biomédicas de EMG y ECG.
+- Adquirir señales biomédicas de EMG.
 - Hacer una correcta configuración de BiTalino
-- Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
+- Extraer la información de las señales EMG del software OpenSignals (r)evolution
 
 ## **Materiales y equipos** <a name="id2"></a>
 <div align="center">
