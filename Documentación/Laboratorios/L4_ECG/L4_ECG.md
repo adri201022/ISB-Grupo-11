@@ -25,7 +25,7 @@
 <p style="text-align: justify;">
 El corazón realiza dos funciones principales: bombea sangre rica en oxígeno desde la aurícula izquierda hasta la aorta y el resto del cuerpo, y bombea sangre pobre en oxígeno desde la aurícula derecha hacia los pulmones. Estas acciones se deben a las contracciones regulares y repetitivas del músculo cardíaco, que son generadas por señales eléctricas conocidas como potenciales de acción. La actividad eléctrica del corazón comienza en el nódulo sinoauricular (SA), ubicado en la aurícula derecha, también llamado marcapasos del corazón. Desde aquí, las señales se propagan al nódulo atrioventricular (AV) y luego a través de las ramas del haz de His y las fibras de Purkinje, lo que permite la activación coordinada de las células ventriculares para bombear sangre eficientemente [1]. 
 
-<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4ff848b8-2d63-401e-9da7-d2b9942c2b3e" width="700" height="350"> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/00483b35-750f-4cef-a4b2-3d545925a5cf" width="400" height="300"> </p>
 <p align="center"> <small>Figura 1: Ciclo cardíaco: Zonas del corazón [2].</small> </p>
 
 El ciclo cardíaco incluye dos fases principales: la diástole, en la que las cámaras cardíacas se llenan de sangre, y la sístole, durante la cual se contraen las cámaras cardíacas para bombear la sangre fuera del corazón. Durante este proceso, se generan cambios eléctricos que pueden ser detectados en la superficie de la piel mediante un electrocardiograma (ECG). Cada parte del corazón tiene tiempos específicos para la excitación y propagación de las señales eléctricas, lo que influye en los patrones observados en el ECG [3].
