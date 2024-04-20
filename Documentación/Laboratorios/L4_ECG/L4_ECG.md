@@ -211,7 +211,7 @@ Se presentará las imágenes que fueron ploteadas en python, además algunas de 
 * [Datos de las pruebas de ECG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L4_ECG/ECG_data)
 
 ## **Códido del ploteo de la señal en Python** <a name="id10"></a>
-- [Señal ploteada en python]([Documentación/Laboratorios/L4_ECG/Ploteo_senales.py](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L4_ECG/Ploteo_senales.py))
+- [Señal ploteada en python](https://github.com/adri201022/ISB-Grupo-11/blob/ed91474541181bd8891bdb22316e75ba2e4bdda4/Documentaci%C3%B3n/Laboratorios/L4_ECG/Ploteo_senales.py)
 - [Señal ploteada en python de la secuencia de paro cardiaco]([Documentación/Laboratorios/L4_ECG/Plot_secuencia_paro.py](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentaci%C3%B3n/Laboratorios/L4_ECG/Plot_secuencia_paro.py))
 
 ## **Referencias** <a name="id11"></a>
