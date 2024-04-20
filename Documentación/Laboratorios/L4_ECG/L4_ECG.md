@@ -151,6 +151,56 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 <p align="center"> <small>Figura 13: Ploteo de los datos durante asistolia.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a>
+Se presentará las imágenes que fueron ploteadas en python, además algunas de las imágenes se ha agarrado un intervalo de timempo para que se aprecie mejor la señal.
+
+* Antes de actividad (reposo):
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e16b9097-ce55-4653-aa6b-9a8f3ab9b6ea" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
+
+* Durante respiraciones rápidas:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/49984312-6bdd-4135-96aa-13a36cf118a8" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 7: Ploteo de los datos durante respiraciones rápidas.</small> </p>
+
+* Durante actividad física:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/02eff7fe-7e42-409d-ae1c-6de8a0dcf353" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 8: Ploteo de los datos durante actividad física.</small> </p>
+
+* Despues de actividad física:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/23161984-9c01-48ad-92fd-e5bab3cad153" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 9: Ploteo de los datos despues de actividad física.</small> </p>
+
+### Simulación de paro cardíaco
+* CVP:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a3553e02-6599-41cd-a032-842778f5ee47" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 10: Ploteo de los datos durante CVP.</small> </p>
+
+* Taquicardia ventricular:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3b841fff-ec1b-4843-80db-eb0a91695968" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 11: Ploteo de los datos durante taquicardia ventricular.</small> </p>
+
+* Fibrilacion auricular:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/f002c740-a0bb-49f5-9fc9-3a3938e00ac2" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 12: Ploteo de los datos durante fibrilación auricular.</small> </p>
+
+* Asistolia
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d4499fc8-bc25-41fb-b05b-b1340cb2596b" width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 13: Ploteo de los datos durante asistolia.</small> </p>
 
 
 ## **Resumen y explicación de la señal ploteada** <a name="id8"></a>
@@ -161,7 +211,8 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 * [Datos de las pruebas de ECG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L4_ECG/ECG_data)
 
 ## **Códido del ploteo de la señal en Python** <a name="id10"></a>
-
+[Señal ploteada en python](Documentación/Laboratorios/L4_ECG/Ploteo_senales.py)
+- [Señal ploteada en python de la secuencia de paro cardiaco](Documentación/Laboratorios/L4_ECG/Plot_secuencia_paro.py)
 
 ## **Referencias** <a name="id11"></a>
 [1] R. Rhoades and D. R. Bell, Eds., Medical Physiology: Principles for Clinical Medicine, 6th ed, R. A. Rhoades and D. R. Bell, Eds. Lippincott Williams & Wilkins, 2022.
