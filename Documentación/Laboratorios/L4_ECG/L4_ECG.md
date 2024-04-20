@@ -39,7 +39,7 @@
 
 ## **Fotos de conexión usada** <a name="id4"></a>
 <p style="text-align: justify;">
-La colocación de los electrodos en el usuario de prueba se realiza conforme a la *Guía de Inicio BITalino (r)evolution en casa para Electrocardiografía (ECG)*, diseñada para familiarizarse con las bioseñales específicas de ECG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo y BITalino-cables, al igual que electrodos-simulador.
+La colocación de los electrodos en el usuario de prueba se realiza conforme a la **Guía de Inicio BITalino (r)evolution en casa para Electrocardiografía (ECG)**, diseñada para familiarizarse con las bioseñales específicas de ECG. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo y BITalino-cables, al igual que electrodos-simulador.
 </p>
 
 <div align="center">
