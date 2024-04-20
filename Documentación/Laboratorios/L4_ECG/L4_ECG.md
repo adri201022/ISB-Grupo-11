@@ -38,6 +38,10 @@ El ciclo cardíaco incluye dos fases principales: la diástole, en la que las c�
 </p>
 
 ### Adquisición de un ECG
+Cuando una onda de despolarización se desplaza hacia un electrodo, se registra como una elevación positiva, mientras que cuando se aleja, se registra como una deflexión negativa. La amplitud de una onda se refiere a la magnitud de esta deflexión, medida en milímetros. Un electrocardiograma (ECG) básico incluye seis derivaciones primarias, obtenidas con electrodos en los brazos y las piernas. Las derivaciones cardíacas registran la diferencia de potencial eléctrico entre dos puntos, ya sea entre dos electrodos (derivaciones bipolares) o entre un punto virtual y un electrodo (derivaciones monopolares). Las derivaciones bipolares incluyen I(brazo derecho–brazo izquierdo), II(brazo derecho–pierna izquierda) y III(pierna izquierda–brazo izquierdo), que forman el triángulo de Einthoven. Según la Ley de Einthoven, la suma de las derivaciones II y III es igual a la derivación I. Las derivaciones unipolares incluyen aVR(brazo derecho), aVL(brazo izquierdo) y aVF(pierna izquierda), que parten de un electrodo positivo central hacia los extremos. Estas derivaciones amplifican el voltaje de las extremidades. Finalmente, las derivaciones precordiales incluyen V1 a V6, ubicadas en puntos específicos del tórax para registrar la actividad eléctrica del corazón desde diferentes ángulos [4].
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/f09c100a-3ac1-47a6-ab35-cef6be7e55ce" width="400" height="300"> </p>
+<p align="center"> <small>Figura 2: Los sitios de colocación estándar para las derivaciones precordiales [4].</small> </p>
 
 ### Aplicaciones
 <p style="text-align: justify;">
@@ -71,7 +75,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 <div align="center">
 
-|  **Prueba con usuario**  | **Prueba con simulador de paro cardíaco** 
+|  **Figura 3: Prueba con usuario**  | **Figura 4: Prueba con simulador de paro cardíaco** 
 |:------------:|:---------------:|
 |<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/925752c6-bd24-4f0f-a469-47593b03ce60" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9c875430-87de-4aeb-b7bb-d25da83601b4" width="60%" height="60%"></p>|
 
@@ -103,43 +107,43 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 * Antes de actividad (reposo):
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/0640e803-0752-4684-b347-e05737b1e874" width="700" height="350"> </p>
-<p align="center"> <small>Figura 3: Ploteo de los datos en reposo.</small> </p>
+<p align="center"> <small>Figura 5: Ploteo de los datos en reposo.</small> </p>
 
 * Durante respiraciones rápidas:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/53855182-b069-4fb8-abd2-af3e96019c27" width="700" height="350"> </p>
-<p align="center"> <small>Figura 4: Ploteo de los datos durante respiraciones rápidas.</small> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos durante respiraciones rápidas.</small> </p>
 
 * Durante actividad física:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8940821e-8eb5-408f-89b8-9582e3474791" width="700" height="350"> </p>
-<p align="center"> <small>Figura 5: Ploteo de los datos durante actividad física.</small> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos durante actividad física.</small> </p>
 
 * Despues de actividad física:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/579accd9-b6ea-4540-99f9-23cd08f1ebe9" width="700" height="350"> </p>
-<p align="center"> <small>Figura 6: Ploteo de los datos despues de actividad física.</small> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos despues de actividad física.</small> </p>
 
 ### Simulación de paro cardíaco
 * CVP:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/c483d4c0-6a30-41af-b52c-e86847b17718" width="700" height="350"> </p>
-<p align="center"> <small>Figura 7: Ploteo de los datos durante CVP.</small> </p>
+<p align="center"> <small>Figura 9: Ploteo de los datos durante CVP.</small> </p>
 
 * Taquicardia ventricular:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b710cdcd-befa-4c41-9abc-b3fbb7cf95ee" width="700" height="350"> </p>
-<p align="center"> <small>Figura 8: Ploteo de los datos durante taquicardia ventricular.</small> </p>
+<p align="center"> <small>Figura 10: Ploteo de los datos durante taquicardia ventricular.</small> </p>
 
 * Fibrilacion auricular:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e844e987-2361-4d3e-8e15-76cbf404625a" width="700" height="350"> </p>
-<p align="center"> <small>Figura 9: Ploteo de los datos durante fibrilación auricular.</small> </p>
+<p align="center"> <small>Figura 11: Ploteo de los datos durante fibrilación auricular.</small> </p>
 
 * Asistolia
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/558dfba9-42a2-4728-8add-3f933c024d2c" width="700" height="350"> </p>
-<p align="center"> <small>Figura 10: Ploteo de los datos durante asistolia.</small> </p>
+<p align="center"> <small>Figura 12: Ploteo de los datos durante asistolia.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a>
 
@@ -160,3 +164,5 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 [2] M. Proença and K. Mrotzeck, vol. 2021. BITalino (r)Evolution Lab Guide, Home Guide 2—ECG. Available at: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf
 
 [3] J. G. Betts et al., 2013. Anatomy and Physiology. Houston, Texas: OpenStax. Available at: https://openstax.org/books/anatomy-and-physiology/pages/1-introduction
+
+[4] E. A. Ashley and J. Niebauer. Chapter 3, Conquering the ECG, Cardiology Explained. London: Remedica, 2004. Available at: https://www.ncbi.nlm.nih.gov/books/NBK2214/
