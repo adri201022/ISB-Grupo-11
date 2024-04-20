@@ -71,7 +71,48 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 </div>
 
 ## **Ploteo de la señal en OpenSignals** <a name="id6"></a>
+En esta sección presentaremos los gráficos de los datos recopilados mediante el uso de BITalino y OpenSignals.
 
+* Antes de actividad (reposo):
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/0640e803-0752-4684-b347-e05737b1e874" width="700" height="350"> </p>
+<p align="center"> <small>Figura 3: Ploteo de los datos en reposo.</small> </p>
+
+* Durante respiraciones rápidas:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/53855182-b069-4fb8-abd2-af3e96019c27" width="700" height="350"> </p>
+<p align="center"> <small>Figura 4: Ploteo de los datos durante respiraciones rápidas.</small> </p>
+
+* Durante actividad física:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8940821e-8eb5-408f-89b8-9582e3474791" width="700" height="350"> </p>
+<p align="center"> <small>Figura 5: Ploteo de los datos durante actividad física.</small> </p>
+
+* Despues de actividad física:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/579accd9-b6ea-4540-99f9-23cd08f1ebe9" width="700" height="350"> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos despues de actividad física.</small> </p>
+
+### Simulación de paro cardíaco
+* CVP:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/c483d4c0-6a30-41af-b52c-e86847b17718" width="700" height="350"> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos durante CVP.</small> </p>
+
+* Taquicardia ventricular:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b710cdcd-befa-4c41-9abc-b3fbb7cf95ee" width="700" height="350"> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos durante taquicardia ventricular.</small> </p>
+
+* Fibrilacion auricular:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e844e987-2361-4d3e-8e15-76cbf404625a" width="700" height="350"> </p>
+<p align="center"> <small>Figura 9: Ploteo de los datos durante fibrilación auricular.</small> </p>
+
+* Asistolia
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/558dfba9-42a2-4728-8add-3f933c024d2c" width="700" height="350"> </p>
+<p align="center"> <small>Figura 10: Ploteo de los datos durante asistolia.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a>
 
