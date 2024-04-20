@@ -46,7 +46,7 @@ La colocación de los electrodos en el usuario de prueba se realiza conforme a l
 
 |  **Prueba con usuario**  | **Prueba con simulador de paro cardíaco** 
 |:------------:|:---------------:|
-|<p><img src="" width="60%" height="60%"></p>|<p><img src="" width="60%" height="60%"></p>|
+|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/925752c6-bd24-4f0f-a469-47593b03ce60" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9c875430-87de-4aeb-b7bb-d25da83601b4)" width="60%" height="60%"></p>|
 
 </div>
 
