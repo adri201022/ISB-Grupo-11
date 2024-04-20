@@ -122,6 +122,7 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 
 ## **Archivo de los datos de la señal ploteada** <a name="id9"></a>
 
+* [Datos de las pruebas de ECG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L4_ECG/ECG_data)
 
 ## **Códido del ploteo de la señal en Python** <a name="id10"></a>
 
