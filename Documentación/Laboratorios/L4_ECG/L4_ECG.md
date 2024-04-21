@@ -177,12 +177,16 @@ Durante las respiraciones rápidas es posible observar cambios respecto al estad
 
 * Despues de actividad física:
 
+El aumento de frecuencia cardiaca debido al ejercicio físico, en este caso trotes ligeros al rededor y durante el sitio desencadena cambios en la señal ECG, al principio fueron un poco erráticos los valores por la sensibilidad de los electrodos que parece que perdierorn algo de contacto pero ya al ajustarlos y hacer la meición se vió como una mayor amplitud de la onda Q, disminución del intervalo RR, ondas T altas y puntiagudas, superposición de ondas P y ondas T [9]
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/23161984-9c01-48ad-92fd-e5bab3cad153" width="700" height="350"> </p>
 
 <p align="center"> <small>Figura 9: Ploteo de los datos despues de actividad física.</small> </p>
 
 ### Simulación de paro cardíaco
 * CVP:
+
+Para la simulación de este evento en clase se empleó un simulador de ECG donde con una autosecuencia de 5 etapas se simuló el paro cardiaco, la primera etapa consiste en un ECG de 80lpm durante 45 seg esto corresponde a una pequeña bradicardia, posteriormente se pasó a un CVP (contracciones ventriculares prematuras) esto ocurre cuando el latido nace de un foco ectópico del ventrículo [10]
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a3553e02-6599-41cd-a032-842778f5ee47" width="700" height="350"> </p>
 
@@ -235,3 +239,7 @@ El complejo QRS representa la despolarización (activación) de los ventrículos
 [7] “Taller de interpretación del electrocardiograma. | FISIOLOGÍA”. FISIOLOGÍA | DEPARTAMENTO DE FISIOLOGÍA. Accedido el 21 de abril de 2024. [En línea]. Available at: https://fisiologia.facmed.unam.mx/index.php/taller-de-interpretacion-del-electrocardiograma/
 
 [8] S. Kurisu, K. Nitta, Y. Sumimoto, H. Ikenaga, K. Ishibashi, Y. Fukuda, and Y. Kihara, “Effects of deep inspiration on QRS axis, T-wave axis and frontal QRS-T angle in the routine electrocardiogram,” Heart and Vessels, vol. 34, no. 9, pp. 1519–1523, 2019.
+
+[9] G. P. Whyte and S. Sharma, Practical ECG for Exercise Science and Sports Medicine. Champaign, IL: Human Kinetics, 2010.
+
+[10] “Pagina nueva 1”. SEEUE - Sociedad Española de Enfermería de Urgencias y Emergencias. Accedido el 21 de abril de 2024. [En línea]. Disponible: https://www.enfermeriadeurgencias.com/ciber/PRIMERA_EPOCA/2006/octubre/contraccionesventriculares.htm
