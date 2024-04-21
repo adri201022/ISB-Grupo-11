@@ -220,6 +220,12 @@ Las CVP constituye n las arritmias más frecuentes, pudiendo observarse en el EC
 
 El complejo QRS representa la despolarización (activación) de los ventrículos. Siempre se le conoce como "complejo QRS", aunque es posible que no siempre muestre 3 ondas. Dando que el vector eléctrico generado por el ventríoculo izquierdo es muchas veces mayor que el vector generado por el ventrículo derecho, el complejo QRS es en realidad un reflejo de la despolarización del ventrículo izquierdo [5]. Para la explicación de las señales ploteadas debemos recordar la forma que tiene un electrocardiograma normal el cuál se puede interpretar siguiendo una secuencia de pasos: Ritmo (sinusal o no sinusal), frecuencia cardiaca (en latidos por minuto, lpm), eje cardiacao (en grados), análisis de ondas, segmentos e intervalos, búsqueda de anormalidades. Podemos recordar esto con la memotecnia de FRESA [7]. 
 
+Estado de reposo: Se puede observar que la grafica obtenida de la simulacion y la parte experimental son parecidas ,por lo que se estima que el rango del valor del la frecuencia cardiaca de la persona estudiada esta en el rango normal de 60 a 100 lpm,el cual es el valor de una persona sana.Asi mismo el desempeño de la tarea el ritmo cardiaco se regularizaba significativamente de acuerdo a los valores obtenidos en condiciones de reposo [6].
+
+Estado durante actividad física: Durante el ejercicio se ve alterada la frecuencia en la respiración, esto afecta a la morfología del latido la cuál está influenciada por 2 mecanismos, los cambios en la impedancia toráxica y la orientación del eje electrónico del corazón con respecto a los electrodos ECG, por la frecuencia cardiaca está en el rango de 60-100 lpm y la frecuencia respiratoria está en el rango de 15-60 respiraciones por minuto. Se ve un descenso en los picos que corresponden cuando la persona toma aire .
+
+Esado posterior a la actividad física: En este caso las frecuencia cardiacas de interés son la frecuencia cardiaca máxima y la frecuencia cardiaca mínima,ya que se puede corroborar con la primera el reflejo del trabajo anaeróbico producido por el ejercicio realizado.De igual forma ocurre con la frecuencia mínima, ya que está debe estar en los valores del intervalo de recuperación del estado basal [9].
+
 ## **Archivo de los datos de la señal ploteada** <a name="id9"></a>
 
 * [Datos de las pruebas de ECG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L4_ECG/ECG_data)
