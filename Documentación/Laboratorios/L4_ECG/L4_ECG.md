@@ -111,8 +111,6 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 
 * Antes de actividad (reposo):
 
-También conocido como estado basal, se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto  periodo de movimiento dentro de sas cavidades.
-
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/0640e803-0752-4684-b347-e05737b1e874" width="700" height="350"> </p>
 <p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
 
@@ -157,11 +155,15 @@ Se presentará las imágenes que fueron ploteadas en python, además algunas de 
 
 * Antes de actividad (reposo):
 
+Durante este periodo, es común observar un ritmo cardiaco regular y estable, con ondas P, complejos QRS e intervales QT normales. Se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto  periodo de movimiento dentro de sas cavidades. Vemos ruido en la región ST y también una rápida frecuencia entre cada señal, considerando que esta medición es antes de la actividad y estamos en un estado de reposo [6]
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e16b9097-ce55-4653-aa6b-9a8f3ab9b6ea" width="700" height="350"> </p>
 
 <p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
 
 * Durante respiraciones rápidas:
+
+Durante las respiraciones rápidas es posible observar cambios respecto al estado en reposo, esto puede 
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/49984312-6bdd-4135-96aa-13a36cf118a8" width="700" height="350"> </p>
 
@@ -207,6 +209,7 @@ Se presentará las imágenes que fueron ploteadas en python, además algunas de 
 
 ## **Resumen y explicación de la señal ploteada** <a name="id8"></a>
 
+El complejo QRS representa la despolarización (activación) de los ventrículos. Siempre se le conoce como "complejo QRS", aunque es posible que no siempre muestre 3 ondas. Dando que el vector eléctrico generado por el ventríoculo izquierdo es muchas veces mayor que el vector generado por el ventrículo derecho, el complejo QRS es en realidad un reflejo de la despolarización del ventrículo izquierdo [5]. Para la explicación de las señales ploteadas debemos recordar la forma que tiene un electrocardiograma normal el cuál se puede interpretar siguiendo una secuencia de pasos: Ritmo (sinusal o no sinusal), frecuencia cardiaca (en latidos por minuto, lpm), eje cardiacao (en grados), análisis de ondas, segmentos e intervalos, búsqueda de anormalidades. Podemos recordar esto con la memotecnia de FRESA. 
 
 ## **Archivo de los datos de la señal ploteada** <a name="id9"></a>
 
@@ -224,3 +227,7 @@ Se presentará las imágenes que fueron ploteadas en python, además algunas de 
 [3] J. G. Betts et al., 2013. Anatomy and Physiology. Houston, Texas: OpenStax. Available at: https://openstax.org/books/anatomy-and-physiology/pages/1-introduction
 
 [4] E. A. Ashley and J. Niebauer. Chapter 3, Conquering the ECG, Cardiology Explained. London: Remedica, 2004. Available at: https://www.ncbi.nlm.nih.gov/books/NBK2214/
+
+[5] Cascino, T., & Shea, M. J. (2021, 6 de julio). Electrocardiografía - Trastornos del corazón y los vasos sanguíneos - Manual MSD versión para público general. Manual MSD versión para público general. https://www.msdmanuals.com/es-es/hogar/trastornos-del-corazón-y-los-vasos-sanguíneos/diagnóstico-de-las-enfermedades-cardiovasculares/electrocardiografía#:~:text=En%20un%20ECG%20pueden%20observarse,las%20pareces%20del%20músculo%20cardíaco.
+
+[6] Guardado R. Vallín D., (2009, 2 de junio). Aplicación del Análisis Tiempo-Frecuencia en Electrocardiografía.https://laccei.org/LACCEI2009-Venezuela/Papers/IT117_GuardadoMedina.pdf
