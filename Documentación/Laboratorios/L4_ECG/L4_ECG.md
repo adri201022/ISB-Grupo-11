@@ -187,9 +187,12 @@ El aumento de frecuencia cardiaca debido al ejercicio físico, en este caso trot
 
 ### Simulación de paro cardíaco
 
-Para la simulación de este evento en clase se empleó un simulador de ECG donde con una autosecuencia de 5 etapas se simuló el paro cardiaco, la primera etapa consiste en un ECG de 80lpm durante 45 seg esto corresponde a una pequeña bradicardia, posteriormente se pasó a un CVP (contracciones ventriculares prematuras) esto ocurre cuando el latido nace de un foco ectópico del ventrículo [10]
+Para la simulación de este evento en clase se empleó un simulador de ECG donde con una autosecuencia de 5 etapas se simuló el paro cardiaco, la primera etapa consiste en un ECG de 80lpm durante 45 seg esto corresponde a una pequeña bradicardia, posteriormente se pasó a un CVP (contracciones ventriculares prematuras) esto ocurre cuando el latido nace de un foco ectópico del ventrículo [10]. Esto durante 30 segundos
 
 Las CVP constituye n las arritmias más frecuentes, pudiendo observarse en el ECG en un 5% y en el Holter de 24 horas en un 50% de los pacientes sanos. Si existe cardiopatía previa estas cifras aumentan a un 10% en el ECG y a un 60-90% en el Holter. Las características morfológicas de la CVP, su asociación entre sí y con el ritmo base, permiten realizar una clasificación de las mismas y estimar el grado de peligrosidad que presentan [11]. El paciente puede notar estos latidos como un vuelco de corazón, una sensación de vacío o un golpeteo en el pecho, aunque muchas veces su hallazgo es casual y no tiene importancia [12]. 
+
+Luego, se continua con una taquicardia ventricular a 160lpm por durante 30 segundos. En las 
+últimas etapas de este paro cardiaco pasamos a una fibrilación ventricular severa a 30 segundos y finalizamos con una asistolia durante 15 seg lo cuál indica que el paciente ha sufrido un paro cardiaco.
 
 * CVP:
 
