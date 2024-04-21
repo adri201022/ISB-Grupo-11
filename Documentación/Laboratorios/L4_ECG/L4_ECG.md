@@ -171,6 +171,8 @@ Durante las respiraciones rápidas es posible observar cambios respecto al estad
 
 * Durante actividad física:
 
+Vemos un gran incremento en la frecuencia y ruido en general de la señal, varias ondas que antes tenían la forma más plana con el intervalos ST ahora presentan una distorsión en su señal que sospechamos que se debe que al ser señales más chicas, fueron muy afectadas directamente por el movimiento de la actividad física ya que antes de los trotes realizados también se probaron unos saltos pequeños.
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/02eff7fe-7e42-409d-ae1c-6de8a0dcf353" width="700" height="350"> </p>
 
 <p align="center"> <small>Figura 8: Ploteo de los datos durante actividad física.</small> </p>
@@ -184,9 +186,12 @@ El aumento de frecuencia cardiaca debido al ejercicio físico, en este caso trot
 <p align="center"> <small>Figura 9: Ploteo de los datos despues de actividad física.</small> </p>
 
 ### Simulación de paro cardíaco
-* CVP:
 
 Para la simulación de este evento en clase se empleó un simulador de ECG donde con una autosecuencia de 5 etapas se simuló el paro cardiaco, la primera etapa consiste en un ECG de 80lpm durante 45 seg esto corresponde a una pequeña bradicardia, posteriormente se pasó a un CVP (contracciones ventriculares prematuras) esto ocurre cuando el latido nace de un foco ectópico del ventrículo [10]
+
+Las CVP constituye n las arritmias más frecuentes, pudiendo observarse en el ECG en un 5% y en el Holter de 24 horas en un 50% de los pacientes sanos. Si existe cardiopatía previa estas cifras aumentan a un 10% en el ECG y a un 60-90% en el Holter. Las características morfológicas de la CVP, su asociación entre sí y con el ritmo base, permiten realizar una clasificación de las mismas y estimar el grado de peligrosidad que presentan [11]. El paciente puede notar estos latidos como un vuelco de corazón, una sensación de vacío o un golpeteo en el pecho, aunque muchas veces su hallazgo es casual y no tiene importancia [12]. 
+
+* CVP:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a3553e02-6599-41cd-a032-842778f5ee47" width="700" height="350"> </p>
 
@@ -243,3 +248,7 @@ El complejo QRS representa la despolarización (activación) de los ventrículos
 [9] G. P. Whyte and S. Sharma, Practical ECG for Exercise Science and Sports Medicine. Champaign, IL: Human Kinetics, 2010.
 
 [10] “Pagina nueva 1”. SEEUE - Sociedad Española de Enfermería de Urgencias y Emergencias. Accedido el 21 de abril de 2024. [En línea]. Disponible: https://www.enfermeriadeurgencias.com/ciber/PRIMERA_EPOCA/2006/octubre/contraccionesventriculares.htm
+
+[11] Docherty B, Douglas M. Cardiac care: 3. ECG interpretation - ventricular arrhythmias. Prof Nurse. 2003 Apr;18(8):459-61.
+
+[12] Moreno Gómez R, García Fernández A: Electrocardiografía. Madrid: McGraw-Hill, 1999:55.
