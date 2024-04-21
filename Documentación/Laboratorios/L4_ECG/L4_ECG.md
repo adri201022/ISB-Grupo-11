@@ -111,6 +111,8 @@ En esta sección presentaremos los gráficos de los datos recopilados mediante e
 
 * Antes de actividad (reposo):
 
+También conocido como estado basal, se observa el complejo QRS el cual indica un tiempo corto de despolarización de los ventrículos, lo que indicaría un corto  periodo de movimiento dentro de sas cavidades.
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/0640e803-0752-4684-b347-e05737b1e874" width="700" height="350"> </p>
 <p align="center"> <small>Figura 6: Ploteo de los datos en reposo.</small> </p>
 
