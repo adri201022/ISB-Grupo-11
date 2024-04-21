@@ -163,7 +163,7 @@ Durante este periodo, es común observar un ritmo cardiaco regular y estable, co
 
 * Durante respiraciones rápidas:
 
-Durante las respiraciones rápidas es posible observar cambios respecto al estado en reposo, esto puede 
+Durante las respiraciones rápidas es posible observar cambios respecto al estado en reposo, esto puede deberse a la influencia del sistema nervioso autónomo en la regulación del ritmo cardíaco durante la respiración. La inspiración profunda puede generar cambios tanto en la posición como en la orientación del corazón a través de un desplazamiento hacia abajo del diafragma que afectan la señal de ECG. Estos se pueden observar en el gráfica en un intervalo de tiempo de 16 y 18 segundos [8]
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/49984312-6bdd-4135-96aa-13a36cf118a8" width="700" height="350"> </p>
 
@@ -209,7 +209,7 @@ Durante las respiraciones rápidas es posible observar cambios respecto al estad
 
 ## **Resumen y explicación de la señal ploteada** <a name="id8"></a>
 
-El complejo QRS representa la despolarización (activación) de los ventrículos. Siempre se le conoce como "complejo QRS", aunque es posible que no siempre muestre 3 ondas. Dando que el vector eléctrico generado por el ventríoculo izquierdo es muchas veces mayor que el vector generado por el ventrículo derecho, el complejo QRS es en realidad un reflejo de la despolarización del ventrículo izquierdo [5]. Para la explicación de las señales ploteadas debemos recordar la forma que tiene un electrocardiograma normal el cuál se puede interpretar siguiendo una secuencia de pasos: Ritmo (sinusal o no sinusal), frecuencia cardiaca (en latidos por minuto, lpm), eje cardiacao (en grados), análisis de ondas, segmentos e intervalos, búsqueda de anormalidades. Podemos recordar esto con la memotecnia de FRESA. 
+El complejo QRS representa la despolarización (activación) de los ventrículos. Siempre se le conoce como "complejo QRS", aunque es posible que no siempre muestre 3 ondas. Dando que el vector eléctrico generado por el ventríoculo izquierdo es muchas veces mayor que el vector generado por el ventrículo derecho, el complejo QRS es en realidad un reflejo de la despolarización del ventrículo izquierdo [5]. Para la explicación de las señales ploteadas debemos recordar la forma que tiene un electrocardiograma normal el cuál se puede interpretar siguiendo una secuencia de pasos: Ritmo (sinusal o no sinusal), frecuencia cardiaca (en latidos por minuto, lpm), eje cardiacao (en grados), análisis de ondas, segmentos e intervalos, búsqueda de anormalidades. Podemos recordar esto con la memotecnia de FRESA [7]. 
 
 ## **Archivo de los datos de la señal ploteada** <a name="id9"></a>
 
@@ -231,3 +231,7 @@ El complejo QRS representa la despolarización (activación) de los ventrículos
 [5] Cascino, T., & Shea, M. J. (2021, 6 de julio). Electrocardiografía - Trastornos del corazón y los vasos sanguíneos - Manual MSD versión para público general. Manual MSD versión para público general. https://www.msdmanuals.com/es-es/hogar/trastornos-del-corazón-y-los-vasos-sanguíneos/diagnóstico-de-las-enfermedades-cardiovasculares/electrocardiografía#:~:text=En%20un%20ECG%20pueden%20observarse,las%20pareces%20del%20músculo%20cardíaco.
 
 [6] Guardado R. Vallín D., (2009, 2 de junio). Aplicación del Análisis Tiempo-Frecuencia en Electrocardiografía.https://laccei.org/LACCEI2009-Venezuela/Papers/IT117_GuardadoMedina.pdf
+
+[7] “Taller de interpretación del electrocardiograma. | FISIOLOGÍA”. FISIOLOGÍA | DEPARTAMENTO DE FISIOLOGÍA. Accedido el 21 de abril de 2024. [En línea]. Available at: https://fisiologia.facmed.unam.mx/index.php/taller-de-interpretacion-del-electrocardiograma/
+
+[8] S. Kurisu, K. Nitta, Y. Sumimoto, H. Ikenaga, K. Ishibashi, Y. Fukuda, and Y. Kihara, “Effects of deep inspiration on QRS axis, T-wave axis and frontal QRS-T angle in the routine electrocardiogram,” Heart and Vessels, vol. 34, no. 9, pp. 1519–1523, 2019.
