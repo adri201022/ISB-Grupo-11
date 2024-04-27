@@ -110,6 +110,6 @@ En la figura 1 se observa la colocación de los electrodos en el usuario de prue
 ## **Códido del ploteo de la señal en Python** <a name="id11"></a>
 
 ## **Referencias** <a name="id12"></a>
-[1] 
+[1] M. Proença and K. Mrotzeck, vol. 2021. BITalino (r)Evolution Lab Guide, Home Guide 2—EEG. Available at: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf
 
 [2] “Ultracortex Mark IV | OpenBCI Documentation,” Openbci.com, Nov. 08, 2023. https://docs.openbci.com/AddOns/Headwear/MarkIV/#electrode-location-overview (accessed Apr. 27, 2024).
