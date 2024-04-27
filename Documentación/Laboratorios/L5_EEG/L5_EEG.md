@@ -72,7 +72,7 @@
 
 |  **Figura 4: Prueba con BITalino**  | **Figura 5: Prueba con Ultracortex** 
 |:------------:|:---------------:|
-|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3ead35b7-7858-4e3b-bdb1-3955c5cfe5af" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/735205a5-b2fb-4c10-b77b-d4fd17514789" width="60%" height="60%"></p>|
+|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3ead35b7-7858-4e3b-bdb1-3955c5cfe5af" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3bb20da0-a6af-4bb9-8937-844391850a27" width="60%" height="60%"></p>|
 
 </div>
 
