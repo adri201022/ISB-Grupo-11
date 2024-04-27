@@ -92,7 +92,7 @@
 
 | **Fase de referencia** | **Ciclo Ojos abiertos-Ojos cerrados** | **Fase de ejercicios matemáticos** |
 |:--------------------------------:|:---------------------------------:|:----------------------------:|
-| <video src=""></video> | <video src=""></video> | <video src=""></video> |
+| <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/2cc8ce80-f0ad-4faf-8ba9-dbc42f855989"></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/5b6486f0-c345-4f29-bb59-5fd240f60d39"></video> | <video src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/942fd7bf-19be-4ecd-af48-4d851a392a92"></video> |
 
 </div>
 
