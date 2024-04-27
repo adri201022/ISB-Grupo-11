@@ -78,6 +78,16 @@ En la figura 1 se observa la colocación de los electrodos en el usuario de prue
 </div>
 
 ## **Videos de la señal** <a name="id5"></a>
+<p style="text-align: justify;">
+  
+El procedimiento para la adquisición de señales EEG de acuerdo a la Guía de Inicio BITalino (r)evolution en casa para Electroencefalografía (EEG) es el siguiente:
+1. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal, sin movimientos oculares/ojos cerrados) durante 30 segundos.
+2. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.
+3. Registre otra fase de referencia de 30 segundos.
+4. Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos y resuelve cada uno de ellos mentalmente enfocando tu mirada en un punto específico para evitar artefactos.
+5. Detenga la grabación y guarde sus datos [1].
+
+</p>
 
 ### **Prueba con BITalino**
 <div align="center">
