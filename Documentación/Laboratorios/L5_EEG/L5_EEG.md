@@ -25,23 +25,39 @@
 ### Una visión fisiológica
 <p style="text-align: justify;">
   
+El cerebro humano está compuesto por aproximadamente 85 mil millones de neuronas, las cuales son responsables de la mayor parte de la comunicación a través de las sinapsis, ubicadas al final de los axones. Cuando se transmite información, también se liberan neurotransmisores que provocan cambios en el voltaje en toda la membrana celular. Se genera un campo eléctrico de corta duración (potencial postsináptico) en apenas unos cientos de milisegundos. La neurona piramidal es el tipo celular más relevante para medir los campos eléctricos desde el cuero cabelludo, ya que su actividad es lo suficientemente intensa como para atravesar las distintas capas. Esto se debe a su orientación específica, perpendicular a la superficie cortical [1][2].
+
+El cerebro está compuesto por cuatro áreas principales en su superficie: el lóbulo frontal (naranja), el temporal (verde), el parietal (azul) y el occipital (amarillo), como se muestra en la Figura 1, cada uno con funciones específicas. El lóbulo occipital, situado en la parte posterior del cráneo, se encarga del procesamiento visual. Por otro lado, el lóbulo temporal se dedica al procesamiento sensorial, la memoria a largo plazo, las memorias visuales, las emociones y el lenguaje. El lóbulo parietal integra información del entorno y su relación con nuestro cuerpo, como la coordinación al agarrar un objeto. Finalmente, el lóbulo frontal controla los movimientos voluntarios, las decisiones, el pensamiento, el procesamiento cognitivo, incluida la planificación y la atención, y se conoce como el centro de la personalidad [2][3].
 
 </p>
 
-<p align="center"><img src="" width="400" height="300"> </p>
-<p align="center"> <small>Figura 1: .</small> </p>
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/ec6cdffa-bbf5-4561-a7fb-51fb9c4b4f82" width="400" height="300"> </p>
+<p align="center"> <small>Figura 1: El cerebro y sus lóbulos superficiales con sus respectivas funciones (marcadas en rojo) [guia].</small> </p>
 
 
 ### Adquisición de un EEG
 <p style="text-align: justify;">
-  
-
+Cinco sub-bandas de frecuencia definen las frecuencias de la señal EEG que pueden medirse desde el cerebro, siendo la gamma la más rápida y la delta la más lenta.
 </p>
+
+| Tipo de onda | Ejemplo de señal | Frecuencia [Hz] | Ocurrencias | 
+|-----------|-----------|-----------|-----------|-----------|
+| Gamma | ![image-removebg-preview](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496)
+ | >25 | Concentración, resolver problemas | 
+| Beta | ![beta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211)
+ | 12-25 | Menta activa, ocupada | 
+| Alpha | ![image-removebg-preview (1)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4b370e03-9e30-4903-a378-c61d746da04a)
+ | 8-12 | Reflexiva, tranquila | 
+| Theta | ![theta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/76a6d69f-e0d6-4ae4-a0e5-baf8bf54df5b)
+ | 4-12 | Somnolencia |
+| Delta | ![image-removebg-preview (2)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/45a9af16-12cd-4413-baa2-0a95c9d05dc3)
+ | 0-4 | Dormir, soñando |
 
 
 ### Aplicaciones
 <p style="text-align: justify;">
-  
+
+En el ámbito médico, el electroencefalograma (EEG) se emplea comúnmente para detectar trastornos o enfermedades cerebrales que generan irregularidades detectables en la señal EEG, como en casos de epilepsia o trastornos del sueño. Además, el EEG puede resultar beneficioso en conjunción con una interfaz cerebro-computadora (BCI), especialmente para pacientes con lesiones en la médula espinal, accidentes cerebrovasculares en el tronco encefálico o esclerosis lateral amiotrófica (ELA), quienes se encuentran "atrapados" en sus cuerpos sin capacidad de comunicación. Estos pacientes con discapacidades motoras graves requieren métodos alternativos de comunicación, y la BCI puede extraer "características" de las señales cerebrales para activar dispositivos externos, como interruptores, prótesis o computadoras [6].
 
 </p>
 
@@ -65,7 +81,7 @@
 ## **Fotos de conexión usada** <a name="id4"></a>
 <p style="text-align: justify;">
 
-En la figura 1 se observa la colocación de los electrodos en el usuario de prueba que se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electroencefalografía (EEG), diseñada para familiarizarse con las bioseñales específicas de EEG [1]. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo para medir EEG en la posición FP1: pines de medición IN+/- (izquierda) y referencia (derecha) y las colocaciones BITalino-cables. En la figura 2 se observa la colocación del Ultracortex Mark IV en el usuario de prueba de acuerdo a lo indicado en sus instrucciones de uso [2].
+En la figura 1 se observa la colocación de los electrodos en el usuario de prueba que se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electroencefalografía (EEG), diseñada para familiarizarse con las bioseñales específicas de EEG [guia]. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo para medir EEG en la posición FP1: pines de medición IN+/- (izquierda) y referencia (derecha) y las colocaciones BITalino-cables. En la figura 2 se observa la colocación del Ultracortex Mark IV en el usuario de prueba de acuerdo a lo indicado en sus instrucciones de uso [ultra].
 
 </p>
 
@@ -85,7 +101,7 @@ El procedimiento para la adquisición de señales EEG de acuerdo a la Guía de I
 2. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.
 3. Registre otra fase de referencia de 30 segundos.
 4. Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos y resuelve cada uno de ellos mentalmente enfocando tu mirada en un punto específico para evitar artefactos.
-5. Detenga la grabación y guarde sus datos [1].
+5. Detenga la grabación y guarde sus datos [guia].
 
 </p>
 
