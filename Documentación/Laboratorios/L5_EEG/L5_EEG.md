@@ -41,20 +41,13 @@ Cinco sub-bandas de frecuencia definen las frecuencias de la señal EEG que pued
 </p>
 <div align="center">
   
-|**Tipo de onda**|**Ejemplo de señal**|**Frecuencia [Hz]**| **Ocurrencias**|
-|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-|Gamma|![image-removebg-preview](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496)|>25|Concentración, resolver problemas|
-
-|Beta|![beta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211)|12-25|Menta activa, ocupada|
-
-| Alpha | ![image-removebg-preview (1)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4b370e03-9e30-4903-a378-c61d746da04a)
-| 8-12 | Reflexiva, tranquila | 
-
-| Theta | ![theta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/76a6d69f-e0d6-4ae4-a0e5-baf8bf54df5b)
-| 4-12 | Somnolencia |
-
-| Delta | ![image-removebg-preview (2)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/45a9af16-12cd-4413-baa2-0a95c9d05dc3)
-| 0-4 | Dormir, soñando |
+| **Tipo de onda** | **Ejemplo de señal** | **Frecuencia [Hz]** | **Ocurrencias** |
+|:----------------:|:--------------------:|:-------------------:|:---------------:|
+| Gamma | [![Gamma](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496) | >25 | Concentración, resolver problemas |
+| Beta | [![Beta](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211) | 12-25 | Mente activa, ocupada |
+| Alpha | [![Alpha](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4b370e03-9e30-4903-a378-c61d746da04a)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4b370e03-9e30-4903-a378-c61d746da04a) | 8-12 | Reflexiva, tranquila |
+| Theta | [![Theta](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/76a6d69f-e0d6-4ae4-a0e5-baf8bf54df5b)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/76a6d69f-e0d6-4ae4-a0e5-baf8bf54df5b) | 4-12 | Somnolencia |
+| Delta | [![Delta](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/45a9af16-12cd-4413-baa2-0a95c9d05dc3)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/45a9af16-12cd-4413-baa2-0a95c9d05dc3) | 0-4 | Dormir, soñando |
 
 </div>
 
