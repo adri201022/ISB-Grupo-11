@@ -64,13 +64,14 @@
 
 ## **Fotos de conexión usada** <a name="id4"></a>
 <p style="text-align: justify;">
-  
+
+En la figura 1 se observa la colocación de los electrodos en el usuario de prueba que se realiza conforme a la Guía de Inicio BITalino (r)evolution en casa para Electroencefalografía (EEG), diseñada para familiarizarse con las bioseñales específicas de EEG [1]. En las siguientes imágenes se pueden observar las colocaciones electrodos-cuerpo para medir EEG en la posición FP1: pines de medición IN+/- (izquierda) y referencia (derecha) y las colocaciones BITalino-cables. En la figura 2 se observa la colocación del Ultracortex Mark IV en el usuario de prueba de acuerdo a lo indicado en sus instrucciones de uso [2].
 
 </p>
 
 <div align="center">
 
-|  **Figura 4: Prueba con BITalino**  | **Figura 5: Prueba con Ultracortex** 
+|  **Figura 1: Prueba con BITalino**  | **Figura 2: Prueba con Ultracortex** 
 |:------------:|:---------------:|
 |<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3ead35b7-7858-4e3b-bdb1-3955c5cfe5af" width="60%" height="60%"></p>|<p><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3bb20da0-a6af-4bb9-8937-844391850a27" width="60%" height="60%"></p>|
 
@@ -109,3 +110,6 @@
 ## **Códido del ploteo de la señal en Python** <a name="id11"></a>
 
 ## **Referencias** <a name="id12"></a>
+[1] 
+
+[2] “Ultracortex Mark IV | OpenBCI Documentation,” Openbci.com, Nov. 08, 2023. https://docs.openbci.com/AddOns/Headwear/MarkIV/#electrode-location-overview (accessed Apr. 27, 2024).
