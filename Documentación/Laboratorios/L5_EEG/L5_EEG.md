@@ -160,8 +160,96 @@ En esta sección presentaremos los gráficos de los datos recopilados a una frec
 <p align="center"> <small>Figura 8: Ploteo de los datos durante el rango de 36.7 a 46.6 segundos de duración.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a> 
+A continuación mostraremos los ploteos en python que tienen un frecuencia de muestreo de 1000.
+* Referencia (reposo):
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c5aa1c8-6231-43cb-a4ff-a9f22aacf47c"  width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 9: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
+
+
+* Ciclo entre ojos abiertos y ojos cerrados:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d3574665-5991-45a5-bc42-874c653a6564"  width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 10: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+
+* repetición de reposo:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/6de06516-e48e-4638-b270-3bc5f096523e"  width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 11: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+
+* Durante preguntas matemáticas:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/f0b7a8c1-bb6c-488d-85e0-fd64178327b2"  width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 12: Ploteo de los datos en la fase de preguntas.</small> </p>
+
 
 ## **Ploteo de la señal en OpenBCI GUI** <a name="id8"></a> 
+* Referencia (reposo):
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1baf2c63-3136-45f6-9f74-00b1c4f7bf9b"  width="700" height="350"> </p>
+
+
+<p align="center"> <small>Figura 13: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
+
+
+* Ciclo entre ojos abiertos y ojos cerrados:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/79daadb9-3a59-43cb-ad37-6dc6695bfe34"  width="700" height="350"> </p>
+
+
+<p align="center"> <small>Figura 14: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+
+* repetición de reposo:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2ed05153-69b3-4789-aec1-cad986b236c3"  width="700" height="350"> </p>
+
+
+<p align="center"> <small>Figura 15: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+
+* Durante preguntas matemáticas:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b2f04967-5a65-452d-885f-348134bf766d"  width="700" height="350"> </p>
+
+
+<p align="center"> <small>Figura 16: Ploteo de los datos en la fase de preguntas.</small> </p>
+
+A continuación presentaremos las gráficas de la densidad espectral de potencia de las FFT de los 4 tramos que tenemos, que en este caso son los 4 ejercicios que hicimos.
+
+* Referencia (reposo):
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/da9e689a-b701-46fc-b1bb-ae08c4a21231"  width="700" height="350"> </p>
+
+
+<p align="center"> <small>Figura 17: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
+
+
+* Ciclo entre ojos abiertos y ojos cerrados:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3660912f-fc84-4fb0-848f-1199e4049134"  width="700" height="350"> </p>
+
+
+
+<p align="center"> <small>Figura 18: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+
+* repetición de reposo:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/373cdf71-f4fb-4c99-a530-d72511f377aa"  width="700" height="350"> </p>
+
+
+
+<p align="center"> <small>Figura 19: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+
+* Durante preguntas matemáticas:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/8fdef3e9-79c1-457d-bb77-543f19a32062"  width="700" height="350"> </p>
+
+
+
+<p align="center"> <small>Figura 20: Ploteo de los datos en la fase de preguntas.</small> </p>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id9"></a>
 
