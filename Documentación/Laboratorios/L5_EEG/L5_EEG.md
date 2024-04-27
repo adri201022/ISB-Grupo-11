@@ -132,21 +132,32 @@ El procedimiento para la adquisición de señales EEG de acuerdo a la Guía de I
 
 ## **Ploteo de la señal en OpenSignals** <a name="id6"></a>
 
-En esta sección presentaremos los gráficos de los datos recopilados mediante el uso de BITalino y OpenSignals a una frecuencia de muestreo de 1 kHz.
+En esta sección presentaremos los gráficos de los datos recopilados a una frecuencia de muestreo de 1 kHz mediante el uso de BITalino y el programa OpenSignals. Se mostrarán los gráficos durante el tiempo total de grabación y secciones de los datos con rangos cortos de tiempo para una mejor visualización.
+
 * Referencia (reposo):
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/843efb64-d41c-45b1-a75f-916a882c1c9e"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 3: Ploteo de los datos en la fase de referencia con 32.3 segundos de duración.</small> </p>
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/97ca31f2-a628-4758-828c-17f8299a8230"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 4: Ploteo de los datos durante el rango de 6 a 16 segundos.</small> </p>
 
 * Ciclo entre ojos abiertos y ojos cerrados:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/2a4102ec-bb01-486b-977d-cbfb471af36b"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 5: Ploteo de los datos en la fase de abrir y cerrar los ojos con 1 minuto y 16 segundos de duración.</small> </p>
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/aca03adf-d2f2-4058-87ac-a60157ec3fdf"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 6: Ploteo de los datos durante el rango de 15.2 a 25.1 segundos.</small> </p>
+
 
 * Durante preguntas matemáticas:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b6844cc9-e7d7-45b1-aa30-ffdd03645af1"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 7: Ploteo de los datos en la fase de preguntas con 1 minuto y 19 segundos de duración.</small> </p>
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/100977549/bdcebf02-205b-44c3-8da8-66c4941e8633"  width="700" height="350"> </p>
+<p align="center"> <small>Figura 8: Ploteo de los datos durante el rango de 36.7 a 46.6 segundos de duración.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a> 
 
