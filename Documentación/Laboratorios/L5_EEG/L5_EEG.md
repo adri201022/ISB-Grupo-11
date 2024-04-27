@@ -256,7 +256,9 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 ## **Archivo de los datos de la señal ploteada** <a name="id10"></a>
 
 ## **Códido del ploteo de la señal en Python** <a name="id11"></a>
-
+- [Señal ploteada del open signal en python](https://github.com/adri201022/ISB-Grupo-11/blob/d5c2b668c479f883335dde8964ea4b5a51437736/Documentaci%C3%B3n/Laboratorios/L5_EEG/Ploteo_se%C3%B1ales%20de%20open%20signal.py)
+- [Señal ploteada del OpenBCI GUI en python](https://github.com/adri201022/ISB-Grupo-11/blob/d5c2b668c479f883335dde8964ea4b5a51437736/Documentaci%C3%B3n/Laboratorios/L5_EEG/ploteo_se%C3%B1al.py)
+- [Señal transformada a psd ploteada del OpenBCI GUI en python ](https://github.com/adri201022/ISB-Grupo-11/blob/d5c2b668c479f883335dde8964ea4b5a51437736/Documentaci%C3%B3n/Laboratorios/L5_EEG/fft_se%C3%B1an.py)
 ## **Referencias** <a name="id12"></a>
 [1] Suzana Herculano-Houzel, “The human brain in numbers: a linearly scaled-up primate brain,” Frontiers in human neuroscience, vol. 3, Jan. 2009, doi: https://doi.org/10.3389/neuro.09.031.2009.
 
