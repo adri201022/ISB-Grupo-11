@@ -40,11 +40,10 @@ El cerebro está compuesto por cuatro áreas principales en su superficie: el l�
 Cinco sub-bandas de frecuencia definen las frecuencias de la señal EEG que pueden medirse desde el cerebro, siendo la gamma la más rápida y la delta la más lenta.
 </p>
 
-| **Tipo de onda** | **Ejemplo de señal** | **Frecuencia [Hz]** | **Ocurrencias** | 
+| **Tipo de onda** | **Ejemplo de señal** | **Frecuencia [Hz]** | **Ocurrencias** |
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-| Gamma | ![image-removebg-preview](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496) | >25 | Concentración, resolver problemas | 
-| Beta | ![beta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211)
-| 12-25 | Menta activa, ocupada | 
+|Gamma|![image-removebg-preview](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/711645fe-308f-4b50-a757-aebb16bd0496)|>25|Concentración, resolver problemas|
+|Beta|![beta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4a399e96-b010-4f05-b59a-1f9ce6d89211)|12-25|Menta activa, ocupada|
 | Alpha | ![image-removebg-preview (1)](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/4b370e03-9e30-4903-a378-c61d746da04a)
 | 8-12 | Reflexiva, tranquila | 
 | Theta | ![theta_onda](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/76a6d69f-e0d6-4ae4-a0e5-baf8bf54df5b)
