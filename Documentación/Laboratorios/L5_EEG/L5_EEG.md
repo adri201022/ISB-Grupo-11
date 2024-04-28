@@ -188,6 +188,20 @@ A continuación mostraremos los ploteos en python que tienen un frecuencia de mu
 
 
 ## **Ploteo de la señal en OpenBCI GUI** <a name="id8"></a> 
+
+Lo primero y de manera general que debemos de saber es que esos 16 canales identificados en el OpenBCI GUI corresponden a los nombres de los sitios que los electrodos utilizan y tienen abreviaturas alfabéticas que identifican el lóbulo o área del cerebro desde donde registra cada electrodo las cuáles serán [3]:
+
+F = frontal
+Fp = frontopolar
+t = temporal
+C = central
+P = parietal
+O = occipital
+A = auricular (electrodo de oído)
+
+La localización de las ondas cerebrales dentro de las regiones o lóbulos del cerebro se reduce aún más añadiendo electrodos, a los que se les asignan números como T3, T4, P3, P4. Los números pares identifican las posiciones de los electrodos en el lado derecho de la cabeza y los números impares se refieren al lado izquierdo. La etiqueta "z" apunta a los sitios de los electrodos en la línea media de la cabeza. Por ejemplo, Cz se refiere a la región central de la línea media de la cabeza [3].
+
+
 * Referencia (reposo):
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1baf2c63-3136-45f6-9f74-00b1c4f7bf9b"  width="700" height="350"> </p>
@@ -197,6 +211,9 @@ A continuación mostraremos los ploteos en python que tienen un frecuencia de mu
 
 
 * Ciclo entre ojos abiertos y ojos cerrados:
+
+La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del estado EC (Eyes close / Ojos cerrados) que en el estado EO (Eyes open /Ojos abiertos) según lo informado literatura, esto en la gráfica se puede apreciar viendo el repentino pico que se produce en el instante que ocurre la acción de abrir los ojos y captarse por primera vez el estímulo luminoso. La PSD de las bandas beta y theta puede ser casi igual o superior en caso de estado de ojos abiertos. Se concluye que el tiempo de adquisición no tiene ningún efecto sobre los parámetros evaluados. Además, los resultados son muy similares con los ojos cerrados o con los ojos abiertos. Estado de ojos abiertos para todos los ensayos independientes de cada sujeto. La dimensión de correlación y los parámetros del exponente de Lyapunov [15]. Cabe resaltar que estos datos varían según la edad ya que la potencia de las ondas alfa entre los ojos cerrados y abiertos, las reducciones en la potencia delta y theta que, según se informa, varían topográficamente y están presentes frontalmente en niños, adultos jóvenes y adultos mayores. El aumento de las ondas alfa de ojos cerrados a abiertos y el aumento beta en la región frontal también se ha informado en niños y adultos jóvenes , pero no en adultos mayores [16].
+
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/79daadb9-3a59-43cb-ad37-6dc6695bfe34"  width="700" height="350"> </p>
 
@@ -252,6 +269,18 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 <p align="center"> <small>Figura 20: Ploteo de los datos en la fase de preguntas.</small> </p>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id9"></a>
+
+Para el análisis de las pruebas de ojos abierto,ojos cerrados mirando a un punto fijo se puede resumir la experiencia en:
+
+-Durante la prueba la apertura de los ojos con estimulación de tipo luminosa; se puede apreciar que las ondas alfa disminuyen cuando los ojos están abiertos o expuestos a una fuente de luz ,en cambio cuando están cerrados esta banda suele aumentarse. Así mismo, existen medios difusores que alteraron la señal como la estimulación de la retina o una fuente no fisiológico como un electrodo frontopolar de alta impedancia [11].
+
+Para las pruebas de razonamiento nivel fácil y difícil se puede resumir la experiencia en:
+
+-Estudios previos han demostrado la ocurrencia de oscilaciones lentas (4Hz a 7 Hz) y rapidas (20 Hz y 30 Hz) en las posiciones de los electrodos frontal y prefrontal durante el procesamiento de la memoria y el razonamiento, lo cual se puede apreciar en la gráficas ya que se obtuvieron medidas de frecuencia alrededor de 15- 22 Hz. Así mismo. durante este registro EEG se puede observar que se dio un aumento en las bandas theta y gamma en FP1, lo cual está relacionado con la memorización de palabras, ya que estudios fisiológicos se han demostrado que las altas frecuencias en los rangos beta y gamma, (frecuencias de 15 a 30 y 30 a 60 Hz), está relacionado a un estado de atención enfocada (el cuál es necesario al momento razonar para hacer los ejercicios). Finalmente podemos ver que todo esto indica la participación de la corteza prefrontal durante el procesamiento de la información [12].
+
+Respecto a las señales ploteadas se puede resumir las gráficas presentadas en:
+
+-
 
 ## **Archivo de los datos de la señal ploteada** <a name="id10"></a>
 
