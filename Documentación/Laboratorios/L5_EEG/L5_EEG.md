@@ -174,7 +174,7 @@ Debería verse una gráfica con picos e intervalos constantes, ya que la activid
 - Simetría: Una simetría mayor del 50% se considera anormal
 - Reactividad: Se bloquea con la apertura palpebral y concentración
 
-La parte de la Regulación rítmica es la que nos indica cierta periodicidad y al menos en esta primera toma el sujeto de pruebas rió y eso provocó los picos adicionales que hacen que la señal no esté en reposo del todo [R1].
+La parte de la Regulación rítmica es la que nos indica cierta periodicidad y al menos en esta primera toma el sujeto de pruebas rió y eso provocó los picos adicionales que hacen que la señal no esté en reposo del todo [8].
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c5aa1c8-6231-43cb-a4ff-a9f22aacf47c"  width="700" height="350"> </p>
 
@@ -183,11 +183,11 @@ La parte de la Regulación rítmica es la que nos indica cierta periodicidad y a
 
 * Ciclo entre ojos abiertos y ojos cerrados:
 
-En clase se nos mencionó que las onda alfa eran las más comunes ya que eran parte del flow state, que es básicamente cuando uno está despierto, en estado de reposo o tranquilidad, luego venia un estado de alerta o concentración que corresponde a las ondas betas, estás requieren unas frecuencias más altas, que podemos ver en la figura a continuación [R2]:
+En clase se nos mencionó que las onda alfa eran las más comunes ya que eran parte del flow state, que es básicamente cuando uno está despierto, en estado de reposo o tranquilidad, luego venia un estado de alerta o concentración que corresponde a las ondas betas, estás requieren unas frecuencias más altas, que podemos ver en la figura a continuación [9]:
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/23468651-f21f-4ff6-901e-c78779384ce3"  width="700" height="350"> </p>
 
-<p align="center"> <small>Figura 10: Ondas cerebrales .</small> </p>
+<p align="center"> <small>Figura 10: Ondas cerebrales clasificadas según sus rangos de frecuencias .</small> </p>
 
 La cuál nos muestra que también para un estado de alerta se notan frecuencias más altas correspondientes a las ondas beta
 
@@ -197,7 +197,7 @@ La cuál nos muestra que también para un estado de alerta se notan frecuencias 
 
 * repetición de reposo:
 
-De manera similar que en 1er gráfico en reposo notamos que sigue habiendo cierta periodicidad en los picos e intervalos de la señal correspondientes a las ondas alfa y que por momentos o intervalos a pesar de que el sujeto estaba en reposo con ojos cerrados, el pensar en algo hacia o generaba picos grandes correspondientes a ondas de mayor frecuencia como beta o gamma [R1][R2]
+De manera similar que en 1er gráfico en reposo notamos que sigue habiendo cierta periodicidad en los picos e intervalos de la señal correspondientes a las ondas alfa y que por momentos o intervalos a pesar de que el sujeto estaba en reposo con ojos cerrados, el pensar en algo hacia o generaba picos grandes correspondientes a ondas de mayor frecuencia como beta o gamma [8][9]
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/6de06516-e48e-4638-b270-3bc5f096523e"  width="700" height="350"> </p>
 
@@ -214,7 +214,7 @@ Aquí se ve un predominio principalmente de las ondas beta que generan un pico m
 
 ## **Ploteo de la señal en OpenBCI GUI** <a name="id8"></a> 
 
-Lo primero y de manera general que debemos de saber es que esos 16 canales identificados en el OpenBCI GUI corresponden a los nombres de los sitios que los electrodos utilizan y tienen abreviaturas alfabéticas que identifican el lóbulo o área del cerebro desde donde registra cada electrodo las cuáles serán [3]:
+Lo primero y de manera general que debemos de saber es que esos 16 canales identificados en el OpenBCI GUI corresponden a los nombres de los sitios que los electrodos utilizan y tienen abreviaturas alfabéticas que identifican el lóbulo o área del cerebro desde donde registra cada electrodo las cuáles serán [10]:
 
 F = frontal
 Fp = frontopolar
@@ -224,12 +224,12 @@ P = parietal
 O = occipital
 A = auricular (electrodo de oído)
 
-La localización de las ondas cerebrales dentro de las regiones o lóbulos del cerebro se reduce aún más añadiendo electrodos, a los que se les asignan números como T3, T4, P3, P4. Los números pares identifican las posiciones de los electrodos en el lado derecho de la cabeza y los números impares se refieren al lado izquierdo. La etiqueta "z" apunta a los sitios de los electrodos en la línea media de la cabeza. Por ejemplo, Cz se refiere a la región central de la línea media de la cabeza [3].
+La localización de las ondas cerebrales dentro de las regiones o lóbulos del cerebro se reduce aún más añadiendo electrodos, a los que se les asignan números como T3, T4, P3, P4. Los números pares identifican las posiciones de los electrodos en el lado derecho de la cabeza y los números impares se refieren al lado izquierdo. La etiqueta "z" apunta a los sitios de los electrodos en la línea media de la cabeza. Por ejemplo, Cz se refiere a la región central de la línea media de la cabeza [10].
 
 
 * Referencia (reposo):
 
-Debería verse una gráfica con picos e intervalos constantes tal y como lo indica la lieratura para señales alfa, aquí se noa diferente que con el bitalino pero el resultado sigue estando dentro del rango esperado [R1] cosa curiosa a notar es que en este segundo intento estuve más calmado (a mí fue que me hicieron la medición) y puedo ver una gráfica más limpia en que está todo plano sin mayor actividad
+Debería verse una gráfica con picos e intervalos constantes tal y como lo indica la lieratura para señales alfa, aquí se noa diferente que con el bitalino pero el resultado sigue estando dentro del rango esperado [11] cosa curiosa a notar es que en este segundo intento estuve más calmado (a mí fue que me hicieron la medición) y puedo ver una gráfica más limpia en que está todo plano sin mayor actividad
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1baf2c63-3136-45f6-9f74-00b1c4f7bf9b"  width="700" height="350"> </p>
 
@@ -239,7 +239,7 @@ Debería verse una gráfica con picos e intervalos constantes tal y como lo indi
 
 * Ciclo entre ojos abiertos y ojos cerrados:
 
-La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del estado EC (Eyes close / Ojos cerrados) que en el estado EO (Eyes open /Ojos abiertos) según lo informado literatura, esto en la gráfica se puede apreciar viendo el repentino pico que se produce en el instante que ocurre la acción de abrir los ojos y captarse por primera vez el estímulo luminoso. La PSD de las bandas beta y theta puede ser casi igual o superior en caso de estado de ojos abiertos. Se concluye que el tiempo de adquisición no tiene ningún efecto sobre los parámetros evaluados. Además, los resultados son muy similares con los ojos cerrados o con los ojos abiertos. Estado de ojos abiertos para todos los ensayos independientes de cada sujeto. La dimensión de correlación y los parámetros del exponente de Lyapunov [15]. Cabe resaltar que estos datos varían según la edad ya que la potencia de las ondas alfa entre los ojos cerrados y abiertos, las reducciones en la potencia delta y theta que, según se informa, varían topográficamente y están presentes frontalmente en niños, adultos jóvenes y adultos mayores. El aumento de las ondas alfa de ojos cerrados a abiertos y el aumento beta en la región frontal también se ha informado en niños y adultos jóvenes, pero no en adultos mayores [16].
+La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del estado EC (Eyes close / Ojos cerrados) que en el estado EO (Eyes open /Ojos abiertos) según lo informado literatura, esto en la gráfica se puede apreciar viendo el repentino pico que se produce en el instante que ocurre la acción de abrir los ojos y captarse por primera vez el estímulo luminoso. La PSD de las bandas beta y theta puede ser casi igual o superior en caso de estado de ojos abiertos. Se concluye que el tiempo de adquisición no tiene ningún efecto sobre los parámetros evaluados. Además, los resultados son muy similares con los ojos cerrados o con los ojos abiertos. Estado de ojos abiertos para todos los ensayos independientes de cada sujeto. La dimensión de correlación y los parámetros del exponente de Lyapunov [12]. Cabe resaltar que estos datos varían según la edad ya que la potencia de las ondas alfa entre los ojos cerrados y abiertos, las reducciones en la potencia delta y theta que, según se informa, varían topográficamente y están presentes frontalmente en niños, adultos jóvenes y adultos mayores. El aumento de las ondas alfa de ojos cerrados a abiertos y el aumento beta en la región frontal también se ha informado en niños y adultos jóvenes, pero no en adultos mayores [13].
 
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/79daadb9-3a59-43cb-ad37-6dc6695bfe34"  width="700" height="350"> </p>
@@ -249,7 +249,7 @@ La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del 
 
 * repetición de reposo:
 
-Si miramos la amplitud en mV respecto al primer estado de reposo seguimos en la misma zona, pero, a diferencia del 1er reposo vemos unos pequeños picos o estimulos pequeños alrededor de la señal indicando que hubo alguna especie de remanencia respecto al estímulo anterior de ojos abiertos y cerrados, se podría decir que el sujeto quedó algo aturdido, producto de ver unas ondas agudas generalizadas [R1] que en este caso no podremos decirles crónicas pero por la forma podríamos atribuirlas a ellas. 
+Si miramos la amplitud en mV respecto al primer estado de reposo seguimos en la misma zona, pero, a diferencia del 1er reposo vemos unos pequeños picos o estimulos pequeños alrededor de la señal indicando que hubo alguna especie de remanencia respecto al estímulo anterior de ojos abiertos y cerrados, se podría decir que el sujeto quedó algo aturdido, producto de ver unas ondas agudas generalizadas [11] que en este caso no podremos decirles crónicas pero por la forma podríamos atribuirlas a ellas. 
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2ed05153-69b3-4789-aec1-cad986b236c3"  width="700" height="350"> </p>
 
@@ -258,14 +258,14 @@ Si miramos la amplitud en mV respecto al primer estado de reposo seguimos en la 
 
 * Durante preguntas matemáticas:
 
-Gran generación de estímulos producto de las ondas beta antes descritas [R2]
+Gran generación de estímulos producto de las ondas beta antes descritas [9] pero para ser más específicos detallaremos que hay también las ondas beta de tipo alto que tienen una frecuencia mayor que las beta normales que se encargan en: Pensar, enfocar, atención sostenida, tensión, estado de alerta, emoción. Las betas altas se encargan de: Intensidad, estado de hiperalerta, ansiedad. También podemos pensar en ondas gammas dada la complejidad de la tarea y dado que estás ondas se encargan de: Aprendizaje, procesamiento cognitivo, tareas de resolución de problemas, agudeza mental, actividad cerebral, organización del cerebro.
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b2f04967-5a65-452d-885f-348134bf766d"  width="700" height="350"> </p>
 
 
 <p align="center"> <small>Figura 17: Ploteo de los datos en la fase de preguntas.</small> </p>
 
-A continuación presentaremos las gráficas de la densidad espectral de potencia de las FFT de los 4 tramos que tenemos, que en este caso son los 4 ejercicios que hicimos.
+A continuación presentaremos las gráficas de la densidad espectral de potencia de las FFT de los 4 tramos que tenemos, que en este caso son los 4 ejercicios que hicimos. Aquí no procederemos a hacer un análisis a nivel EEG porque ya se realizó anteriormente aquí, solo presentamos el gráfico de forma distinta usando la FFT
 
 * Referencia (reposo):
 
@@ -303,15 +303,15 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 
 Para el análisis de las pruebas de ojos abierto,ojos cerrados mirando a un punto fijo se puede resumir la experiencia en:
 
--Durante la prueba la apertura de los ojos con estimulación de tipo luminosa; se puede apreciar que las ondas alfa disminuyen cuando los ojos están abiertos o expuestos a una fuente de luz ,en cambio cuando están cerrados esta banda suele aumentarse. Así mismo, existen medios difusores que alteraron la señal como la estimulación de la retina o una fuente no fisiológico como un electrodo frontopolar de alta impedancia [11].
+-Durante la prueba la apertura de los ojos con estimulación de tipo luminosa; se puede apreciar que las ondas alfa disminuyen cuando los ojos están abiertos o expuestos a una fuente de luz ,en cambio cuando están cerrados esta banda suele aumentarse. Así mismo, existen medios difusores que alteraron la señal como la estimulación de la retina o una fuente no fisiológico como un electrodo frontopolar de alta impedancia [15].
 
 Para las pruebas de razonamiento nivel fácil y difícil se puede resumir la experiencia en:
 
--Estudios previos han demostrado la ocurrencia de oscilaciones lentas (4Hz a 7 Hz) y rapidas (20 Hz y 30 Hz) en las posiciones de los electrodos frontal y prefrontal durante el procesamiento de la memoria y el razonamiento, lo cual se puede apreciar en la gráficas ya que se obtuvieron medidas de frecuencia alrededor de 15- 22 Hz. Así mismo. durante este registro EEG se puede observar que se dio un aumento en las bandas theta y gamma en FP1, lo cual está relacionado con la memorización de palabras, ya que estudios fisiológicos se han demostrado que las altas frecuencias en los rangos beta y gamma, (frecuencias de 15 a 30 y 30 a 60 Hz), está relacionado a un estado de atención enfocada (el cuál es necesario al momento razonar para hacer los ejercicios). Finalmente podemos ver que todo esto indica la participación de la corteza prefrontal durante el procesamiento de la información [12].
+-Estudios previos han demostrado la ocurrencia de oscilaciones lentas (4Hz a 7 Hz) y rapidas (20 Hz y 30 Hz) en las posiciones de los electrodos frontal y prefrontal durante el procesamiento de la memoria y el razonamiento, lo cual se puede apreciar en la gráficas ya que se obtuvieron medidas de frecuencia alrededor de 15- 22 Hz. Así mismo. durante este registro EEG se puede observar que se dio un aumento en las bandas theta y gamma en FP1, lo cual está relacionado con la memorización de palabras, ya que estudios fisiológicos se han demostrado que las altas frecuencias en los rangos beta y gamma, (frecuencias de 15 a 30 y 30 a 60 Hz), está relacionado a un estado de atención enfocada (el cuál es necesario al momento razonar para hacer los ejercicios). Finalmente podemos ver que todo esto indica la participación de la corteza prefrontal durante el procesamiento de la información [16].
 
 Respecto a las señales ploteadas se puede resumir las gráficas presentadas en:
 
--
+-Las actividades de estar o muy sencillas se presentan ondas de tipo alfa y beta normales [8][9], mientras que en las actividades que requieren una mayor capacidad de concentración se utilizarán o el cerebro generará ondas de mayores frecuencias como lo son ondas de tipo beta altas o gammas [14]
 
 ## **Archivo de los datos de la señal ploteada** <a name="id10"></a>
 
@@ -337,6 +337,20 @@ Respecto a las señales ploteadas se puede resumir las gráficas presentadas en:
 
 [7] “Ultracortex Mark IV | OpenBCI Documentation,” Openbci.com, Nov. 08, 2023. https://docs.openbci.com/AddOns/Headwear/MarkIV/#electrode-location-overview (accessed Apr. 27, 2024).
 
-[R1] Conceptos básicos de electroencefalografía. (2021, 25 de marzo). Dialnet. https://dialnet.unirioja.es/descarga/articulo/4788132.pdf
+[8] Conceptos básicos de electroencefalografía. (2021, 25 de marzo). Dialnet. https://dialnet.unirioja.es/descarga/articulo/4788132.pdf
 
-[R2] Alamy Stock Vector. (2023, 1 de enero). Set of brain waves oscillation. Alpha, beta, theta, delta, and gamma are the five waves function of the brain. Human mind rhythms infographic Stock Vector Image & Art - Alamy. Get creative with stock photos and videos from Alamy. https://www.alamy.com/set-of-brain-waves-oscillation-alpha-beta-theta-delta-and-gamma-are-the-five-waves-function-of-the-brain-human-mind-rhythms-infographic-image503840541.html?imageid=4845B237-CDA0-4217-8D8B-49057D114280&amp;p=1987575&amp;pn=1&amp;searchId=821d92dbe9fd181d0f9fa921cedf87ba&amp;searchtype=0
+[9] Alamy Stock Vector. (2023, 1 de enero). Set of brain waves oscillation. Alpha, beta, theta, delta, and gamma are the five waves function of the brain. Human mind rhythms infographic Stock Vector Image & Art - Alamy. Get creative with stock photos and videos from Alamy. https://www.alamy.com/set-of-brain-waves-oscillation-alpha-beta-theta-delta-and-gamma-are-the-five-waves-function-of-the-brain-human-mind-rhythms-infographic-image503840541.html?imageid=4845B237-CDA0-4217-8D8B-49057D114280&amp;p=1987575&amp;pn=1&amp;searchId=821d92dbe9fd181d0f9fa921cedf87ba&amp;searchtype=0
+
+[10] How to Read an EEG. (s.f.). Epilepsy Foundation. https://www.epilepsy.com/diagnosis/eeg/how-read
+
+[11] Técnicas de procesamiento de EEG para detección de eventos. (s.f.). SEDICI - Repositorio de la Universidad Nacional de La Plata. http://sedici.unlp.edu.ar/handle/10915/32602
+
+[12] B. Vermani, N. Hooda, and N. Kumar, “Parametric evaluation of EEG signal during eyes close and Eyes open state,” 2015 Annual IEEE India Conference (INDICON), 2015.
+
+[13] “Changes in EEG when moving from an eyes-closed to an eyes-open ... - nal,” Changes in EEG when moving from an eyes-closed to an eyes-open resting condition. Available: https://dspace.nal.gov.au/xmlui/bitstream/handle/123456789/1084/Development%20of%20frontal%20EEG%20differences%20between%20eyes-closed%20and%20eyes-open%20resting%20conditions%20in%20children%20data%20from%20a%20single-channel%20dry-sensor%20portable%20device.pdf?sequence=1.
+
+[14] Victoria Miralles, M. (2019, 13 de mayo). Ondas cerebrales y su significado - clinicaalevia.com. clinicaalevia.com. https://www.clinicaalevia.com/ondas-cerebrales-y-su-significado/#:~:text=En%20resumen,%20las%20ondas%20delta,cuando%20una%20persona%20está%20dormida.
+
+[15] U. Modi and P. Hwang, “6. Frontopolar sharp potentials,” Clin. Neurophysiol., vol. 127, no. 4, pp. e162–e163, 2016.
+
+[16] B. Schack, N. Vath, H. Petsche, H.-G. Geissler, and E. Möller, “Phase-coupling of theta-gamma EEG rhythms during short-term memory processing,” Int. J. Psychophysiol., vol. 44, no. 2, pp. 143–163, 2002.
