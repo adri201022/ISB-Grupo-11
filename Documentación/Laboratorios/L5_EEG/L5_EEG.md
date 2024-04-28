@@ -255,8 +255,9 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 
 ## **Archivo de los datos de la señal ploteada** <a name="id10"></a>
 
-* [Datos de las pruebas de EEG (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L5_EEG/EEG_data/BITalino)
-
+* [Datos de las pruebas de EEG - BITalino (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L5_EEG/EEG_data/BITalino)
+* [Datos de las pruebas de EEG - OpenBCI (.txt)](https://github.com/adri201022/ISB-Grupo-11/tree/main/Documentación/Laboratorios/L5_EEG/EEG_data/OpenBCI)
+  
 ## **Códido del ploteo de la señal en Python** <a name="id11"></a>
 - [Señal ploteada del open signal en python](https://github.com/adri201022/ISB-Grupo-11/blob/d5c2b668c479f883335dde8964ea4b5a51437736/Documentaci%C3%B3n/Laboratorios/L5_EEG/Ploteo_se%C3%B1ales%20de%20open%20signal.py)
 - [Señal ploteada del OpenBCI GUI en python](https://github.com/adri201022/ISB-Grupo-11/blob/d5c2b668c479f883335dde8964ea4b5a51437736/Documentaci%C3%B3n/Laboratorios/L5_EEG/ploteo_se%C3%B1al.py)
