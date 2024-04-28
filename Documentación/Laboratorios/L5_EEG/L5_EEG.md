@@ -160,8 +160,21 @@ En esta sección presentaremos los gráficos de los datos recopilados a una frec
 <p align="center"> <small>Figura 8: Ploteo de los datos durante el rango de 36.7 a 46.6 segundos de duración.</small> </p>
 
 ## **Ploteo de la señal en Python** <a name="id7"></a> 
+
 A continuación mostraremos los ploteos en python que tienen un frecuencia de muestreo de 1000.
+
 * Referencia (reposo):
+
+Debería verse una gráfica con picos e intervalos constantes, ya que la actividad cerebral está en reposo las ondas que más deben primar son las alfas las cuáles tienen las siguientes características:
+
+- Frecuencia: De 8 a 12 Hz
+- Voltaje: De 15 uV, el cual puede variar según la edad, a mayor edad menor voltaje, según la distancia inter electrodos, cambios en la densidad ósea, etc.
+- Regulación: Rítmica
+- Distribución: Occipital
+- Simetría: Una simetría mayor del 50% se considera anormal
+- Reactividad: Se bloquea con la apertura palpebral y concentración
+
+La parte de la Regulación rítmica es la que nos indica cierta periodicidad y al menos en esta primera toma el sujeto de pruebas rió y eso provocó los picos adicionales que hacen que la señal no esté en reposo del todo [R1].
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c5aa1c8-6231-43cb-a4ff-a9f22aacf47c"  width="700" height="350"> </p>
 
@@ -170,21 +183,33 @@ A continuación mostraremos los ploteos en python que tienen un frecuencia de mu
 
 * Ciclo entre ojos abiertos y ojos cerrados:
 
+En clase se nos mencionó que las onda alfa eran las más comunes ya que eran parte del flow state, que es básicamente cuando uno está despierto, en estado de reposo o tranquilidad, luego venia un estado de alerta o concentración que corresponde a las ondas betas, estás requieren unas frecuencias más altas, que podemos ver en la figura a continuación [R2]:
+
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/23468651-f21f-4ff6-901e-c78779384ce3"  width="700" height="350"> </p>
+
+<p align="center"> <small>Figura 10: Ondas cerebrales .</small> </p>
+
+La cuál nos muestra que también para un estado de alerta se notan frecuencias más altas correspondientes a las ondas beta
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d3574665-5991-45a5-bc42-874c653a6564"  width="700" height="350"> </p>
 
-<p align="center"> <small>Figura 10: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+<p align="center"> <small>Figura 11: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
 
 * repetición de reposo:
 
+De manera similar que en 1er gráfico en reposo notamos que sigue habiendo cierta periodicidad en los picos e intervalos de la señal correspondientes a las ondas alfa y que por momentos o intervalos a pesar de que el sujeto estaba en reposo con ojos cerrados, el pensar en algo hacia o generaba picos grandes correspondientes a ondas de mayor frecuencia como beta o gamma [R1][R2]
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/6de06516-e48e-4638-b270-3bc5f096523e"  width="700" height="350"> </p>
 
-<p align="center"> <small>Figura 11: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+<p align="center"> <small>Figura 12: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
 
 * Durante preguntas matemáticas:
 
+Aquí se ve un predominio principalmente de las ondas beta que generan un pico más alto al momento de pensar o hacer el razonamiento para resolver el ejercicio, cosa curiosa que se puede observar es que para las primeras 3 preguntas que resultaron fáciles hubieron picos mayores pero no fueron significativos; sin embargo, para las 3 últimas preguntas que fueron significamente más difíciles vemos picos mucho más grandes y otra cosa a notar en la gráfica es para la 3era pregunta, ya que yo fuí el sujeto de prueba, recuerdo ni si quiera entender bien la pregunta porque no llegué a escuchar bien la primera parte y justo eso mismo se ve reflejado que al no escuchar y no entender no sabía que tenía que razonar y el pico generado para la 3era pregunta compleja fue mucho menor.
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/f0b7a8c1-bb6c-488d-85e0-fd64178327b2"  width="700" height="350"> </p>
 
-<p align="center"> <small>Figura 12: Ploteo de los datos en la fase de preguntas.</small> </p>
+<p align="center"> <small>Figura 13: Ploteo de los datos en la fase de preguntas.</small> </p>
 
 
 ## **Ploteo de la señal en OpenBCI GUI** <a name="id8"></a> 
@@ -204,35 +229,41 @@ La localización de las ondas cerebrales dentro de las regiones o lóbulos del c
 
 * Referencia (reposo):
 
+Debería verse una gráfica con picos e intervalos constantes tal y como lo indica la lieratura para señales alfa, aquí se noa diferente que con el bitalino pero el resultado sigue estando dentro del rango esperado [R1] cosa curiosa a notar es que en este segundo intento estuve más calmado (a mí fue que me hicieron la medición) y puedo ver una gráfica más limpia en que está todo plano sin mayor actividad
+
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1baf2c63-3136-45f6-9f74-00b1c4f7bf9b"  width="700" height="350"> </p>
 
 
-<p align="center"> <small>Figura 13: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
+<p align="center"> <small>Figura 14: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
 
 
 * Ciclo entre ojos abiertos y ojos cerrados:
 
-La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del estado EC (Eyes close / Ojos cerrados) que en el estado EO (Eyes open /Ojos abiertos) según lo informado literatura, esto en la gráfica se puede apreciar viendo el repentino pico que se produce en el instante que ocurre la acción de abrir los ojos y captarse por primera vez el estímulo luminoso. La PSD de las bandas beta y theta puede ser casi igual o superior en caso de estado de ojos abiertos. Se concluye que el tiempo de adquisición no tiene ningún efecto sobre los parámetros evaluados. Además, los resultados son muy similares con los ojos cerrados o con los ojos abiertos. Estado de ojos abiertos para todos los ensayos independientes de cada sujeto. La dimensión de correlación y los parámetros del exponente de Lyapunov [15]. Cabe resaltar que estos datos varían según la edad ya que la potencia de las ondas alfa entre los ojos cerrados y abiertos, las reducciones en la potencia delta y theta que, según se informa, varían topográficamente y están presentes frontalmente en niños, adultos jóvenes y adultos mayores. El aumento de las ondas alfa de ojos cerrados a abiertos y el aumento beta en la región frontal también se ha informado en niños y adultos jóvenes , pero no en adultos mayores [16].
+La PSD (Densidad espectral de potencia) de la onda alfa es mayor en el caso del estado EC (Eyes close / Ojos cerrados) que en el estado EO (Eyes open /Ojos abiertos) según lo informado literatura, esto en la gráfica se puede apreciar viendo el repentino pico que se produce en el instante que ocurre la acción de abrir los ojos y captarse por primera vez el estímulo luminoso. La PSD de las bandas beta y theta puede ser casi igual o superior en caso de estado de ojos abiertos. Se concluye que el tiempo de adquisición no tiene ningún efecto sobre los parámetros evaluados. Además, los resultados son muy similares con los ojos cerrados o con los ojos abiertos. Estado de ojos abiertos para todos los ensayos independientes de cada sujeto. La dimensión de correlación y los parámetros del exponente de Lyapunov [15]. Cabe resaltar que estos datos varían según la edad ya que la potencia de las ondas alfa entre los ojos cerrados y abiertos, las reducciones en la potencia delta y theta que, según se informa, varían topográficamente y están presentes frontalmente en niños, adultos jóvenes y adultos mayores. El aumento de las ondas alfa de ojos cerrados a abiertos y el aumento beta en la región frontal también se ha informado en niños y adultos jóvenes, pero no en adultos mayores [16].
 
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/79daadb9-3a59-43cb-ad37-6dc6695bfe34"  width="700" height="350"> </p>
 
 
-<p align="center"> <small>Figura 14: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+<p align="center"> <small>Figura 15: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
 
 * repetición de reposo:
+
+Si miramos la amplitud en mV respecto al primer estado de reposo seguimos en la misma zona, pero, a diferencia del 1er reposo vemos unos pequeños picos o estimulos pequeños alrededor de la señal indicando que hubo alguna especie de remanencia respecto al estímulo anterior de ojos abiertos y cerrados, se podría decir que el sujeto quedó algo aturdido, producto de ver unas ondas agudas generalizadas [R1] que en este caso no podremos decirles crónicas pero por la forma podríamos atribuirlas a ellas. 
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2ed05153-69b3-4789-aec1-cad986b236c3"  width="700" height="350"> </p>
 
 
-<p align="center"> <small>Figura 15: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+<p align="center"> <small>Figura 16: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
 
 * Durante preguntas matemáticas:
+
+Gran generación de estímulos producto de las ondas beta antes descritas [R2]
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b2f04967-5a65-452d-885f-348134bf766d"  width="700" height="350"> </p>
 
 
-<p align="center"> <small>Figura 16: Ploteo de los datos en la fase de preguntas.</small> </p>
+<p align="center"> <small>Figura 17: Ploteo de los datos en la fase de preguntas.</small> </p>
 
 A continuación presentaremos las gráficas de la densidad espectral de potencia de las FFT de los 4 tramos que tenemos, que en este caso son los 4 ejercicios que hicimos.
 
@@ -241,7 +272,7 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/da9e689a-b701-46fc-b1bb-ae08c4a21231"  width="700" height="350"> </p>
 
 
-<p align="center"> <small>Figura 17: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
+<p align="center"> <small>Figura 18: Ploteo de los datos en la fase de ojos cerrados.</small> </p>
 
 
 * Ciclo entre ojos abiertos y ojos cerrados:
@@ -250,7 +281,7 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 
 
 
-<p align="center"> <small>Figura 18: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
+<p align="center"> <small>Figura 19: Ploteo de los datos en la fase de abrir y cerrar los ojos .</small> </p>
 
 * repetición de reposo:
 
@@ -258,7 +289,7 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 
 
 
-<p align="center"> <small>Figura 19: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
+<p align="center"> <small>Figura 20: Ploteo de los datos en la fase de ojos cerrados (repetición).</small> </p>
 
 * Durante preguntas matemáticas:
 
@@ -266,7 +297,7 @@ A continuación presentaremos las gráficas de la densidad espectral de potencia
 
 
 
-<p align="center"> <small>Figura 20: Ploteo de los datos en la fase de preguntas.</small> </p>
+<p align="center"> <small>Figura 21: Ploteo de los datos en la fase de preguntas.</small> </p>
 
 ## **Resumen y explicación de la señal ploteada** <a name="id9"></a>
 
@@ -305,3 +336,7 @@ Respecto a las señales ploteadas se puede resumir las gráficas presentadas en:
 [6] Machado, S., et al. (2010). EEG-based brain-computer interfaces: an overview of basic concepts and clinical applications in neurorehabilitation. Reviews in the Neurosciences, 21(6), 451-468.
 
 [7] “Ultracortex Mark IV | OpenBCI Documentation,” Openbci.com, Nov. 08, 2023. https://docs.openbci.com/AddOns/Headwear/MarkIV/#electrode-location-overview (accessed Apr. 27, 2024).
+
+[R1] Conceptos básicos de electroencefalografía. (2021, 25 de marzo). Dialnet. https://dialnet.unirioja.es/descarga/articulo/4788132.pdf
+
+[R2] Alamy Stock Vector. (2023, 1 de enero). Set of brain waves oscillation. Alpha, beta, theta, delta, and gamma are the five waves function of the brain. Human mind rhythms infographic Stock Vector Image & Art - Alamy. Get creative with stock photos and videos from Alamy. https://www.alamy.com/set-of-brain-waves-oscillation-alpha-beta-theta-delta-and-gamma-are-the-five-waves-function-of-the-brain-human-mind-rhythms-infographic-image503840541.html?imageid=4845B237-CDA0-4217-8D8B-49057D114280&amp;p=1987575&amp;pn=1&amp;searchId=821d92dbe9fd181d0f9fa921cedf87ba&amp;searchtype=0
