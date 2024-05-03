@@ -1,4 +1,4 @@
-# Informe de Laboratorio 4: Uso de BiTalino y Ultracortex para EEG
+# Informe de Laboratorio 5: Uso de BiTalino y Ultracortex para EEG
 
 ## Integrantes
 - Adrian Alberto Gutierrez Gonzales (adrian.gutierrez@upch.pe)
