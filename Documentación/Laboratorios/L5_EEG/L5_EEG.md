@@ -172,9 +172,7 @@ Debería verse una gráfica con picos e intervalos constantes, ya que la activid
 - Regulación: Rítmica
 - Distribución: Occipital
 - Simetría: Una simetría mayor del 50% se considera anormal
-- Reactividad: Se bloquea con la apertura palpebral y concentración
-
-La parte de la Regulación rítmica es la que nos indica cierta periodicidad y al menos en esta primera toma el sujeto de pruebas rió y eso provocó los picos adicionales que hacen que la señal no esté en reposo del todo [8].
+- Reactividad: Se bloquea con la apertura palpebral y concentración  [8]
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1c5aa1c8-6231-43cb-a4ff-a9f22aacf47c"  width="700" height="350"> </p>
 
@@ -229,7 +227,7 @@ La localización de las ondas cerebrales dentro de las regiones o lóbulos del c
 
 * Referencia (reposo):
 
-Debería verse una gráfica con picos e intervalos constantes tal y como lo indica la lieratura para señales alfa, aquí se noa diferente que con el bitalino pero el resultado sigue estando dentro del rango esperado [11] cosa curiosa a notar es que en este segundo intento estuve más calmado (a mí fue que me hicieron la medición) y puedo ver una gráfica más limpia en que está todo plano sin mayor actividad
+Debería verse una gráfica con picos e intervalos constantes tal y como lo indica la lieratura para señales alfa, aquí se nota diferente que con el bitalino pero el resultado sigue estando dentro del rango esperado [11] cosa curiosa a notar es que en este segundo intento estuve más calmado (a mí fue que me hicieron la medición) y puedo ver una gráfica más limpia en que está todo plano sin mayor actividad
 
 <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1baf2c63-3136-45f6-9f74-00b1c4f7bf9b"  width="700" height="350"> </p>
 
