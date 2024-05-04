@@ -17,10 +17,11 @@
 8. [Referencias](#id8)
 
 ## **Introducción** <a name="id1"></a>
+Los filtros digitales son un componente crucial en el procesamiento de señales biomédicas, ya que permiten eliminar el ruido, realzar características específicas y mejorar la calidad de las señales en diversas aplicaciones biomédicas como la electrocardiografía (ECG), la electromiografía (EMG) y la electroencefalografía (EEG) [1].
 
-# Filtros IIR
+### Filtros IIR
 
-# Filtros FIR
+### Filtros FIR
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
@@ -41,3 +42,4 @@ cerebrales específicas.</li>
 ## **Archivos de códigos** <a name="id7"></a>
 
 ## **Referencias** <a name="id8"></a>
+[1]P. Podder, Md. Mehedi Hasan, Md. Rafiqul Islam, and M. Sayeed, “Design and Implementation of Butterworth, Chebyshev-I and Elliptic Filter for Speech Signal Analysis,” International Journal of Computer Applications, vol. 98, no. 7, 2014, doi: 10.5120/17195-7390.
