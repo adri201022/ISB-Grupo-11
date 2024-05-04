@@ -25,7 +25,7 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 <div align="center";style="text-align:center;">
   <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/156bcf55-a280-4bb2-904a-e1284ceb7b80">
   <br>
-  <span style="font-style: italic;">Figura 1: Estrcutura de filtro de respuesta finita al impulso [3].</span>
+  <span style="font-style: italic;">Figura 1: Estructura de filtro de respuesta finita al impulso [3].</span>
 </div>
 
 #### Ventana Hanning
@@ -44,16 +44,37 @@ Esta sección se centra en los filtros de Respuesta Infinita al Impulso (IIR), q
 <div align="center";style="text-align:center;">
   <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/82d4552f-adb3-4154-b023-9f24736867fc">
   <br>
-  <span style="font-style: italic;">Figura : Estrcutura de filtro de respuesta infinita al impulso [*].</span>
+  <span style="font-style: italic;">Figura : Estructura de filtro de respuesta infinita al impulso [*].</span>
 </div>
 
 #### Filtros Butterworth
+Un filtro Butterworth, también conocido como filtro de máxima planicidad, es ampliamente utilizado en el ámbito de la frecuencia debido a sus características distintivas. Este filtro exhibe una atenuación aguda de frecuencias, una función de magnitud que varía de manera monótona con la frecuencia, ω, y una respuesta de fase más lineal en la banda de paso en comparación con otros filtros tradicionales. Por lo tanto, el filtro Butterworth puede ser definido por su respuesta de amplitud:
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/1dd2cee6-586a-4025-9db4-dca17535c1b6">
+</div>
+donde ωc representa la frecuencia de corte del filtro y n es el orden del filtro. A frecuencias bajas, la ganancia se aproxima a uno, disminuyendo a medida que aumenta la frecuencia. La transición entre estas regiones depende en gran medida del orden del filtro; con un orden bajo, se observa una disminución gradual, mientras que con un orden mayor, la curva puede mostrar un cambio abrupto, similar a una función escalonada, con una ganancia muy baja en frecuencias altas [**].
 
 #### Filtros Bessel 
+El filtro de Bessel, también conocido como filtro "Thomson", está diseñado específicamente para mantener un retardo de grupo constante dentro de la banda de paso del filtro, siendo utilizado en aplicaciones donde este retardo constante es crítico, como en el procesamiento de señales de vídeo analógico. A diferencia del filtro Butterworth, los polos del filtro de Bessel con una frecuencia de corte de 1 rad/s se encuentran fuera del círculo unitario, lo que resulta en una respuesta menos nítida tanto en la banda de paso como en la de parada, con una atenuación gradual [***].
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a67363d0-421d-47b5-ba60-b5e2794c2e45">
+</div>
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6565cd95-c645-4603-ac4e-635e469be3da">
+</div>
 
 #### Filtros Chebyshev
 
+El filtro Chebyshev Tipo I presenta una leve ondulación en la banda pasante, lo que permite un corte más abrupto en la banda de transición en comparación con el filtro Butterworth. Sin embargo, esta mejora en la atenuación de la banda de parada viene acompañada de una mayor variación en el retardo de grupo y un mayor sobreimpulso en la respuesta transitoria debido a la tolerancia del filtro hacia la ondulación en la banda pasante o de rechazo. A diferencia del Butterworth y del Chebyshev Tipo II, el Chebyshev Tipo I distribuye sus polos en una elipse en lugar de una circunferencia, lo que lo convierte en una aproximación más precisa a un filtro ideal, con una respuesta más rectangular en la región de corte y una disminución más abrupta en la banda de supresión. Por otro lado, el filtro Chebyshev Tipo II se caracteriza por mantenerse plano al máximo en la banda de paso, aunque exhibe un rizado de igual amplitud en la banda de parada. A diferencia del Chebyshev Tipo I, en el Tipo II se especifica la frecuencia de inicio de la banda de parada y la máxima amplitud del rizado [***].
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/ee830f01-df3b-42d9-a12c-2f8541db8f3e">
+</div>
+
 #### Filtros Elípticos
+El filtro elíptico, también conocido como filtro "Cauer", presenta una oscilación tanto en la banda pasante como en la banda de parada. Para un filtro elíptico estándar, se especifican la banda de paso y la banda de parada, así como la atenuación mínima deseada. En el diagrama de polo-cero de un filtro elíptico genérico, se observan cuatro ceros en el eje imaginario. Este tipo de filtro destaca por su transición extremadamente nítida entre la banda pasante y la banda de parada, aunque esto conlleva una mayor variación en el retardo de grupo en comparación con otros filtros. Se logra esta estrechez en la zona de transición mediante un rizado constante en ambas bandas [***].
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3c07ae1a-4617-4305-9bad-a5312d54fa40">
+</div>
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
@@ -81,3 +102,5 @@ cerebrales específicas.</li>
 [3] M. Parker, “Finite Impulse Response (FIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00005-6.
 
 [*] M. Parker, “Infinite Impulse Response (IIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00008-1.
+
+[**] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
