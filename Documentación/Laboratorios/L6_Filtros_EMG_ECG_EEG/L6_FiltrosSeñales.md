@@ -29,8 +29,28 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 </div>
 
 #### Ventana Hanning
+La forma de la ventana Hanning gradualmente atenúa tanto las señales principales como las regionales. En el dominio de la frecuencia, reduce significativamente el máximo lóbulo lateral, presenta una pendiente mucho más pronunciada en la atenuación del lóbulo lateral en función de la frecuencia y también minimiza la pérdida de festón, es decir, las fluctuaciones no deseadas en la respuesta de frecuencia [!!].
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
+</div>
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
+  <br>
+  <span style="font-style: italic;">Figura 2: Ventana Hanning [??].</span>
+</div>
 
 #### Ventana Hamming
+Podemos mitigar los efectos de las discontinuidades en la función temporal que generan anillos en la respuesta en frecuencia al reemplazar la ventana rectangular con una función de ventana que disminuye suavemente en ambos extremos. Esto ayudará a reducir la ondulación. La ventana de Hamming pertenece a este tipo de funciones de ventana [!]. 
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
+</div>
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
+  <br>
+  <span style="font-style: italic;">Figura 3: Ventana Hamming [???].</span>
+</div>
 
 #### Ventana Bartlett
 
@@ -111,7 +131,13 @@ cerebrales específicas.</li>
 
 [3] M. Parker, “Finite Impulse Response (FIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00005-6.
 
+[!!] S. Braun, “WINDOWS,” Encyclopedia of Vibration, pp. 1587–1595, Jan. 2001, doi: 10.1006/RWVB.2001.0052.
+
+[??] “Hann or Hanning or Raised Cosine,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hann_Hanning_Raised_Cosine.html#10436 (accessed May 04, 2024).
+
 [!] E. Lai, “Finite impulse response filter design,” Practical Digital Signal Processing, pp. 98–144, Jan. 2003, doi: 10.1016/B978-075065798-3/50006-0.
+
+[???] “Hamming Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hamming_Window.html#10455 (accessed May 04, 2024).
 
 [?] “The Rectangular Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Rectangular_Window.html (accessed May 04, 2024).
 
