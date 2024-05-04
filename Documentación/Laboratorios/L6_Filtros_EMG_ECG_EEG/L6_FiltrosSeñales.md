@@ -31,11 +31,11 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 #### Ventana Hanning
 La forma de la ventana Hanning gradualmente atenúa tanto las señales principales como las regionales. En el dominio de la frecuencia, reduce significativamente el máximo lóbulo lateral, presenta una pendiente mucho más pronunciada en la atenuación del lóbulo lateral en función de la frecuencia y también minimiza la pérdida de festón, es decir, las fluctuaciones no deseadas en la respuesta de frecuencia [4].
 <div align="center">
-  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
+  <img width="300" height="100" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
+  <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
   <br>
   <span style="font-style: italic;">Figura 2: Ventana Hanning [5].</span>
 </div>
@@ -43,11 +43,11 @@ La forma de la ventana Hanning gradualmente atenúa tanto las señales principal
 #### Ventana Hamming
 Podemos mitigar los efectos de las discontinuidades en la función temporal que generan anillos en la respuesta en frecuencia al reemplazar la ventana rectangular con una función de ventana que disminuye suavemente en ambos extremos. Esto ayudará a reducir la ondulación. La ventana de Hamming pertenece a este tipo de funciones de ventana [6]. 
 <div align="center">
-  <img width="700" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
+  <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
   <br>
   <span style="font-style: italic;">Figura 3: Ventana Hamming [7].</span>
 </div>
@@ -59,7 +59,7 @@ Una manera simple y directa de restringir la respuesta impulsional ideal d(k) im
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
+  <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
   <br>
   <span style="font-style: italic;">Figura 4: Ventana rectangular [8].</span>
 </div>
@@ -71,7 +71,7 @@ La ventana de Bartlett, de longitud M + 1, adopta una forma triangular par en su
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/f64a0a3a-57d3-4c2b-b3e9-d5ee6a739cf3">
+  <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/f64a0a3a-57d3-4c2b-b3e9-d5ee6a739cf3">
   <br>
   <span style="font-style: italic;">Figura 5: Ventana Bartlett [9].</span>
 </div>
@@ -83,7 +83,7 @@ La ventana Blackman, reconocida por su capacidad para reducir al mínimo la ondu
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9f303bcb-0c22-4e32-9158-28ad32d1e0f2">
+  <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9f303bcb-0c22-4e32-9158-28ad32d1e0f2">
   <br>
   <span style="font-style: italic;">Figura 6: Ventana rectangular [10].</span>
 </div>
