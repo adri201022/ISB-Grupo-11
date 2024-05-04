@@ -18,7 +18,17 @@
 
 ## **Introducción** <a name="id1"></a>
 
+# Filtros IIR
+
+# Filtros FIR
+
 ## **Objetivos** <a name="id2"></a>
+<ul>
+  <li>Filtrar las señales EMG para eliminar ruido y artefactos, y aislar la actividad muscular efectiva.</li>
+  <li>Diseñar y aplicar filtros óptimos, tanto IIR como FIR, para eliminar las frecuencias altas correspondientes a ruido en las señales de ECG utilizando un dataset previamente creado.</li>
+  <li>Preprocesar señales EEG para reducir el ruido y extraer características de interés como ondas
+cerebrales específicas.</li>
+</ul>
 
 ## **Filtros de señal EMG** <a name="id3"></a>
 
