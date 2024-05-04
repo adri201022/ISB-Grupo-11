@@ -31,11 +31,11 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 #### Ventana Hanning
 La forma de la ventana Hanning gradualmente atenúa tanto las señales principales como las regionales. En el dominio de la frecuencia, reduce significativamente el máximo lóbulo lateral, presenta una pendiente mucho más pronunciada en la atenuación del lóbulo lateral en función de la frecuencia y también minimiza la pérdida de festón, es decir, las fluctuaciones no deseadas en la respuesta de frecuencia [!!].
 <div align="center">
-  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
+  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
   <br>
   <span style="font-style: italic;">Figura 2: Ventana Hanning [??].</span>
 </div>
@@ -43,11 +43,11 @@ La forma de la ventana Hanning gradualmente atenúa tanto las señales principal
 #### Ventana Hamming
 Podemos mitigar los efectos de las discontinuidades en la función temporal que generan anillos en la respuesta en frecuencia al reemplazar la ventana rectangular con una función de ventana que disminuye suavemente en ambos extremos. Esto ayudará a reducir la ondulación. La ventana de Hamming pertenece a este tipo de funciones de ventana [!]. 
 <div align="center">
-  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
+  <img width="700" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
+  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
   <br>
   <span style="font-style: italic;">Figura 3: Ventana Hamming [???].</span>
 </div>
@@ -61,12 +61,22 @@ Una manera simple y directa de restringir la respuesta impulsional ideal d(k) im
 </div>
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
+  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
   <br>
   <span style="font-style: italic;">Figura 5: Ventana rectangular [?].</span>
 </div>
 
 #### Ventana Blackman
+La ventana Blackman, reconocida por su capacidad para reducir al mínimo la ondulación máxima en la banda de parada en comparación con la ventana Hamming, se define matemáticamente de la siguiente manera. Este diseño está dirigido a eliminar los lóbulos laterales tercero y cuarto, aunque mantiene una discontinuidad en los límites. A pesar de esta característica, se considera la ventana más precisa, ya que disminuye significativamente los lóbulos laterales [!].
+<div align="center">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/df080cca-bfc5-4ce5-8a1e-b568126f54aa">
+</div>
+
+<div align="center";style="text-align:center;">
+  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9f303bcb-0c22-4e32-9158-28ad32d1e0f2">
+  <br>
+  <span style="font-style: italic;">Figura 6: Ventana rectangular [?????].</span>
+</div>
 
 ### Filtros IIR
 Esta sección se centra en los filtros de Respuesta Infinita al Impulso (IIR), que son más complejos que los FIR. Mientras que un filtro FIR toma un flujo de datos de entrada y los multiplica por una serie de coeficientes para producir cada salida, un filtro IIR realiza este proceso y además retroalimenta el flujo de datos de salida a través de otra serie de multiplicadores y coeficientes. Esta retroalimentación elimina muchas de las propiedades lineales del filtro FIR, lo que hace que el filtro IIR sea mucho más difícil de analizar. Además, dependiendo de la elección de los coeficientes, puede generar comportamientos no deseados, como una respuesta al impulso de duración o magnitud infinita [*].
@@ -140,6 +150,8 @@ cerebrales específicas.</li>
 [???] “Hamming Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hamming_Window.html#10455 (accessed May 04, 2024).
 
 [?] “The Rectangular Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Rectangular_Window.html (accessed May 04, 2024).
+
+[?????] “Spectrum Analysis of an Oboe Tone,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Spectrum_Analysis_Oboe_Tone.html (accessed May 04, 2024).
 
 [*] M. Parker, “Infinite Impulse Response (IIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00008-1.
 
