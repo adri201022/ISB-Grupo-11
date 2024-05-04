@@ -35,6 +35,16 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 #### Ventana Bartlett
 
 #### Ventana Rectangular
+Una manera simple y directa de restringir la respuesta impulsional ideal d(k) implica mantener sus valores dentro de un rango específico, por ejemplo, de -M a M. Esto se logra multiplicando d(k) por una función rectangular, la cual tiene solo dos valores (0 o 1) en intervalos determinados, actuando como una especie de ventana que selecciona los valores deseados de d(k) [!].
+<div align="center">
+  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/541bd363-70c4-4fc1-973d-d011f36b3b5e">
+</div>
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
+  <br>
+  <span style="font-style: italic;">Figura 5: Ventana rectangular [?].</span>
+</div>
 
 #### Ventana Blackman
 
@@ -44,7 +54,7 @@ Esta sección se centra en los filtros de Respuesta Infinita al Impulso (IIR), q
 <div align="center";style="text-align:center;">
   <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/82d4552f-adb3-4154-b023-9f24736867fc">
   <br>
-  <span style="font-style: italic;">Figura : Estructura de filtro de respuesta infinita al impulso [*].</span>
+  <span style="font-style: italic;">Figura 7: Estructura de filtro de respuesta infinita al impulso [*].</span>
 </div>
 
 #### Filtros Butterworth
@@ -57,10 +67,10 @@ donde ωc representa la frecuencia de corte del filtro y n es el orden del filtr
 #### Filtros Bessel 
 El filtro de Bessel, también conocido como filtro "Thomson", está diseñado específicamente para mantener un retardo de grupo constante dentro de la banda de paso del filtro, siendo utilizado en aplicaciones donde este retardo constante es crítico, como en el procesamiento de señales de vídeo analógico. A diferencia del filtro Butterworth, los polos del filtro de Bessel con una frecuencia de corte de 1 rad/s se encuentran fuera del círculo unitario, lo que resulta en una respuesta menos nítida tanto en la banda de paso como en la de parada, con una atenuación gradual [***].
 <div align="center">
-  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a67363d0-421d-47b5-ba60-b5e2794c2e45">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a67363d0-421d-47b5-ba60-b5e2794c2e45">
 </div>
 <div align="center">
-  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6565cd95-c645-4603-ac4e-635e469be3da">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6565cd95-c645-4603-ac4e-635e469be3da">
 </div>
 
 #### Filtros Chebyshev
@@ -73,7 +83,7 @@ El filtro Chebyshev Tipo I presenta una leve ondulación en la banda pasante, lo
 #### Filtros Elípticos
 El filtro elíptico, también conocido como filtro "Cauer", presenta una oscilación tanto en la banda pasante como en la banda de parada. Para un filtro elíptico estándar, se especifican la banda de paso y la banda de parada, así como la atenuación mínima deseada. En el diagrama de polo-cero de un filtro elíptico genérico, se observan cuatro ceros en el eje imaginario. Este tipo de filtro destaca por su transición extremadamente nítida entre la banda pasante y la banda de parada, aunque esto conlleva una mayor variación en el retardo de grupo en comparación con otros filtros. Se logra esta estrechez en la zona de transición mediante un rizado constante en ambas bandas [***].
 <div align="center">
-  <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3c07ae1a-4617-4305-9bad-a5312d54fa40">
+  <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3c07ae1a-4617-4305-9bad-a5312d54fa40">
 </div>
 
 ## **Objetivos** <a name="id2"></a>
@@ -101,6 +111,12 @@ cerebrales específicas.</li>
 
 [3] M. Parker, “Finite Impulse Response (FIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00005-6.
 
+[!] E. Lai, “Finite impulse response filter design,” Practical Digital Signal Processing, pp. 98–144, Jan. 2003, doi: 10.1016/B978-075065798-3/50006-0.
+
+[?] “The Rectangular Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Rectangular_Window.html (accessed May 04, 2024).
+
 [*] M. Parker, “Infinite Impulse Response (IIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00008-1.
 
 [**] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
+
+[***] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
