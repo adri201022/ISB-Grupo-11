@@ -29,7 +29,7 @@ Esta sección se centra en los filtros de Respuesta Finita al Impulso (FIR). Un 
 </div>
 
 #### Ventana Hanning
-La forma de la ventana Hanning gradualmente atenúa tanto las señales principales como las regionales. En el dominio de la frecuencia, reduce significativamente el máximo lóbulo lateral, presenta una pendiente mucho más pronunciada en la atenuación del lóbulo lateral en función de la frecuencia y también minimiza la pérdida de festón, es decir, las fluctuaciones no deseadas en la respuesta de frecuencia [!!].
+La forma de la ventana Hanning gradualmente atenúa tanto las señales principales como las regionales. En el dominio de la frecuencia, reduce significativamente el máximo lóbulo lateral, presenta una pendiente mucho más pronunciada en la atenuación del lóbulo lateral en función de la frecuencia y también minimiza la pérdida de festón, es decir, las fluctuaciones no deseadas en la respuesta de frecuencia [4].
 <div align="center">
   <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/60790e33-09f7-4368-bcf1-cd1f19e1670e">
 </div>
@@ -37,11 +37,11 @@ La forma de la ventana Hanning gradualmente atenúa tanto las señales principal
 <div align="center";style="text-align:center;">
   <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/c73c2fef-1d43-4ddb-b486-155410460c41">
   <br>
-  <span style="font-style: italic;">Figura 2: Ventana Hanning [??].</span>
+  <span style="font-style: italic;">Figura 2: Ventana Hanning [5].</span>
 </div>
 
 #### Ventana Hamming
-Podemos mitigar los efectos de las discontinuidades en la función temporal que generan anillos en la respuesta en frecuencia al reemplazar la ventana rectangular con una función de ventana que disminuye suavemente en ambos extremos. Esto ayudará a reducir la ondulación. La ventana de Hamming pertenece a este tipo de funciones de ventana [!]. 
+Podemos mitigar los efectos de las discontinuidades en la función temporal que generan anillos en la respuesta en frecuencia al reemplazar la ventana rectangular con una función de ventana que disminuye suavemente en ambos extremos. Esto ayudará a reducir la ondulación. La ventana de Hamming pertenece a este tipo de funciones de ventana [6]. 
 <div align="center">
   <img width="700" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/dc931c09-e988-4811-af68-1278c3a3921e">
 </div>
@@ -49,13 +49,11 @@ Podemos mitigar los efectos de las discontinuidades en la función temporal que 
 <div align="center";style="text-align:center;">
   <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/e0babe14-c0d5-4cb9-8834-7be5f98ed70d">
   <br>
-  <span style="font-style: italic;">Figura 3: Ventana Hamming [???].</span>
+  <span style="font-style: italic;">Figura 3: Ventana Hamming [7].</span>
 </div>
 
-#### Ventana Bartlett
-
 #### Ventana Rectangular
-Una manera simple y directa de restringir la respuesta impulsional ideal d(k) implica mantener sus valores dentro de un rango específico, por ejemplo, de -M a M. Esto se logra multiplicando d(k) por una función rectangular, la cual tiene solo dos valores (0 o 1) en intervalos determinados, actuando como una especie de ventana que selecciona los valores deseados de d(k) [!].
+Una manera simple y directa de restringir la respuesta impulsional ideal d(k) implica mantener sus valores dentro de un rango específico, por ejemplo, de -M a M. Esto se logra multiplicando d(k) por una función rectangular, la cual tiene solo dos valores (0 o 1) en intervalos determinados, actuando como una especie de ventana que selecciona los valores deseados de d(k) [6].
 <div align="center">
   <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/541bd363-70c4-4fc1-973d-d011f36b3b5e">
 </div>
@@ -63,11 +61,23 @@ Una manera simple y directa de restringir la respuesta impulsional ideal d(k) im
 <div align="center";style="text-align:center;">
   <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a192c53d-d199-432a-b210-59e54b28119d">
   <br>
-  <span style="font-style: italic;">Figura 5: Ventana rectangular [?].</span>
+  <span style="font-style: italic;">Figura 4: Ventana rectangular [8].</span>
+</div>
+
+#### Ventana Bartlett
+La ventana de Bartlett, de longitud M + 1, adopta una forma triangular par en su distribución. Su espectro muestra un lóbulo principal más amplio en comparación con la ventana rectangular de la misma longitud. Sin embargo, los lóbulos laterales disminuyen en amplitud de manera más rápida a frecuencias más altas. Esta ventana produce una respuesta en frecuencia con una disminución monotónica de la magnitud [9].
+<div align="center">
+  <img width="400" height="200" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a6b48a14-ef08-4b0f-bb2f-5ff4c2ddd96e">
+</div>
+
+<div align="center";style="text-align:center;">
+  <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/f64a0a3a-57d3-4c2b-b3e9-d5ee6a739cf3">
+  <br>
+  <span style="font-style: italic;">Figura 5: Ventana Bartlett [9].</span>
 </div>
 
 #### Ventana Blackman
-La ventana Blackman, reconocida por su capacidad para reducir al mínimo la ondulación máxima en la banda de parada en comparación con la ventana Hamming, se define matemáticamente de la siguiente manera. Este diseño está dirigido a eliminar los lóbulos laterales tercero y cuarto, aunque mantiene una discontinuidad en los límites. A pesar de esta característica, se considera la ventana más precisa, ya que disminuye significativamente los lóbulos laterales [!].
+La ventana Blackman, reconocida por su capacidad para reducir al mínimo la ondulación máxima en la banda de parada en comparación con la ventana Hamming, se define matemáticamente de la siguiente manera. Este diseño está dirigido a eliminar los lóbulos laterales tercero y cuarto, aunque mantiene una discontinuidad en los límites. A pesar de esta característica, se considera la ventana más precisa, ya que disminuye significativamente los lóbulos laterales [6].
 <div align="center">
   <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/df080cca-bfc5-4ce5-8a1e-b568126f54aa">
 </div>
@@ -75,16 +85,16 @@ La ventana Blackman, reconocida por su capacidad para reducir al mínimo la ondu
 <div align="center";style="text-align:center;">
   <img width="700" height="500" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/9f303bcb-0c22-4e32-9158-28ad32d1e0f2">
   <br>
-  <span style="font-style: italic;">Figura 6: Ventana rectangular [?????].</span>
+  <span style="font-style: italic;">Figura 6: Ventana rectangular [10].</span>
 </div>
 
 ### Filtros IIR
-Esta sección se centra en los filtros de Respuesta Infinita al Impulso (IIR), que son más complejos que los FIR. Mientras que un filtro FIR toma un flujo de datos de entrada y los multiplica por una serie de coeficientes para producir cada salida, un filtro IIR realiza este proceso y además retroalimenta el flujo de datos de salida a través de otra serie de multiplicadores y coeficientes. Esta retroalimentación elimina muchas de las propiedades lineales del filtro FIR, lo que hace que el filtro IIR sea mucho más difícil de analizar. Además, dependiendo de la elección de los coeficientes, puede generar comportamientos no deseados, como una respuesta al impulso de duración o magnitud infinita [*].
+Esta sección se centra en los filtros de Respuesta Infinita al Impulso (IIR), que son más complejos que los FIR. Mientras que un filtro FIR toma un flujo de datos de entrada y los multiplica por una serie de coeficientes para producir cada salida, un filtro IIR realiza este proceso y además retroalimenta el flujo de datos de salida a través de otra serie de multiplicadores y coeficientes. Esta retroalimentación elimina muchas de las propiedades lineales del filtro FIR, lo que hace que el filtro IIR sea mucho más difícil de analizar. Además, dependiendo de la elección de los coeficientes, puede generar comportamientos no deseados, como una respuesta al impulso de duración o magnitud infinita [11].
 
 <div align="center";style="text-align:center;">
   <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/82d4552f-adb3-4154-b023-9f24736867fc">
   <br>
-  <span style="font-style: italic;">Figura 7: Estructura de filtro de respuesta infinita al impulso [*].</span>
+  <span style="font-style: italic;">Figura 7: Estructura de filtro de respuesta infinita al impulso [11].</span>
 </div>
 
 #### Filtros Butterworth
@@ -92,10 +102,10 @@ Un filtro Butterworth, también conocido como filtro de máxima planicidad, es a
 <div align="center">
   <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/1dd2cee6-586a-4025-9db4-dca17535c1b6">
 </div>
-donde ωc representa la frecuencia de corte del filtro y n es el orden del filtro. A frecuencias bajas, la ganancia se aproxima a uno, disminuyendo a medida que aumenta la frecuencia. La transición entre estas regiones depende en gran medida del orden del filtro; con un orden bajo, se observa una disminución gradual, mientras que con un orden mayor, la curva puede mostrar un cambio abrupto, similar a una función escalonada, con una ganancia muy baja en frecuencias altas [**].
+donde ωc representa la frecuencia de corte del filtro y n es el orden del filtro. A frecuencias bajas, la ganancia se aproxima a uno, disminuyendo a medida que aumenta la frecuencia. La transición entre estas regiones depende en gran medida del orden del filtro; con un orden bajo, se observa una disminución gradual, mientras que con un orden mayor, la curva puede mostrar un cambio abrupto, similar a una función escalonada, con una ganancia muy baja en frecuencias altas [12].
 
 #### Filtros Bessel 
-El filtro de Bessel, también conocido como filtro "Thomson", está diseñado específicamente para mantener un retardo de grupo constante dentro de la banda de paso del filtro, siendo utilizado en aplicaciones donde este retardo constante es crítico, como en el procesamiento de señales de vídeo analógico. A diferencia del filtro Butterworth, los polos del filtro de Bessel con una frecuencia de corte de 1 rad/s se encuentran fuera del círculo unitario, lo que resulta en una respuesta menos nítida tanto en la banda de paso como en la de parada, con una atenuación gradual [***].
+El filtro de Bessel, también conocido como filtro "Thomson", está diseñado específicamente para mantener un retardo de grupo constante dentro de la banda de paso del filtro, siendo utilizado en aplicaciones donde este retardo constante es crítico, como en el procesamiento de señales de vídeo analógico. A diferencia del filtro Butterworth, los polos del filtro de Bessel con una frecuencia de corte de 1 rad/s se encuentran fuera del círculo unitario, lo que resulta en una respuesta menos nítida tanto en la banda de paso como en la de parada, con una atenuación gradual [13].
 <div align="center">
   <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/a67363d0-421d-47b5-ba60-b5e2794c2e45">
 </div>
@@ -105,13 +115,13 @@ El filtro de Bessel, también conocido como filtro "Thomson", está diseñado es
 
 #### Filtros Chebyshev
 
-El filtro Chebyshev Tipo I presenta una leve ondulación en la banda pasante, lo que permite un corte más abrupto en la banda de transición en comparación con el filtro Butterworth. Sin embargo, esta mejora en la atenuación de la banda de parada viene acompañada de una mayor variación en el retardo de grupo y un mayor sobreimpulso en la respuesta transitoria debido a la tolerancia del filtro hacia la ondulación en la banda pasante o de rechazo. A diferencia del Butterworth y del Chebyshev Tipo II, el Chebyshev Tipo I distribuye sus polos en una elipse en lugar de una circunferencia, lo que lo convierte en una aproximación más precisa a un filtro ideal, con una respuesta más rectangular en la región de corte y una disminución más abrupta en la banda de supresión. Por otro lado, el filtro Chebyshev Tipo II se caracteriza por mantenerse plano al máximo en la banda de paso, aunque exhibe un rizado de igual amplitud en la banda de parada. A diferencia del Chebyshev Tipo I, en el Tipo II se especifica la frecuencia de inicio de la banda de parada y la máxima amplitud del rizado [***].
+El filtro Chebyshev Tipo I presenta una leve ondulación en la banda pasante, lo que permite un corte más abrupto en la banda de transición en comparación con el filtro Butterworth. Sin embargo, esta mejora en la atenuación de la banda de parada viene acompañada de una mayor variación en el retardo de grupo y un mayor sobreimpulso en la respuesta transitoria debido a la tolerancia del filtro hacia la ondulación en la banda pasante o de rechazo. A diferencia del Butterworth y del Chebyshev Tipo II, el Chebyshev Tipo I distribuye sus polos en una elipse en lugar de una circunferencia, lo que lo convierte en una aproximación más precisa a un filtro ideal, con una respuesta más rectangular en la región de corte y una disminución más abrupta en la banda de supresión. Por otro lado, el filtro Chebyshev Tipo II se caracteriza por mantenerse plano al máximo en la banda de paso, aunque exhibe un rizado de igual amplitud en la banda de parada. A diferencia del Chebyshev Tipo I, en el Tipo II se especifica la frecuencia de inicio de la banda de parada y la máxima amplitud del rizado [13].
 <div align="center">
   <img width="300" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/ee830f01-df3b-42d9-a12c-2f8541db8f3e">
 </div>
 
 #### Filtros Elípticos
-El filtro elíptico, también conocido como filtro "Cauer", presenta una oscilación tanto en la banda pasante como en la banda de parada. Para un filtro elíptico estándar, se especifican la banda de paso y la banda de parada, así como la atenuación mínima deseada. En el diagrama de polo-cero de un filtro elíptico genérico, se observan cuatro ceros en el eje imaginario. Este tipo de filtro destaca por su transición extremadamente nítida entre la banda pasante y la banda de parada, aunque esto conlleva una mayor variación en el retardo de grupo en comparación con otros filtros. Se logra esta estrechez en la zona de transición mediante un rizado constante en ambas bandas [***].
+El filtro elíptico, también conocido como filtro "Cauer", presenta una oscilación tanto en la banda pasante como en la banda de parada. Para un filtro elíptico estándar, se especifican la banda de paso y la banda de parada, así como la atenuación mínima deseada. En el diagrama de polo-cero de un filtro elíptico genérico, se observan cuatro ceros en el eje imaginario. Este tipo de filtro destaca por su transición extremadamente nítida entre la banda pasante y la banda de parada, aunque esto conlleva una mayor variación en el retardo de grupo en comparación con otros filtros. Se logra esta estrechez en la zona de transición mediante un rizado constante en ambas bandas [13].
 <div align="center">
   <img width="400" height="150" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/3c07ae1a-4617-4305-9bad-a5312d54fa40">
 </div>
@@ -141,20 +151,22 @@ cerebrales específicas.</li>
 
 [3] M. Parker, “Finite Impulse Response (FIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00005-6.
 
-[!!] S. Braun, “WINDOWS,” Encyclopedia of Vibration, pp. 1587–1595, Jan. 2001, doi: 10.1006/RWVB.2001.0052.
+[4] S. Braun, “WINDOWS,” Encyclopedia of Vibration, pp. 1587–1595, Jan. 2001, doi: 10.1006/RWVB.2001.0052.
 
-[??] “Hann or Hanning or Raised Cosine,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hann_Hanning_Raised_Cosine.html#10436 (accessed May 04, 2024).
+[5] “Hann or Hanning or Raised Cosine,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hann_Hanning_Raised_Cosine.html#10436 (accessed May 04, 2024).
 
-[!] E. Lai, “Finite impulse response filter design,” Practical Digital Signal Processing, pp. 98–144, Jan. 2003, doi: 10.1016/B978-075065798-3/50006-0.
+[6] E. Lai, “Finite impulse response filter design,” Practical Digital Signal Processing, pp. 98–144, Jan. 2003, doi: 10.1016/B978-075065798-3/50006-0.
 
-[???] “Hamming Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hamming_Window.html#10455 (accessed May 04, 2024).
+[7] “Hamming Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Hamming_Window.html#10455 (accessed May 04, 2024).
 
-[?] “The Rectangular Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Rectangular_Window.html (accessed May 04, 2024).
+[8] “The Rectangular Window,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Rectangular_Window.html (accessed May 04, 2024).
 
-[?????] “Spectrum Analysis of an Oboe Tone,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Spectrum_Analysis_Oboe_Tone.html (accessed May 04, 2024).
+[9] “Signal Processing: Continuous and Discrete,”MIT OpenCourseWare, 2008. https://ocw.mit.edu/courses/2-161-signal-processing-continuous-and-discrete-fall-2008/b1566013ede775cece0ecb8f1bf945bb_lecture_16.pdf (accessed: May 04, 2024)
 
-[*] M. Parker, “Infinite Impulse Response (IIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00008-1.
+[10] “Spectrum Analysis of an Oboe Tone,” Stanford.edu, 2022. https://ccrma.stanford.edu/~jos/sasp/Spectrum_Analysis_Oboe_Tone.html (accessed May 04, 2024).
 
-[**] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
+[11] M. Parker, “Infinite Impulse Response (IIR) Filters,” in Digital Signal Processing 101, 2017. doi: 10.1016/b978-0-12-811453-7.00008-1.
 
-[***] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
+[12] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
+
+[13] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
