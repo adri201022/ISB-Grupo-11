@@ -165,6 +165,14 @@ Ahora presentaremos la señal de ECG en reposo,respiraciones y en actividad con 
 
 ## **Filtros de señal EEG** <a name="id5"></a>
 
+La información será sacada del estudio "Reconocimiento de picos epilépticos en electroencefalograma utilizando autómatas finitos deterministas" [R1] después de la grabación de todos los datos se tiene la información de las gráficas usando el Bitalino y el OPENCBI.
+
+Explicación general:
+
+Después de la grabación, se analizaron todos los datos.
+Para el preprocesado para eliminar el cambio de línea base y el pase de banda filtrado utilizando un filtro Butterworth de respuesta de impulso infinito (IIR) con un corte inferior de 0,25 Hz y un corte de 35 Hz [R1,R2]. Procedimientos experimentales completos en.Este estudio se realizó de conformidad con el "comité para el control y supervisión de experimentos con animales (CPCSEA)", India, así como con las normas internas.
+políticas y lineamientos institucionales.
+
 Primero colocamos un análisis espectral de señales para evaluar los picos que superan la frecuencia de 60Hz
 ![Captura1](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8bc9218e-b53f-460d-b628-90cc99ada2c8)
 
