@@ -223,6 +223,9 @@ Se sigue el mismo procedimiento anterior
 
 
 ## **Conclusiones** <a name="id6"></a>
+EMG:
+-Como se puede apreciar en las graficas, los filtros FIR e IIR eliminaron eficazmente el ruido y las frecuencias no deseadas al aplicar un filtro pasa baja con la frecuencia de corte de 180 Hz, con lo cual ayuda a excluir las frecuencias altas relacionadas al ruido, conservando las frecuencias entre 50 y 150 Hz, donde reside la información relevante de la señal EMG. [15] Lo que se traduce en una mejora visual de las graficas filtradas a comparación de las graficas crudas.
+
 ECG:
 - Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG cuando la persona se encuentra en reposo. Sin embargo para el caso de las respiraciones se puede apreciar que el filtrado em ambos tipos de filtros ha dejado un poco de ruido,por lo que el utilizar este tipo de filtro IIR butterwort y el filtro FIR de ventana Hanning no es el adecuado. Para el caso de la señal ECG en actividad se aprecia que el filtrado en ambos caso fue correcto ya que se logro filtrar correcta el ruido en ambos casos, lo que nos concluye a decir que el uso de estos tipos de filtros son adecuados para señales en ECG ena actividad.
 ## **Archivos de códigos** <a name="id7"></a>
