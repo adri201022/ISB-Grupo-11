@@ -159,15 +159,18 @@ Ahora presentaremos la señal de ECG en reposo, con los respectivos con los resp
 
 #### Señal en reposo con filtrado notch
 <div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a3453ad8-3bde-4ace-a917-f0db8c6ac88a">
+<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c8617495-dcee-4c32-8beb-892e827524f5">
+
   
 #### Señal en reposo con filtrado IIR  
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/14d62f14-86f8-433c-8f41-4ede83ad1aa8"> 
-  
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7c7533ff-2cb3-4c91-9712-f8380116ebc9"> 
+
+
 #### Señal en reposo con filtrado FIR 
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/14d00607-4336-4f60-a62c-77c40e15e820">
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a4f9c666-8bb8-4576-a2d7-b354ae2a5366">
+
 
 Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
@@ -178,17 +181,17 @@ Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respecti
 
 #### Señal respiraciones rápidas con filtrado notch
 <div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/380e2003-231b-4557-a6e2-15ea49efab3d">
+<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/58ab9afe-1e21-4e9b-a33b-05c9baed241e">
 
 
 #### Señal respiraciones rápidas con filtrado IIR  
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/5a0a384c-d738-4f25-bd87-9bc57075d106"> 
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/850d4072-b5cb-447f-ac63-2170e484ac9e"> 
 
 
 #### Señal respiraciones rápidas con filtrado FIR 
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/de783a4d-0c38-4d6c-85b5-266845b2918f">
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ea9f5374-46eb-4ef2-9d4e-860d058cb945">
 
 Ahora presentaremos la señal de ECG en actividad con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
@@ -200,18 +203,18 @@ Ahora presentaremos la señal de ECG en actividad con los respectivos con los re
 
 #### Señal en actividad con filtrado notch
 <div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/df6dbb37-2199-4eda-a184-c2a769e34840">
+<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d6df02e2-3433-4155-a415-2e881b724a41">
 
 
 
 #### Señal en actividad con filtrado IIR  
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e2b902d3-0031-44a9-a7e0-8737ae8937c4"> 
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/829afebb-9053-4700-9f12-77d4987daad1"> 
 
 
 #### Señal en actividad con filtrado FIR 
 <div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2651340f-8e4c-4e0c-acb0-328c7c1361bc">
+<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3e8b1e95-c634-4532-93a5-7ca7810618c8">
 
 
 ## **Filtros de señal EEG** <a name="id5"></a>
