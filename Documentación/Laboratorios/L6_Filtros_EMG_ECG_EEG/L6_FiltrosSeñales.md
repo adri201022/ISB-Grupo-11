@@ -217,7 +217,9 @@ Ahora presentaremos la señal de ECG en actividad con los respectivos con los re
 ## **Discusión** <a name="id6"></a>
 
 ## **Archivos de códigos** <a name="id7"></a>
-
+[Señal filtrada de ECG reposo](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al%20ECG-filtros-Reposo.ipynb)
+[Señal filtrada de ECG respiraciones rápidas](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al-ECG-filtros-Respiraciones.ipynb)
+[Señal filtrada de ECG en actividad](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al-ECG-filtros-Actividades.ipynb)
 ## **Referencias** <a name="id8"></a>
 [1] P. Podder, Md. Mehedi Hasan, Md. Rafiqul Islam, and M. Sayeed, “Design and Implementation of Butterworth, Chebyshev-I and Elliptic Filter for Speech Signal Analysis,” International Journal of Computer Applications, vol. 98, no. 7, 2014, doi: 10.5120/17195-7390.
 
@@ -244,3 +246,4 @@ Ahora presentaremos la señal de ECG en actividad con los respectivos con los re
 [12] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
 
 [13] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
+[14] A. Sharma, C. Saxena, H. Gupta, and R. Srivastav, (PDF) denoising of ECG signals using FIR & IIR Filter: A performance analysis, https://www.researchgate.net/publication/328293842_Denoising_of_ECG_signals_using_FIR_IIR_filter_A_performance_analysis (accessed May 5, 2024). 
