@@ -137,7 +137,9 @@ cerebrales específicas.</li>
 ## **Filtros de señal EMG** <a name="id3"></a>
 
 ## **Filtros de señal ECG** <a name="id4"></a>
-A continuación se mostrará las gráficas de las señales con el uso de filtros FIR y IIR, cabe resaltar que se obtuvieron 3 señales del ecg que fueron en reposo, respiraciones rápidas y en actividad. Previamente antes de aplicar los filtros FIR y IIR se aplico un filtro notch para eliminar el ruido ambiental, el cual es 60 Hz. Encontramos en la bibliografía que las frecuecnias de corte bajas es de 0.5 Hz en ambos filtros que son el FIR y IIR. Primeramente, se presentará las respuestas en frecuencias de ambos filtros.
+A continuación se mostrará las gráficas de las señales con el uso de filtros FIR y IIR, cabe resaltar que se obtuvieron 3 señales del ecg que fueron en reposo, respiraciones rápidas y en actividad. Previamente antes de aplicar los filtros FIR y IIR se aplico un filtro notch para eliminar el ruido ambiental, el cual es 60 Hz. 
+
+Encontramos en la bibliografía que las frecuecnias de corte bajas es de 0.5 Hz en ambos filtros que son el FIR y IIR. Primeramente, se presentará las respuestas en frecuencias de ambos filtros.[14]
 
 #### Filtro IIR
 <div align="center">
@@ -149,7 +151,7 @@ A continuación se mostrará las gráficas de las señales con el uso de filtros
 <div align="center">
 <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/799c7167-56c2-45a1-a706-a43124e90a79">                  
 
-Ahora presentaremos la señal de ECG en reposo, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.
+Ahora presentaremos la señal de ECG en reposo, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
 #### Señal en reposo sin filtrar
 <div align="center">
@@ -167,7 +169,7 @@ Ahora presentaremos la señal de ECG en reposo, con los respectivos con los resp
 <div align="center">
 <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/14d00607-4336-4f60-a62c-77c40e15e820">
 
-Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.
+Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
 #### Señal respiraciones rápidas sin filtrar
 <div align="center">
@@ -188,7 +190,7 @@ Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respecti
 <div align="center">
 <img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/de783a4d-0c38-4d6c-85b5-266845b2918f">
 
-Ahora presentaremos la señal de ECG en actividad con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.
+Ahora presentaremos la señal de ECG en actividad con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
 #### Señal en actividad sin filtrar
 <div align="center">
@@ -246,4 +248,5 @@ Ahora presentaremos la señal de ECG en actividad con los respectivos con los re
 [12] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
 
 [13] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
+
 [14] A. Sharma, C. Saxena, H. Gupta, and R. Srivastav, (PDF) denoising of ECG signals using FIR & IIR Filter: A performance analysis, https://www.researchgate.net/publication/328293842_Denoising_of_ECG_signals_using_FIR_IIR_filter_A_performance_analysis (accessed May 5, 2024). 
