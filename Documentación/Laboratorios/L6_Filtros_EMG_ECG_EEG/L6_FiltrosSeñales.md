@@ -165,6 +165,11 @@ Ahora presentaremos la señal de ECG en reposo,respiraciones y en actividad con 
 
 ## **Filtros de señal EEG** <a name="id5"></a>
 
+Primero colocamos un análisis espectral de señales para evaluar los picos que superan la frecuencia de 60Hz
+![Captura1](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8bc9218e-b53f-460d-b628-90cc99ada2c8)
+
+
+
 ## **Conclusiones** <a name="id6"></a>
 ECG:
 - Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG cuando la persona se encuentra en reposo. Sin embargo para el caso de las respiraciones se puede apreciar que el filtrado em ambos tipos de filtros ha dejado un poco de ruido,por lo que el utilizar este tipo de filtro IIR butterwort y el filtro FIR de ventana Hanning no es el adecuado. Para el caso de la señal ECG en actividad se aprecia que el filtrado en ambos caso fue correcto ya que se logro filtrar correcta el ruido en ambos casos, lo que nos concluye a decir que el uso de estos tipos de filtros son adecuados para señales en ECG ena actividad.
