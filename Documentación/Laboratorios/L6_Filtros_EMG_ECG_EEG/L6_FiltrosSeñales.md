@@ -183,10 +183,11 @@ La información será sacada del estudio "Reconocimiento de picos epilépticos e
 Explicación general:
 
 Después de la grabación, se analizaron todos los datos.
-Para el preprocesado para eliminar el cambio de línea base y el pase de banda filtrado utilizando un filtro Butterworth de respuesta de impulso infinito (IIR) con un corte inferior de 0,25 Hz y un corte de 35 Hz [R1,R2]. Procedimientos experimentales completos en.Este estudio se realizó de conformidad con el "comité para el control y supervisión de experimentos con animales (CPCSEA)", India, así como con las normas internas.
-políticas y lineamientos institucionales.
+Para el preprocesado para eliminar el cambio de línea base y el pase de banda filtrado utilizando un filtro Butterworth de respuesta de impulso infinito (IIR) con un corte inferior de 0,25 Hz y un corte de 35 Hz [R1,R2]. Procedimientos experimentales completos en.Este estudio se realizó de conformidad con el "comité para el control y supervisión de experimentos con animales (CPCSEA)", India, así como con las normas internas políticas y lineamientos institucionales.
 
-Evaluación en reposo
+Para tener un mejor orden y visualización, coloco en una tabla 9 gráficos para explicar el orden seguido en el análisis de las señales. También algunos gráficos extra que plotee para ver información adicional que podría ser relevante.
+
+Evaluación en reposo:
 
 
 |                   | A | B | C |
@@ -196,19 +197,10 @@ Evaluación en reposo
 | 3    | ![Captura9R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/63371286-03b6-4de8-a690-2eb0d4586bed) | ![Captura10R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c8bb67ea-23ef-4ec8-abb8-c59398b61af6) | ![Captura11R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8513e61f-c3ca-47f0-8991-146cd7ae379e) |
 
 Primero colocamos un análisis espectral de señales para evaluar los picos que superan la frecuencia de 60Hz
-![Captura1](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8bc9218e-b53f-460d-b628-90cc99ada2c8)
-
 
 ![Captura2](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2456dcc3-9801-413b-bb15-a4337a404633)
 ![Captura3R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/f6524405-4833-4d63-81b9-bdb87c7cd1e1)
-![Captura4R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1d02793b-ae23-429e-83fb-752561bcf392)
-![Captura5R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2274ac5e-f36c-4451-b1f6-7ae9d4b1b85b)
-![Captura6R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/f758b6da-077e-4c91-a8b5-6bc5c3882614)
-![Captura7R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/12f991ec-871c-41e1-8bd4-92faf9110862)
-![Captura8R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8d689167-bf72-4a22-a078-232e81d64fa6)
-![Captura9R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/63371286-03b6-4de8-a690-2eb0d4586bed)
-![Captura10R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c8bb67ea-23ef-4ec8-abb8-c59398b61af6)
-![Captura11R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8513e61f-c3ca-47f0-8991-146cd7ae379e)
+
 
 
 Evaluación Ojos abiertos y cerrados
