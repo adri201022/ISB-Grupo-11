@@ -134,8 +134,6 @@ El filtro elíptico, también conocido como filtro "Cauer", presenta una oscilac
 cerebrales específicas.</li>
 </ul>
 
-## **Filtros de señal EMG** <a name="id3"></a>
-
 ## **Filtros de señal ECG** <a name="id4"></a>
 A continuación se mostrará las gráficas de las señales con el uso de filtros FIR y IIR, cabe resaltar que se obtuvieron 3 señales del ecg que fueron en reposo, respiraciones rápidas y en actividad. Previamente antes de aplicar los filtros FIR y IIR se aplico un filtro notch para eliminar el ruido ambiental, el cual es 60 Hz. 
 
@@ -162,6 +160,23 @@ Ahora presentaremos la señal de ECG en reposo,respiraciones y en actividad con 
 | Respiraciones     | ![Respiraciones sin filtrar](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7f5e5113-9f27-455e-bfcc-1d5087d5dd4f) | ![Respiraciones FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ea9f5374-46eb-4ef2-9d4e-860d058cb945) | ![Respiraciones IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/850d4072-b5cb-447f-ac63-2170e484ac9e) |
 | Actividad         | ![Actividad sin filtrar](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b6c412d4-7608-4d68-bb10-9939a64d94b6) | ![Actividad FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3e8b1e95-c634-4532-93a5-7ca7810618c8) | ![Actividad IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/829afebb-9053-4700-9f12-77d4987daad1) |
 
+## **Filtros de señal EMG** <a name="id3"></a>
+
+En esta sección filtraremos la señal EMG utilizando filtros digitales FIR e IIR. Dado que la señal EMG se encuentra típicamente entre frecuencias de 50 y 150 Hz, se eligio una frecuencia de corte de 180 Hz. [15]
+
+| Respuesta en Frecuencia | Respuesta en Frecuencia  | 
+|--------------------|---------------------------|
+| Filtro FIR         | Filtro IIR                |
+|                    |                           |
+| ![FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8593e4e2-9cf8-478a-8825-64b70bc15625)| ![IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/f10c2c48-8d95-4b61-b80c-e59f2d8bd2e0) |
+
+Ahora presentaremos la señal de EMG en reposo, con los respectivos con los respectivos.[14]
+
+|                   | Señal cruda | Filtro FIR (Butterworth) | Filtro IIR (Hanning) |
+|-------------------|--------------|--------------------------|----------------------|
+| Reposo            | ![Reposo_sinFiltrar](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/f7cb2485-357d-473b-b0e0-2758f9dd6ac8)| ![Reposo_FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b13a9407-2bfa-404c-92fe-55606df2b85c)|![Reposo_IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/24b29ef2-6178-4505-8d96-b4e6c4cbb884)|
+| Sin Oposición     | ![SinOposicion_sinFiltrar](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8900594d-e7dd-438d-a2f6-764245e670e7)|![SinOposicion_FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/2c30e05d-0e18-4f81-a68a-2c708b3999ad)| ![SinOposicion_IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/587c7192-307a-4e7f-a353-45cfa7c97447)|
+| Con Oposición     | ![ConOposicion_sinFiltrar](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/45539764-0962-422f-a661-8b7be2803e19)| ![ConOposicion_FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/43638900-b700-4de6-8e15-6ddb6ca03907)| ![ConOposicion_IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/4be61ac9-270f-4d5e-9aa7-a8b7aea99d33)|
 
 ## **Filtros de señal EEG** <a name="id5"></a>
 
@@ -221,5 +236,9 @@ ECG:
 [12] N. AlHinai, “Introduction to biomedical signal processing and artificial intelligence,” Biomedical Signal Processing and Artificial Intelligence in Healthcare, pp. 1–28, Jan. 2020, doi: 10.1016/B978-0-12-818946-7.00001-9.
 
 [13] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
+
+[14]
+
+[15] B. Gerdle, S. Karlsson, S. Day, y M. Djupsjöbacka, "Acquisition, Processing and Analysis of the Surface Electromyogram," en Modern Techniques in Neuroscience, U. Windhorst y H. Johanson, Eds. Berlin: Springer Verlag, 1999, pp. 705-755.
 
 [14] A. Sharma, C. Saxena, H. Gupta, and R. Srivastav, (PDF) denoising of ECG signals using FIR & IIR Filter: A performance analysis, https://www.researchgate.net/publication/328293842_Denoising_of_ECG_signals_using_FIR_IIR_filter_A_performance_analysis (accessed May 5, 2024). 
