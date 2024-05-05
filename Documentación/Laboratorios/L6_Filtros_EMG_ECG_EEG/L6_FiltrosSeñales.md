@@ -147,9 +147,14 @@ Encontramos en la bibliografía que las frecuecnias de corte bajas es de 0.5 Hz 
 |                    |                           |
 | ![Filtro FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/799c7167-56c2-45a1-a706-a43124e90a79) | ![Filtro IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/42d798ea-6672-42e2-b69a-e0cdeba16af7) |
 
-    
+ A continuación mostraremos el resultado luego del filtrado notch, que filtra el ruido ambiental
 
-Ahora presentaremos la señal de ECG en reposo, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
+ |                     | Reposo                     | Respiraciones rápidas       | Actividad                    |
+|---------------------|----------------------------|-----------------------------|------------------------------|
+| Señal filtrado notch  | <img width="600" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c8617495-dcee-4c32-8beb-892e827524f5"> |  <img width="600" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/58ab9afe-1e21-4e9b-a33b-05c9baed241e">  | <img width="600" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d6df02e2-3433-4155-a415-2e881b724a41">  |
+
+
+Ahora presentaremos la señal de ECG en reposo,respiraciones y en actividad con sus respectivos filtros, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
 |                   | Señal cruda | Filtro FIR (Butterworth) | Filtro IIR (Hanning) |
 |-------------------|--------------|--------------------------|----------------------|
@@ -162,7 +167,7 @@ Ahora presentaremos la señal de ECG en reposo, con los respectivos con los resp
 
 ## **Conclusiones** <a name="id6"></a>
 ECG:
-- Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG.
+- Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG cuando la persona se encuentra en reposo. Sin embargo para el caso de las respiraciones se puede apreciar que el filtrado em ambos tipos de filtros ha dejado un poco de ruido,por lo que el utilizar este tipo de filtro IIR butterwort y el filtro FIR de ventana Hanning no es el adecuado. Para el caso de la señal ECG en actividad se aprecia que el filtrado en ambos caso fue correcto ya que se logro filtrar correcta el ruido en ambos casos, lo que nos concluye a decir que el uso de estos tipos de filtros son adecuados para señales en ECG ena actividad.
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG reposo](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al%20ECG-filtros-Reposo.ipynb)
 
