@@ -188,6 +188,13 @@ políticas y lineamientos institucionales.
 
 Evaluación en reposo
 
+
+|                   | A | B | C |
+|-------------------|--------------|--------------------------|----------------------|
+| 1    | ![Captura1](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8bc9218e-b53f-460d-b628-90cc99ada2c8) | ![Captura4R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1d02793b-ae23-429e-83fb-752561bcf392) | ![Captura5R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2274ac5e-f36c-4451-b1f6-7ae9d4b1b85b) |
+| 2    | ![Captura6R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/f758b6da-077e-4c91-a8b5-6bc5c3882614) | ![Captura7R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/12f991ec-871c-41e1-8bd4-92faf9110862) | ![Captura8R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8d689167-bf72-4a22-a078-232e81d64fa6)![Captura8R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8d689167-bf72-4a22-a078-232e81d64fa6) |
+| 3    | ![Captura9R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/63371286-03b6-4de8-a690-2eb0d4586bed) | ![Captura10R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c8bb67ea-23ef-4ec8-abb8-c59398b61af6) | ![Captura11R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8513e61f-c3ca-47f0-8991-146cd7ae379e) |
+
 Primero colocamos un análisis espectral de señales para evaluar los picos que superan la frecuencia de 60Hz
 ![Captura1](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8bc9218e-b53f-460d-b628-90cc99ada2c8)
 
@@ -202,7 +209,6 @@ Primero colocamos un análisis espectral de señales para evaluar los picos que 
 ![Captura9R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/63371286-03b6-4de8-a690-2eb0d4586bed)
 ![Captura10R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c8bb67ea-23ef-4ec8-abb8-c59398b61af6)
 ![Captura11R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8513e61f-c3ca-47f0-8991-146cd7ae379e)
-![Captura1O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2f74aea5-4807-4239-b139-023fe0f2c5ea)
 
 
 Evaluación Ojos abiertos y cerrados
