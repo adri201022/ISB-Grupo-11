@@ -209,6 +209,17 @@ Evaluación Ojos abiertos y cerrados
 
 Se sigue el mismo procedimiento anterior
 
+![Captura1O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1896704a-e3ab-4218-bf66-f79319215daf)
+![Captura2O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ab8e348c-841d-46dc-b07e-8e2cfa63ade9)
+![Captura3O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/3ca5e857-1259-46df-bd46-842dd909827d)
+![Captura4O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/d005611a-4213-4ae7-a656-b821f0e98790)
+![Captura6O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/66c9f2d4-7518-42dd-b52c-90ea35929abe)
+![Captura7O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/52897b57-dd4f-46d2-b436-230ac0eaac9a)
+![Captura8O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/998afb4b-31f8-410a-851b-fc029b53cbb9)
+![Captura9O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/10c9f799-0b1e-4735-89ad-068112002ac0)
+![Captura10O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b57ff3fe-e75d-4460-9caf-05ad09e56b50)
+![Captura11O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/01c13e0e-66b3-4421-b16b-a0b8bb7ad6a4)
+
 
 
 ## **Conclusiones** <a name="id6"></a>
