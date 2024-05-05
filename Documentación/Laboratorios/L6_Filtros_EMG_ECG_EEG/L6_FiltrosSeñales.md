@@ -141,80 +141,21 @@ A continuación se mostrará las gráficas de las señales con el uso de filtros
 
 Encontramos en la bibliografía que las frecuecnias de corte bajas es de 0.5 Hz en ambos filtros que son el FIR y IIR. Primeramente, se presentará las respuestas en frecuencias de ambos filtros.[14]
 
-#### Filtro IIR
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/42d798ea-6672-42e2-b69a-e0cdeba16af7"> 
+| Respuesta en Frecuencia | Respuesta en Frecuencia  | 
+|--------------------|---------------------------|
+| Filtro FIR         | Filtro IIR                |
+|                    |                           |
+| ![Filtro FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/799c7167-56c2-45a1-a706-a43124e90a79) | ![Filtro IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/42d798ea-6672-42e2-b69a-e0cdeba16af7) |
 
-
-#### Filtro FIR
-
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/799c7167-56c2-45a1-a706-a43124e90a79">                  
+    
 
 Ahora presentaremos la señal de ECG en reposo, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
 
-#### Señal en reposo sin filtrar
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c08a27eb-da9a-4e9d-9e4e-ef4f7f8cefda"> 
-
-#### Señal en reposo con filtrado notch
-<div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c8617495-dcee-4c32-8beb-892e827524f5">
-
-  
-#### Señal en reposo con filtrado IIR  
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7c7533ff-2cb3-4c91-9712-f8380116ebc9"> 
-
-
-#### Señal en reposo con filtrado FIR 
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a4f9c666-8bb8-4576-a2d7-b354ae2a5366">
-
-
-Ahora presentaremos la señal de ECG en respiraciones rápidas, con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
-
-#### Señal respiraciones rápidas sin filtrar
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7f5e5113-9f27-455e-bfcc-1d5087d5dd4f"> 
-
-
-#### Señal respiraciones rápidas con filtrado notch
-<div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/58ab9afe-1e21-4e9b-a33b-05c9baed241e">
-
-
-#### Señal respiraciones rápidas con filtrado IIR  
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/850d4072-b5cb-447f-ac63-2170e484ac9e"> 
-
-
-#### Señal respiraciones rápidas con filtrado FIR 
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ea9f5374-46eb-4ef2-9d4e-860d058cb945">
-
-Ahora presentaremos la señal de ECG en actividad con los respectivos con los respectivos, como mencionamos anteriormente ambas frecuencias de cortes bajas son 0.5 Hz.[14]
-
-#### Señal en actividad sin filtrar
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b6c412d4-7608-4d68-bb10-9939a64d94b6"> 
-
-
-
-#### Señal en actividad con filtrado notch
-<div align="center">
-<img width="600" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/d6df02e2-3433-4155-a415-2e881b724a41">
-
-
-
-#### Señal en actividad con filtrado IIR  
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/829afebb-9053-4700-9f12-77d4987daad1"> 
-
-
-#### Señal en actividad con filtrado FIR 
-<div align="center">
-<img width="500" height="300" src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3e8b1e95-c634-4532-93a5-7ca7810618c8">
+|                   | Señal cruda | Filtro FIR (Butterworth) | Filtro IIR (Hanning) |
+|-------------------|--------------|--------------------------|----------------------|
+| Reposo            | ![Reposo sin filtrar](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c08a27eb-da9a-4e9d-9e4e-ef4f7f8cefda) | ![Reposo FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a4f9c666-8bb8-4576-a2d7-b354ae2a5366) | ![Reposo IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7c7533ff-2cb3-4c91-9712-f8380116ebc9) |
+| Respiraciones     | ![Respiraciones sin filtrar](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7f5e5113-9f27-455e-bfcc-1d5087d5dd4f) | ![Respiraciones FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ea9f5374-46eb-4ef2-9d4e-860d058cb945) | ![Respiraciones IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/850d4072-b5cb-447f-ac63-2170e484ac9e) |
+| Actividad         | ![Actividad sin filtrar](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b6c412d4-7608-4d68-bb10-9939a64d94b6) | ![Actividad FIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3e8b1e95-c634-4532-93a5-7ca7810618c8) | ![Actividad IIR](https://github.com/adri201022/ISB-Grupo-11/assets/164541653/829afebb-9053-4700-9f12-77d4987daad1) |
 
 
 ## **Filtros de señal EEG** <a name="id5"></a>
