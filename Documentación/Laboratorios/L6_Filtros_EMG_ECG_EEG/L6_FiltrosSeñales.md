@@ -205,7 +205,9 @@ Primero colocamos un análisis espectral de señales para evaluar los picos que 
 ![Captura1O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2f74aea5-4807-4239-b139-023fe0f2c5ea)
 
 
+Evaluación Ojos abiertos y cerrados
 
+Se sigue el mismo procedimiento anterior
 
 
 
