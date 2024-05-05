@@ -178,12 +178,12 @@ En esta sección filtraremos la señal EMG utilizando filtros digitales FIR e II
 
 ## **Filtros de señal EEG** <a name="id5"></a>
 
-La información será sacada del estudio "Reconocimiento de picos epilépticos en electroencefalograma utilizando autómatas finitos deterministas" [R1] después de la grabación de todos los datos se tiene la información de las gráficas usando el Bitalino y el OPENCBI.
+La información será sacada del estudio "Reconocimiento de picos epilépticos en electroencefalograma utilizando autómatas finitos deterministas" [16] después de la grabación de todos los datos se tiene la información de las gráficas usando el Bitalino y el OPENCBI.
 
 Explicación general:
 
 Después de la grabación, se analizaron todos los datos.
-Para el preprocesado para eliminar el cambio de línea base y el pase de banda filtrado utilizando un filtro Butterworth de respuesta de impulso infinito (IIR) con un corte inferior de 0,25 Hz y un corte de 35 Hz [R1,R2]. Procedimientos experimentales completos en.Este estudio se realizó de conformidad con el "comité para el control y supervisión de experimentos con animales (CPCSEA)", India, así como con las normas internas políticas y lineamientos institucionales.
+Para el preprocesado para eliminar el cambio de línea base y el pase de banda filtrado utilizando un filtro Butterworth de respuesta de impulso infinito (IIR) con un corte inferior de 0,25 Hz y un corte de 35 Hz [17,18].
 
 Para tener un mejor orden y visualización, coloco en una tabla 9 gráficos para explicar el orden seguido en el análisis de las señales. También algunos gráficos extra que plotee para ver información adicional que podría ser relevante.
 
@@ -225,17 +225,8 @@ Evaluación de preguntas básicas y complejas
 | 8    | ![Captura6P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ab7d934b-7706-4ee5-8ed1-83524168fb1e) | ![Captura7P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/9710e956-7455-429e-bf7a-af970ef34782) | ![Captura8P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/388982db-392e-4807-a2f8-d7e8d252f66f) |
 | 9    | ![Captura9P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/17d75bd2-1d28-4baa-b90d-d4406c137c90) | ![Captura10P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/cbdbb96e-528f-4a95-a5f4-c3f89aad33d1) | ![Captura11P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ed8d62ba-2858-4b4d-8293-09b6feb328e5) |
 
-![Captura1P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1f40c239-bcb3-44e2-9328-c1c0b2d37006)
 ![Captura2P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2c74557a-5de4-4176-936c-3e432bf60563)
 ![Captura3P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5bb4d121-cea2-444f-9c07-17c998955027)
-![Captura4P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5252b2ef-1edc-49cd-8e17-6be8521be320)
-![Captura5P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/a2327e96-5a1e-4d42-8535-bfd2e4839e1d)
-![Captura6P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ab7d934b-7706-4ee5-8ed1-83524168fb1e)
-![Captura7P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/9710e956-7455-429e-bf7a-af970ef34782)
-![Captura8P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/388982db-392e-4807-a2f8-d7e8d252f66f)
-![Captura9P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/17d75bd2-1d28-4baa-b90d-d4406c137c90)
-![Captura10P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/cbdbb96e-528f-4a95-a5f4-c3f89aad33d1)
-![Captura11P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ed8d62ba-2858-4b4d-8293-09b6feb328e5)
 
 
 
@@ -245,12 +236,17 @@ EMG:
 
 ECG:
 - Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG cuando la persona se encuentra en reposo. Sin embargo para el caso de las respiraciones se puede apreciar que el filtrado em ambos tipos de filtros ha dejado un poco de ruido,por lo que el utilizar este tipo de filtro IIR butterwort y el filtro FIR de ventana Hanning no es el adecuado. Para el caso de la señal ECG en actividad se aprecia que el filtrado en ambos caso fue correcto ya que se logro filtrar correcta el ruido en ambos casos, lo que nos concluye a decir que el uso de estos tipos de filtros son adecuados para señales en ECG ena actividad.
+
+EEG:
+- Las señales deben ser pre procesadas antes del filtrado, ya que de otra forma no se podría hacer un adecuado filtrado, se deben eliminar los picos que corresponden a frecuencias mayores a 60Hz debido a que estas corresponden al ruido eléctrico. Una vez pre procesadas se les puede aplicar un filtro FIR, IIR de acuerdo a la necesidad específica y por las gráficas posteriores se ha demostrado que estos tipos de filtros son más que adecuados para el procesamiento de la data. Del artículo sacamos también un rango de frecuencias de corte para el pasa banda que va de 0.25Hz a 35Hz que por las gráficas obtenidas podemos ver que son buenos valores para emplear.
+- 
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG reposo](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al%20ECG-filtros-Reposo.ipynb)
 
 [Señal filtrada de ECG respiraciones rápidas](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al-ECG-filtros-Respiraciones.ipynb)
 
 [Señal filtrada de ECG en actividad](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al-ECG-filtros-Actividades.ipynb)
+
 ## **Referencias** <a name="id8"></a>
 [1] P. Podder, Md. Mehedi Hasan, Md. Rafiqul Islam, and M. Sayeed, “Design and Implementation of Butterworth, Chebyshev-I and Elliptic Filter for Speech Signal Analysis,” International Journal of Computer Applications, vol. 98, no. 7, 2014, doi: 10.5120/17195-7390.
 
@@ -282,4 +278,9 @@ ECG:
 
 [15] B. Gerdle, S. Karlsson, S. Day, y M. Djupsjöbacka, "Acquisition, Processing and Analysis of the Surface Electromyogram," en Modern Techniques in Neuroscience, U. Windhorst y H. Johanson, Eds. Berlin: Springer Verlag, 1999, pp. 705-755.
 
+[16] Anup Kumar, K. (2009, junio). Epileptic spike recognition in electroencephalogram using deterministic finite automata - PubMed. PubMed. https://pubmed.ncbi.nlm.nih.gov/19408450/
+
+[17] Sinha, R. K., Electroencephalogram disturbances in different sleep-wake states following exposure to high environmental heat. Med. Biol. Eng. Comput (IEE). 42:282–287, 2004.
+
+[18] Sinha, R. K., Artificial neural network detects changes in electroencephalogram power spectrum of different sleep-wake states in an animal model of heat stress. Med. Biol. Eng. Comput (IEE). 41:595–600, 2003.
 
