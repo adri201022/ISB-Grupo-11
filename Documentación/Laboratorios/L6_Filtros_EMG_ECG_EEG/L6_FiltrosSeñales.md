@@ -219,8 +219,9 @@ Ahora presentaremos la señal de ECG en actividad con los respectivos con los re
 
 ## **Filtros de señal EEG** <a name="id5"></a>
 
-## **Discusión** <a name="id6"></a>
-
+## **Conclusiones** <a name="id6"></a>
+ECG:
+- Como se logra observar en la gráfica del espectro de la señal post filtrado de notch , las señales con frecuencias de 60 HZ, que son mayormente el ruido ambiental, han sido atenuadas. Además se logra observa que tanto el filtro IIR de butterworth y el filtro IFR de ventana hanning han logrado filtrar el ruido correctamente. Lo cual nos lleva a la conclusión que ambos filtros son utiles cuando se trata de filtrar señales de ECG.
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG reposo](https://github.com/adri201022/ISB-Grupo-11/blob/b9c788a4e056b9cc217754f752c74604851d501b/Documentaci%C3%B3n/Laboratorios/L6_Filtros_EMG_ECG_EEG/Se%C3%B1al%20ECG-filtros-Reposo.ipynb)
 
