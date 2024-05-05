@@ -193,6 +193,17 @@ Primero colocamos un análisis espectral de señales para evaluar los picos que 
 
 
 ![Captura2](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2456dcc3-9801-413b-bb15-a4337a404633)
+![Captura3R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/f6524405-4833-4d63-81b9-bdb87c7cd1e1)
+![Captura4R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1d02793b-ae23-429e-83fb-752561bcf392)
+![Captura5R](https://github.com/adri201022/ISB-G![Captura6R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5f39e228-f394-4878-bc06-e4a28f7fb428)
+rupo-11/assets/42382650/2b1a60ef-227d-4e3d-b438-bc0605fa8397)
+![Captura6R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/f758b6da-077e-4c91-a8b5-6bc5c3882614)
+![Captura7R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/12f991ec-871c-41e1-8bd4-92faf9110862)
+![Captura8R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8d689167-bf72-4a22-a078-232e81d64fa6)
+![Captura9R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/63371286-03b6-4de8-a690-2eb0d4586bed)
+![Captura10R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c8bb67ea-23ef-4ec8-abb8-c59398b61af6)
+![Captura11R](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/8513e61f-c3ca-47f0-8991-146cd7ae379e)
+![Captura1O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2f74aea5-4807-4239-b139-023fe0f2c5ea)
 
 
 
