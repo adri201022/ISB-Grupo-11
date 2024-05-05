@@ -213,20 +213,17 @@ Se sigue el mismo procedimiento anterior
 | 5    | ![Captura6O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/66c9f2d4-7518-42dd-b52c-90ea35929abe) | ![Captura7O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/52897b57-dd4f-46d2-b436-230ac0eaac9a) | ![Captura8O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/998afb4b-31f8-410a-851b-fc029b53cbb9) |
 | 6    | ![Captura9O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/10c9f799-0b1e-4735-89ad-068112002ac0) | ![Captura10O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b57ff3fe-e75d-4460-9caf-05ad09e56b50) | ![Captura11O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/01c13e0e-66b3-4421-b16b-a0b8bb7ad6a4) |
 
-![Captura1O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1896704a-e3ab-4218-bf66-f79319215daf)
 ![Captura2O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ab8e348c-841d-46dc-b07e-8e2cfa63ade9)
 ![Captura3O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/3ca5e857-1259-46df-bd46-842dd909827d)
-![Captura4O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/d005611a-4213-4ae7-a656-b821f0e98790)
-![Captura5O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/3bccf473-1855-4cf6-af74-4ac950518c5b)
-![Captura6O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/66c9f2d4-7518-42dd-b52c-90ea35929abe)
-![Captura7O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/52897b57-dd4f-46d2-b436-230ac0eaac9a)
-![Captura8O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/998afb4b-31f8-410a-851b-fc029b53cbb9)
-![Captura9O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/10c9f799-0b1e-4735-89ad-068112002ac0)
-![Captura10O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b57ff3fe-e75d-4460-9caf-05ad09e56b50)
-![Captura11O](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/01c13e0e-66b3-4421-b16b-a0b8bb7ad6a4)
 
 
 Evaluación de preguntas básicas y complejas
+
+|                   | G | H | I |
+|-------------------|--------------|--------------------------|----------------------|
+| 7    | ![Captura1P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1f40c239-bcb3-44e2-9328-c1c0b2d37006) | ![Captura4P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5252b2ef-1edc-49cd-8e17-6be8521be320) | ![Captura5P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/a2327e96-5a1e-4d42-8535-bfd2e4839e1d) |
+| 8    | ![Captura6P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ab7d934b-7706-4ee5-8ed1-83524168fb1e) | ![Captura7P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/9710e956-7455-429e-bf7a-af970ef34782) | ![Captura8P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/388982db-392e-4807-a2f8-d7e8d252f66f) |
+| 9    | ![Captura9P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/17d75bd2-1d28-4baa-b90d-d4406c137c90) | ![Captura10P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/cbdbb96e-528f-4a95-a5f4-c3f89aad33d1) | ![Captura11P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/ed8d62ba-2858-4b4d-8293-09b6feb328e5) |
 
 ![Captura1P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/1f40c239-bcb3-44e2-9328-c1c0b2d37006)
 ![Captura2P](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/2c74557a-5de4-4176-936c-3e432bf60563)
