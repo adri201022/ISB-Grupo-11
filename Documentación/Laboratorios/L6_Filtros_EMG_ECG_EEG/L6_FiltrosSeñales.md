@@ -170,8 +170,6 @@ En esta sección filtraremos la señal EMG utilizando filtros digitales FIR e II
 |                    |                           |
 | ![FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8593e4e2-9cf8-478a-8825-64b70bc15625)| ![IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/f10c2c48-8d95-4b61-b80c-e59f2d8bd2e0) |
 
-Ahora presentaremos la señal de EMG en reposo, con los respectivos con los respectivos.[14]
-
 |                   | Señal cruda | Filtro FIR (Butterworth) | Filtro IIR (Hanning) |
 |-------------------|--------------|--------------------------|----------------------|
 | Reposo            | ![Reposo_sinFiltrar](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/f7cb2485-357d-473b-b0e0-2758f9dd6ac8)| ![Reposo_FIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/b13a9407-2bfa-404c-92fe-55606df2b85c)|![Reposo_IIR](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/24b29ef2-6178-4505-8d96-b4e6c4cbb884)|
@@ -237,8 +235,8 @@ ECG:
 
 [13] M. T. Thompson, “Analog Low-Pass Filters,” Intuitive Analog Circuit Design, pp. 531–583, Jan. 2014, doi: 10.1016/B978-0-12-405866-8.00014-0. 
 
-[14]
+[14] A. Sharma, C. Saxena, H. Gupta, and R. Srivastav, (PDF) denoising of ECG signals using FIR & IIR Filter: A performance analysis, https://www.researchgate.net/publication/328293842_Denoising_of_ECG_signals_using_FIR_IIR_filter_A_performance_analysis (accessed May 5, 2024). 
 
 [15] B. Gerdle, S. Karlsson, S. Day, y M. Djupsjöbacka, "Acquisition, Processing and Analysis of the Surface Electromyogram," en Modern Techniques in Neuroscience, U. Windhorst y H. Johanson, Eds. Berlin: Springer Verlag, 1999, pp. 705-755.
 
-[14] A. Sharma, C. Saxena, H. Gupta, and R. Srivastav, (PDF) denoising of ECG signals using FIR & IIR Filter: A performance analysis, https://www.researchgate.net/publication/328293842_Denoising_of_ECG_signals_using_FIR_IIR_filter_A_performance_analysis (accessed May 5, 2024). 
+
