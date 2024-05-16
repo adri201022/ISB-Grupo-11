@@ -7,7 +7,7 @@
 ### Micaela Ivy Horny Insua
 Mis concentraciones de interés son ingeniería de tejidos y biomateriales e ingeniería clínica. Me atraen porque la ingeniería de tejidos abre la puerta a la regeneración de órganos, mientras que la ingeniería clínica permite mejorar dispositivos médicos y sistemas de diagnóstico, combinando mi pasión por la ingeniería con el deseo de hacer contribuciones significativas en el campo de la salud. Como una persona comprometida, dinámica y curiosa, estoy emocionada por explorar nuevas fronteras y aplicar mi creatividad para abordar el desafío de realizar un proyecto en el área de señales biomédicas.
 <p align="center">
-<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/d1f56981-ae19-4066-be7d-04b20c380957" width="40%">
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/8bfb1407-1c09-4e98-bdcd-3e6ec0061fbb" width="40%">
  
 ### Gian Pierre Santivañez Condor
 Soy Gian Santivañez, estudiante de la carrera de Ingeniería Biomédica con enfoque en las áreas de Ingeniería Clinica y Señales e Imágenes. Mi interés radica en explorar cómo la tecnología puede ser aplicada de manera innovadora en el campo de la salud, con el objetivo de mejorar la precisión, eficiencia y accesibilidad de los tratamientos, diagnósticos y cuidados médicos. Como una persona responsable y colaborativa, estoy comprometido con aplicar mis conocimientos para contribuir positivamente al avance de la atención médica.
