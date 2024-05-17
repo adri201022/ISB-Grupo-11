@@ -111,7 +111,14 @@ Para el experimento se tomaron 3 señales correspondientes a las ondas cerebrale
 #### Eliminación del ruido
 Una vez adquiridas las señales toca mejorar la calidad de estas, para ello vamos a eliminar los ruidos no deseados, implementando filtros digitales. Se aplicará directamente el filtro wavelet para seguir un poco la idea de trabajo del artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [R1] esto porque según se mencionó en clase podemos preprocesar la señal aplicando los filtros FIR e IIR antes de aplicar el filtro wavelet con el fin de mejorar la calidad del análisis wavelet.
 Dentro del artículo se determina un umbral para las señales EEG sin procesar que se aplica a los coeficientes wavelet (dmey, db8, db6, db4) el dmey es (discrete meyer) y es para un tipo de wavelet en este caso discreta [R1] Para nuestro caso, solo plotearemos a 8 decibeles esto para no hacer demasiado extenso el análisis en este inciso.
+
 ### Resultados
+
+|                   | Señal cruda | Señal filtrada con wavelet |  
+|-------------------|--------------------------|----------------------|
+| Referencia    | ![Waveletseñalcrudareferencia](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/75e681b4-1b2a-4a44-bd2e-c634170bc2cf) | ![Waveletseñalfiltradareferencia](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/3ab64f9d-2b91-4ae5-a6bc-664045c74363) | 
+| Ojos abiertos y cerrados    | ![Waveletseñalcrudaojosabiertoscerrados](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c0f5dd3d-20c1-4970-8970-ed1612001f87)| ![Waveletseñalfiltradaojosabiertoscerrados](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/601f01b2-99fb-413a-9ded-4b3d682fa847)|
+| Preguntas    | ![Waveletseñalpreguntas](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/78894c96-beee-4e85-8394-3ac4f2aa496b) | ![Waveletseñalfiltradapreguntas](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5bab9619-23da-4a98-b97c-d965367e11e8) | 
 
 ## **Discusión** <a name="id6"></a>
 ### Señal ECG
