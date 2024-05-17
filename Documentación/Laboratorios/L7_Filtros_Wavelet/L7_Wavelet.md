@@ -102,6 +102,11 @@ Los distintos tipos de filtros wavelet presentan características específicas q
 ### Metodología
 
 ### Resultados
+|                   | Señal cruda | Señal filtrada con wavelet |  
+|-------------------|--------------------------|----------------------|
+| Reposo    |![Reposo_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/374da051-bfe5-4c33-9e16-48d6135762e9)|![Reposo_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8e9ae4ae-acc5-41bb-b3de-903cf46b1b7b)| 
+| Sin oposición    |![SinOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/6361b873-86f2-4439-852f-19778fc0b784)|![SinOposicion_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/63f6e494-1d79-4943-af7d-886dc1185e12)|
+| Con oposición    |![ConOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/07141158-f89a-4a74-bbb9-537867d94da7)|![ConOposicion_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274aa6ce-dc24-4d1a-a683-26b01902be16)|
 
 ## **Filtro de señal EEG** <a name="id5"></a>
 ### Metodología
