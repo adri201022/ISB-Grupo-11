@@ -58,7 +58,7 @@ Los filtros wavelet son cruciales para implementar la transformada wavelet discr
 #### Filtros de un Nivel
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="100" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/fd71421b-b92e-4775-87c0-140a4a5799e3">
+  <img width="400" height="200" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/fd71421b-b92e-4775-87c0-140a4a5799e3">
   <br>
   <span style="font-style: italic;">Figura 5: Diagrama de descomposición de filtros de un nivel .</span>
 </div>
@@ -67,7 +67,7 @@ Los filtros wavelet son cruciales para implementar la transformada wavelet discr
 Para realizar una descomposición multinivel, el proceso de filtrado se itera, aplicando los mismos filtros a las señales resultantes de cada etapa sucesiva. Este proceso continúa hasta alcanzar el nivel de precisión deseado. La descomposición multinivel, también conocida como árbol de descomposición wavelet, divide la señal original en diferentes bandas de frecuencia a múltiples niveles.
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="100" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/802a55b4-c968-4fa5-bd01-56cdf91d8912">
+  <img width="400" height="200" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/802a55b4-c968-4fa5-bd01-56cdf91d8912">
   <br>
   <span style="font-style: italic;">Figura 6: Árbol de descomposición wavelet .</span>
 </div>
@@ -82,7 +82,7 @@ La reconstrucción wavelet, o transformada inversa de wavelet, permite recuperar
 Los distintos tipos de filtros wavelet presentan características específicas que los hacen adecuados para diferentes aplicaciones. El Haar wavelet es simple y fácil de implementar, aunque no muy suave. Las wavelets Daubechies están diseñadas para maximizar la suavidad para una longitud dada, ofreciendo mejor localización en frecuencia y mayor suavidad que el Haar. Los Symlets, similares a las Daubechies pero con mejor simetría, combinan simetría y suavidad, mejorando las propiedades de reconstrucción. Los Coiflets, diseñados con momentos de la primera derivada nulos, proporcionan una mejor representación de señales polinomiales. Finalmente, las Meyer wavelets, aunque no son compactamente soportadas, son infinitamente diferenciables y ofrecen una buena localización en frecuencia.
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="100" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/75ca92d4-94fb-4111-92d9-4d7da4cb7258">
+  <img width="450" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/75ca92d4-94fb-4111-92d9-4d7da4cb7258">
   <br>
   <span style="font-style: italic;">Figura 8: Distintas familias wavelet .</span>
 </div>
