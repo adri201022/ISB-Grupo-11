@@ -21,23 +21,32 @@
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
+  <li>Desarrollar filtros wavelet para el procesamiento y mejora de la calidad de las señales electrocardiográficas (ECG), electromiográficas (EMG) y electroencefalográficas (EEG).</li>
+  <li>Analizar la efectividad de los filtros wavelet en la reducción de ruido y la extracción de características clave en las señales ECG, EMG y EEG.</li>
 </ul>
 
 ## **Filtro de señal ECG** <a name="id3"></a>
+### Metodología
 
+### Resultados
 
 ## **Filtro de señal EMG** <a name="id4"></a>
+### Metodología
 
+### Resultados
 
 ## **Filtro de señal EEG** <a name="id5"></a>
+### Metodología
 
+### Resultados
 
 ## **Discusión** <a name="id6"></a>
+### Señal ECG
 
-- 
+### Señal EMG
+
+### Señal EEG
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 
