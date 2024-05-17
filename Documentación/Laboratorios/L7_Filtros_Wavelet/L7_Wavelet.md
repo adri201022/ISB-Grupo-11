@@ -29,16 +29,28 @@ La transformada wavelet se ha convertido en una herramienta esencial para el an�
 Esto se realiza utilizando una función denominada wavelet madre, que es una pequeña onda de duración limitada con características matemáticas específicas, como tener una media de cero y estar normalizada. La wavelet madre se escala (mediante el factor de escala (a) y se desplaza (mediante el factor de traslación (b) para crear una familia de wavelets utilizadas en el análisis de la señal.
 
 <div align="center";style="text-align:center;">
-  <img width="400" height="400" src="">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/fb8f2e6f-5706-4de9-9184-1dc6999edb80">
   <br>
-  <span style="font-style: italic;">Figura 2:  .</span>
+  <span style="font-style: italic;">Figura 2: Ecuación que define la función wavelet madre .</span>
 </div>
 
 ### Transformada Wavelet Continua
 La CWT proporciona una representación redundante y detallada de la señal, aunque a costa de un mayor requerimiento de almacenamiento y computación. Matemáticamente, la CWT de una señal f(t) se define como la convolución de f(t) con la wavelet madre escalada y trasladada, generando un espectro tiempo-frecuencia continuo donde cada par de parámetros (a,b) ofrece información sobre la presencia de la wavelet en esa escala y posición.
 
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/d59141ae-4333-49bd-8e2b-9c98cf42272d">
+  <br>
+  <span style="font-style: italic;">Figura 3: Ecuación que define la transformada wavelet continua .</span>
+</div>
+
 ### Transformada Wavelet Discreta
 La DWT es más eficiente computacionalmente y se usa ampliamente en aplicaciones prácticas como la compresión de imágenes. Utiliza un conjunto discreto de escalas y posiciones, típicamente en potencias de dos (escalas diádicas). La DWT descompone la señal en diferentes niveles de resolución mediante un proceso iterativo de filtrado y submuestreo, utilizando filtros de paso alto y paso bajo derivados de la wavelet madre.
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/ff9295d5-ddc2-4b68-81bb-dc3c5bf0adb8">
+  <br>
+  <span style="font-style: italic;">Figura 4: Ecuación que define la transformada wavelet discreta .</span>
+</div>
 
 ### Filtros Wavelet
 Los filtros wavelet son cruciales para implementar la transformada wavelet discreta (DWT) y desempeñan un papel esencial en la descomposición y reconstrucción de señales en el dominio wavelet. Estos filtros incluyen filtros de paso bajo y paso alto, que se utilizan para separar una señal en sus componentes de baja y alta frecuencia, respectivamente.
