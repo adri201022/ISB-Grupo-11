@@ -18,7 +18,21 @@
 
 ## **Introducción** <a name="id1"></a>
 ### Transformada Wavelet
-La transformada wavelet se ha convertido en una herramienta esencial para el análisis de señales, destacándose por su capacidad para trabajar tanto en el dominio del tiempo como en el de la frecuencia. Esto es especialmente útil para el análisis de señales no estacionarias, como las obtenidas en electrocardiografía (ECG), electromiografía (EMG) y electroencefalografía (EEG). La transformada wavelet es un método matemático que descompone una señal en componentes de diversas frecuencias y duraciones. Esto se realiza utilizando una función denominada wavelet madre, que es una pequeña onda de duración limitada con características matemáticas específicas, como tener una media de cero y estar normalizada. La wavelet madre se escala (mediante el factor de escala (a)) y se desplaza (mediante el factor de traslación (b) para crear una familia de wavelets utilizadas en el análisis de la señal.
+La transformada wavelet se ha convertido en una herramienta esencial para el análisis de señales, destacándose por su capacidad para trabajar tanto en el dominio del tiempo como en el de la frecuencia. Esto es especialmente útil para el análisis de señales no estacionarias, como las obtenidas en electrocardiografía (ECG), electromiografía (EMG) y electroencefalografía (EEG). La transformada wavelet es un método matemático que descompone una señal en componentes de diversas frecuencias y duraciones. 
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/0576b869-7ba0-4630-916b-ce740c519dec">
+  <br>
+  <span style="font-style: italic;">Figura 1: Esquema de la Transformada Wavelet .</span>
+</div>
+
+Esto se realiza utilizando una función denominada wavelet madre, que es una pequeña onda de duración limitada con características matemáticas específicas, como tener una media de cero y estar normalizada. La wavelet madre se escala (mediante el factor de escala (a) y se desplaza (mediante el factor de traslación (b) para crear una familia de wavelets utilizadas en el análisis de la señal.
+
+<div align="center";style="text-align:center;">
+  <img width="400" height="400" src="">
+  <br>
+  <span style="font-style: italic;">Figura 2:  .</span>
+</div>
 
 ### Transformada Wavelet Continua
 La CWT proporciona una representación redundante y detallada de la señal, aunque a costa de un mayor requerimiento de almacenamiento y computación. Matemáticamente, la CWT de una señal f(t) se define como la convolución de f(t) con la wavelet madre escalada y trasladada, generando un espectro tiempo-frecuencia continuo donde cada par de parámetros (a,b) ofrece información sobre la presencia de la wavelet en esa escala y posición.
