@@ -95,7 +95,9 @@ Los distintos tipos de filtros wavelet presentan características específicas q
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 ### Metodología
-Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución. Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.[6]
+Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución de 1024. 
+
+Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.[6]
 
 <p align="center"> <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/adf62692-08b4-4475-a381-625ef277b10a">
 <p align="center"> <small>Figura extraida de [6].</small> </p>
@@ -150,7 +152,7 @@ La disminución de la señal y la perdida de la forma en ciertos sectores de la 
 ### Señal EEG
 
 ## **Archivos de códigos** <a name="id7"></a>
-[Código en python de ECG](Documentación/Laboratorios/L7_Filtros_Wavelet/Código_ECG.py)
+[Código en python de ECG]([Documentación/Laboratorios/L7_Filtros_Wavelet/Código_ECG.py](https://github.com/adri201022/ISB-Grupo-11/blob/44d36a0c8504d3f1684fdf5b1c51707ec1fd504d/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py))
 
 ## **Referencias** <a name="id8"></a>
 
