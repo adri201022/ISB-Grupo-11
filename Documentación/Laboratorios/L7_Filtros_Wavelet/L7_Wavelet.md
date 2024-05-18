@@ -133,7 +133,7 @@ Dentro del artículo se determina un umbral para las señales EEG sin procesar q
 ### Resultados
 
 |                   | Señal cruda | Señal filtrada con wavelet |  
-|-------------------|--------------------------|----------------------|
+|-------------------|----------------------------|------------------------|
 | Referencia    | ![Waveletseñalcrudareferencia](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/75e681b4-1b2a-4a44-bd2e-c634170bc2cf) | ![Waveletseñalfiltradareferencia](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/3ab64f9d-2b91-4ae5-a6bc-664045c74363) | 
 | Ojos abiertos y cerrados    | ![Waveletseñalcrudaojosabiertoscerrados](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/c0f5dd3d-20c1-4970-8970-ed1612001f87)| ![Waveletseñalfiltradaojosabiertoscerrados](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/601f01b2-99fb-413a-9ded-4b3d682fa847)|
 | Preguntas    | ![Waveletseñalpreguntas](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/78894c96-beee-4e85-8394-3ac4f2aa496b) | ![Waveletseñalfiltradapreguntas](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/5bab9619-23da-4a98-b97c-d965367e11e8) | 
@@ -173,4 +173,8 @@ La reducción en la eficacia del filtrado wavelet y la falta de diferencias nota
 
 [5] J. Castanedo, "Aplicación de la transformada wavelet en la caracterización de señales eléctricas". Accessed May 17, 2024. [Online]. Available: https://addi.ehu.es/bitstream/handle/10810/29202/Memoria.pdf
 [6] M.Alfaouri y K.Daqrouq,"ECG Signal Denoising by Wavelet Transform Thresholding",American Journal of Applied Sciences,vol. 5, no. 3,pp. 276-281, 2008
+
+[R1] M.Al-kadi (2013, 2 de febrero). Effectiveness of Wavelet Denoising on Electroencephalogram Signals. Science Direct. https://www.sciencedirect.com/science/article/pii/S1665642313715244
+
+[R2] Grobbelaar, M. (2022, 22 de julio). A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform. MDPI. https://www.mdpi.com/2624-6120/3/3/35
 ‌
