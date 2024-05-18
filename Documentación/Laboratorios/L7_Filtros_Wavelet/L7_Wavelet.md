@@ -152,7 +152,7 @@ La disminución de la señal y la perdida de la forma en ciertos sectores de la 
 ### Señal EEG
 
 ## **Archivos de códigos** <a name="id7"></a>
-[Código en python de ECG]([Documentación/Laboratorios/L7_Filtros_Wavelet/Código_ECG.py](https://github.com/adri201022/ISB-Grupo-11/blob/44d36a0c8504d3f1684fdf5b1c51707ec1fd504d/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py))
+[Señal filtrada de ECG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/7caa18f4cc3dd7cca9a34894013ee3a05a5de28a/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py)
 
 ## **Referencias** <a name="id8"></a>
 
