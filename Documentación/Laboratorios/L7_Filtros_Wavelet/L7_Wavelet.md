@@ -167,7 +167,9 @@ La reducción en la eficacia del filtrado wavelet y la falta de diferencias nota
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/7caa18f4cc3dd7cca9a34894013ee3a05a5de28a/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py)
 
-[Señal filtrada de EMG con transformada wavelet]
+[Señal filtrada de EMG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L7_Filtros_Wavelet/Wavelet_EMG.ipynb)
+
+[Señal filtrada de EEG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L7_Filtros_Wavelet/Waveleteeg.py)
 
 ## **Referencias** <a name="id8"></a>
 
