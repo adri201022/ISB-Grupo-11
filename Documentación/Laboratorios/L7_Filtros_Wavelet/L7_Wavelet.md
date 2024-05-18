@@ -95,10 +95,10 @@ Los distintos tipos de filtros wavelet presentan características específicas q
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 ### Metodología
-Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución. Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.
+Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución. Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.[6]
 
 <p align="center"> <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/adf62692-08b4-4475-a381-625ef277b10a">
-<p align="center"> <small>Figura extraida de [3].</small> </p>
+<p align="center"> <small>Figura extraida de [6].</small> </p>
 
 
 ### Resultados
@@ -139,15 +139,18 @@ Dentro del artículo se determina un umbral para las señales EEG sin procesar q
 ## **Discusión** <a name="id6"></a>
 ### Señal ECG
 Para el caso de la señal de ECG en reposo, se puede observar que el filtrado de la señal con la transformada de wavelet fue relativamente correcta ya que no se observa ruido, sin embargo se puede observar que la amplitud de la señal ha disminiudo considerablemente y que en ciertos sectores ha perdido su forma como en la parte de curvas, ya no es asi sino que es es recto en la señal filtrada.
-Para el caso de la señal de ECG en respiraciones rápidas, se puede observar tambien que el filtrado de la señal fue relativamente correcta, pero también tiene el mimsmo problema que en la señal de reposo, el cual es que la amplitud de la señal disminuyo y en ciertos punto perdio su forma
+
+Para el caso de la señal de ECG en respiraciones rápidas, se puede observar tambien que el filtrado de la señal fue relativamente correcta, pero también tiene el mimsmo problema que en la señal de reposo, el cual es que la amplitud de la señal disminuyo y en ciertos punto perdio su forma.
+
 En el caso de la señal de ECG  en actividad , se logra ver que hubo un filtrado excesivo, ya que su amplitud ha disminuido considerablemente y al forma de la onda si bien en ciertas partes se parece a la señal sin filtrar hay otras partes que no.
+
 La disminución de la señal y la perdida de la forma en ciertos sectores de la seañ filtrada, se pueden deber a los parametros escogidos, ya que los parametros del estudios fueron escogidos en base a la señal de ECG que ellos teniam y en nuestro caso como nuestra señal no es la misma puede que es estos parametros hagan que haya un filtrafo excesivo.
 ### Señal EMG
 
 ### Señal EEG
 
 ## **Archivos de códigos** <a name="id7"></a>
-
+[Código en python de ECG](Documentación/Laboratorios/L7_Filtros_Wavelet/Código_ECG.py)
 
 ## **Referencias** <a name="id8"></a>
 
@@ -160,4 +163,5 @@ La disminución de la señal y la perdida de la forma en ciertos sectores de la 
 [4] P. S. Addison, The Illustrated Wavelet Transform Handbook: Introductory Theory and Applications in Science, Engineering, Medicine and Finance, SECOND EDITION. 2017. doi: 10.1201/9781315372556.
 
 [5] J. Castanedo, "Aplicación de la transformada wavelet en la caracterización de señales eléctricas". Accessed May 17, 2024. [Online]. Available: https://addi.ehu.es/bitstream/handle/10810/29202/Memoria.pdf
+[6] M.Alfaouri y K.Daqrouq,"ECG Signal Denoising by Wavelet Transform Thresholding",American Journal of Applied Sciences,vol. 5, no. 3,pp. 276-281, 2008
 ‌
