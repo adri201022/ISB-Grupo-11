@@ -97,7 +97,8 @@ Los distintos tipos de filtros wavelet presentan características específicas q
 ### Metodología
 Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución. Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.
 
-<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/adf62692-08b4-4475-a381-625ef277b10a" align="center">
+<p align="center"> <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/adf62692-08b4-4475-a381-625ef277b10a">
+<p align="center"> <small>Figura extraida de [3].</small> </p>
 
 
 ### Resultados
