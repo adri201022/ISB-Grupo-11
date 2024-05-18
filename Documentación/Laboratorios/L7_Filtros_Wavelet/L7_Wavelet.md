@@ -95,8 +95,18 @@ Los distintos tipos de filtros wavelet presentan características específicas q
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 ### Metodología
+Las señales de ECG se pasaron a mV, para eso utilizamos la fórmula que nos proporciona el Bitalino, el cual relaciona el ADC que es la señal, el vcc que es 300 mV, Gecg que es 1000, y la resolución. Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet. Para esta parte hemos utilizado un journal el cual nos indica que para el caso de ECG utilizaron un nivel de 5 y un Daubechies wavelet (db4), y para el caso del umbral el mismo journal nos proporciona la fórmula para calcular este umbral.
+
+<img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/adf62692-08b4-4475-a381-625ef277b10a" align="center">
+
 
 ### Resultados
+
+|                   | Señal cruda | Señal filtrada con wavelet |  
+|-------------------|--------------------------|----------------------|
+| Reposo    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/61a444d5-e960-427b-9a69-093bf6bafe0e" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ea1409ee-a1d5-468a-87cf-776910d18521" width="350" height="200"> | 
+| Respiraciones rápidas  | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/708368f7-47bf-46ed-ab72-27a2d9ea9ac9" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/faf7df34-b2f0-4097-982c-f79620ced73d" width="350" height="200"> |
+| Actividad    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/63a9e5e4-9ff5-45e2-b387-1a518741e32a" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/dd379093-293c-41b6-ab2b-c3c96ee4dc38" width="350" height="200"> |
 
 ## **Filtro de señal EMG** <a name="id4"></a>
 ### Metodología
@@ -127,7 +137,10 @@ Dentro del artículo se determina un umbral para las señales EEG sin procesar q
 
 ## **Discusión** <a name="id6"></a>
 ### Señal ECG
-
+Para el caso de la señal de ECG en reposo, se puede observar que el filtrado de la señal con la transformada de wavelet fue relativamente correcta ya que no se observa ruido, sin embargo se puede observar que la amplitud de la señal ha disminiudo considerablemente y que en ciertos sectores ha perdido su forma como en la parte de curvas, ya no es asi sino que es es recto en la señal filtrada.
+Para el caso de la señal de ECG en respiraciones rápidas, se puede observar tambien que el filtrado de la señal fue relativamente correcta, pero también tiene el mimsmo problema que en la señal de reposo, el cual es que la amplitud de la señal disminuyo y en ciertos punto perdio su forma
+En el caso de la señal de ECG  en actividad , se logra ver que hubo un filtrado excesivo, ya que su amplitud ha disminuido considerablemente y al forma de la onda si bien en ciertas partes se parece a la señal sin filtrar hay otras partes que no.
+La disminución de la señal y la perdida de la forma en ciertos sectores de la seañ filtrada, se pueden deber a los parametros escogidos, ya que los parametros del estudios fueron escogidos en base a la señal de ECG que ellos teniam y en nuestro caso como nuestra señal no es la misma puede que es estos parametros hagan que haya un filtrafo excesivo.
 ### Señal EMG
 
 ### Señal EEG
