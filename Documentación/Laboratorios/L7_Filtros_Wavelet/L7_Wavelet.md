@@ -150,6 +150,13 @@ La disminución de la señal y la perdida de la forma en ciertos sectores de la 
 ### Señal EMG
 
 ### Señal EEG
+Para el caso de la señal EEG en reposo, se puede observar que no se ha obtenido casi ninguna diferencia entre la señal original y la señal filtrada con la transformada wavelet db8. Esto sugiere que el filtrado no fue tan efectivo como se esperaba, probablemente debido a la falta de pretratamiento de la señal. La ausencia de una etapa previa de filtrado FIR o IIR podría haber disminuido la eficacia del filtro wavelet en la eliminación de ruido [R1].
+
+En la señal EEG obtenida durante la actividad de abrir y cerrar los ojos, la situación es similar. El filtrado con wavelet db8 no mostró una mejora significativa en la calidad de la señal, con mínimas diferencias observables entre la señal cruda y la señal filtrada. Esto refuerza la idea de que un pretratamiento adecuado es crucial para maximizar la efectividad del filtrado wavelet. La implementación de filtros digitales FIR o IIR antes de aplicar el wavelet podría haber mejorado considerablemente los resultados tan como lo menciona el artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [R1].
+
+En el caso de la señal EEG durante la actividad de responder preguntas, el filtrado nuevamente no logró una mejora considerable. La señal filtrada con wavelet no difiere significativamente de la señal original, indicando una eliminación de ruido ineficaz. Esto puede deberse a que los parámetros del filtro wavelet no fueron optimizados para estas condiciones específicas (fs=1000 Hz), y la falta de un pretratamiento adecuado de la señal influyó negativamente en el desempeño del filtrado wavelet [R1].
+
+La reducción en la eficacia del filtrado wavelet y la falta de diferencias notables entre las señales originales y filtradas podrían estar relacionadas con la ausencia de pretratamiento de las señales EEG. Como se ha señalado en estudios previos, no existe un método de eliminación de ruido que combine alta precisión con eficiencia algorítmica en todas las situaciones [R2]. Los métodos basados en wavelets, aunque precisos, requieren una adecuada preparación de las señales para ser realmente efectivos. La implementación de un pretratamiento mediante filtros FIR o IIR antes del filtrado wavelet es crucial para asegurar una eliminación de ruido más eficaz y mantener la integridad de la señal original.
 
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/7caa18f4cc3dd7cca9a34894013ee3a05a5de28a/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py)
