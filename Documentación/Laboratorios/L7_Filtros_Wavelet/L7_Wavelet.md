@@ -114,12 +114,16 @@ Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet.
 ## **Filtro de señal EMG** <a name="id4"></a>
 ### Metodología
 
+Anteriormente obtuvimos señales EMG durante 3 casos: reposo, sin oposición y con oposición. Para obtener las señales utilizamos un BITalino con una frecuencia de muestreo de 1 kHz y con el uso de electrodos de superficie ubicados en el brazo derecho del sujeto de prueba. Además, se adapto la amplitud de la señal, ya que para EMG de superficie los valores de voltaje van desde 0 a 10 mV. [7]
+
+Aplicaremos un filtro wavelet de la familia Daubechies-6 (db6) con 4 niveles de descomposición, debido a que tiene una gran eficacia para eliminar el ruido presente en la señal. Además, se utilizó un umbral de 0.109 para el filtrado de la señal, con el fin de evitar la pérdida de información importante de la señal EMG. Dicho umbral se aplicó a los coeficientes de descomposición de la wavelet con el fin de eliminar el ruido. [8]
+
 ### Resultados
 |                   | Señal cruda | Señal filtrada con wavelet |  
 |-------------------|--------------------------|----------------------|
-| Reposo    |![Reposo_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/374da051-bfe5-4c33-9e16-48d6135762e9)|![Reposo_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8e9ae4ae-acc5-41bb-b3de-903cf46b1b7b)| 
-| Sin oposición    |![SinOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/6361b873-86f2-4439-852f-19778fc0b784)|![SinOposicion_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/63f6e494-1d79-4943-af7d-886dc1185e12)|
-| Con oposición    |![ConOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/07141158-f89a-4a74-bbb9-537867d94da7)|![ConOposicion_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/274aa6ce-dc24-4d1a-a683-26b01902be16)|
+| Reposo    |![Reposo_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/8cb29c60-a699-4f0d-93c0-64e8da719939)|![Reposo_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/9a62c233-1cac-467d-a97d-220dd37cf4a3)| 
+| Sin oposición    |![SinOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e55f35d9-34ca-4a09-b783-5a3bf4699bd4)|![SinOposicion_filtrado](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/e8a2e99c-f37c-4200-909e-39fa8b942c7e)|
+| Con oposición    |![ConOposicion_original](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/80d0b297-0091-4607-b00b-06adc0678acd)|![ConOposicion_filtrada](https://github.com/adri201022/ISB-Grupo-11/assets/100977549/23212594-5f5a-410d-a4d0-b533e9ff536c)|
 
 ## **Filtro de señal EEG** <a name="id5"></a>
 ### Metodología
@@ -127,8 +131,8 @@ Posteriormente a eso realizamos nuestro filtrado con la transformada de Wavelet.
 Para el experimento se tomaron 3 señales correspondientes a las ondas cerebrales durante 3 estímuloss distintos: Una de referencia o reposo, una abriendo y cerrando los ojos y una respondiendo preguntas. Para esto las señales EEG registradas se muestrearon a una frecuencia de 1000 Hz, utilizando al bitalino y también utilizando el sistema de electrodos 10 20; esto aplicando un método monopolar con dos electrodos posicionados en una región cerebral específica más un electrodo de referencia. Para la conversión de las señales a milivoltios, se utilizó una ecuación que considera un voltaje de referencia (VCC) de 3.3V y una resolución de 10 bits, permitiendo una cuantificación precisa de la señal EEG. 
 
 #### Eliminación del ruido
-Una vez adquiridas las señales toca mejorar la calidad de estas, para ello vamos a eliminar los ruidos no deseados, implementando filtros digitales. Se aplicará directamente el filtro wavelet para seguir un poco la idea de trabajo del artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [R1] esto porque según se mencionó en clase podemos preprocesar la señal aplicando los filtros FIR e IIR antes de aplicar el filtro wavelet con el fin de mejorar la calidad del análisis wavelet.
-Dentro del artículo se determina un umbral para las señales EEG sin procesar que se aplica a los coeficientes wavelet (dmey, db8, db6, db4) el dmey es (discrete meyer) y es para un tipo de wavelet en este caso discreta [R1] Para nuestro caso, solo plotearemos a 8 decibeles esto para no hacer demasiado extenso el análisis en este inciso.
+Una vez adquiridas las señales toca mejorar la calidad de estas, para ello vamos a eliminar los ruidos no deseados, implementando filtros digitales. Se aplicará directamente el filtro wavelet para seguir un poco la idea de trabajo del artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [9] esto porque según se mencionó en clase podemos preprocesar la señal aplicando los filtros FIR e IIR antes de aplicar el filtro wavelet con el fin de mejorar la calidad del análisis wavelet.
+Dentro del artículo se determina un umbral para las señales EEG sin procesar que se aplica a los coeficientes wavelet (dmey, db8, db6, db4) el dmey es (discrete meyer) y es para un tipo de wavelet en este caso discreta [9] Para nuestro caso, solo plotearemos a 8 decibeles esto para no hacer demasiado extenso el análisis en este inciso.
 
 ### Resultados
 
@@ -147,19 +151,23 @@ Para el caso de la señal de ECG en respiraciones rápidas, se puede observar ta
 En el caso de la señal de ECG  en actividad , se logra ver que hubo un filtrado excesivo, ya que su amplitud ha disminuido considerablemente y al forma de la onda si bien en ciertas partes se parece a la señal sin filtrar hay otras partes que no.
 
 La disminución de la señal y la perdida de la forma en ciertos sectores de la seañ filtrada, se pueden deber a los parametros escogidos, ya que los parametros del estudios fueron escogidos en base a la señal de ECG que ellos teniam y en nuestro caso como nuestra señal no es la misma puede que es estos parametros hagan que haya un filtrafo excesivo.
+
 ### Señal EMG
+Las gráficas de las señales filtradas muestran una clara reducción del ruido de alta frecuencia, la aplicación del umbral permitió una atenuación del ruido manteniendo la información importante de la señal original, como los picos y la forma general que representa la actividad muscular que se está realizando en cada caso. Con ello se demuestra la efectividad de la transformada de wavelet, ya que permite preservar la estructura de la señal y brinda una mejora en su presentación, con lo que se facilitaría el análisis de la señal EMG. 
 
 ### Señal EEG
-Para el caso de la señal EEG en reposo, se puede observar que no se ha obtenido casi ninguna diferencia entre la señal original y la señal filtrada con la transformada wavelet db8. Esto sugiere que el filtrado no fue tan efectivo como se esperaba, probablemente debido a la falta de pretratamiento de la señal. La ausencia de una etapa previa de filtrado FIR o IIR podría haber disminuido la eficacia del filtro wavelet en la eliminación de ruido [R1].
+Para el caso de la señal EEG en reposo, se puede observar que no se ha obtenido casi ninguna diferencia entre la señal original y la señal filtrada con la transformada wavelet db8. Esto sugiere que el filtrado no fue tan efectivo como se esperaba, probablemente debido a la falta de pretratamiento de la señal. La ausencia de una etapa previa de filtrado FIR o IIR podría haber disminuido la eficacia del filtro wavelet en la eliminación de ruido [9].
 
-En la señal EEG obtenida durante la actividad de abrir y cerrar los ojos, la situación es similar. El filtrado con wavelet db8 no mostró una mejora significativa en la calidad de la señal, con mínimas diferencias observables entre la señal cruda y la señal filtrada. Esto refuerza la idea de que un pretratamiento adecuado es crucial para maximizar la efectividad del filtrado wavelet. La implementación de filtros digitales FIR o IIR antes de aplicar el wavelet podría haber mejorado considerablemente los resultados tan como lo menciona el artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [R1].
+En la señal EEG obtenida durante la actividad de abrir y cerrar los ojos, la situación es similar. El filtrado con wavelet db8 no mostró una mejora significativa en la calidad de la señal, con mínimas diferencias observables entre la señal cruda y la señal filtrada. Esto refuerza la idea de que un pretratamiento adecuado es crucial para maximizar la efectividad del filtrado wavelet. La implementación de filtros digitales FIR o IIR antes de aplicar el wavelet podría haber mejorado considerablemente los resultados tan como lo menciona el artículo "Effectiveness of Wavelet Denoising on Electroencephalogram Signals" [9].
 
-En el caso de la señal EEG durante la actividad de responder preguntas, el filtrado nuevamente no logró una mejora considerable. La señal filtrada con wavelet no difiere significativamente de la señal original, indicando una eliminación de ruido ineficaz. Esto puede deberse a que los parámetros del filtro wavelet no fueron optimizados para estas condiciones específicas (fs=1000 Hz), y la falta de un pretratamiento adecuado de la señal influyó negativamente en el desempeño del filtrado wavelet [R1].
+En el caso de la señal EEG durante la actividad de responder preguntas, el filtrado nuevamente no logró una mejora considerable. La señal filtrada con wavelet no difiere significativamente de la señal original, indicando una eliminación de ruido ineficaz. Esto puede deberse a que los parámetros del filtro wavelet no fueron optimizados para estas condiciones específicas (fs=1000 Hz), y la falta de un pretratamiento adecuado de la señal influyó negativamente en el desempeño del filtrado wavelet [9].
 
-La reducción en la eficacia del filtrado wavelet y la falta de diferencias notables entre las señales originales y filtradas podrían estar relacionadas con la ausencia de pretratamiento de las señales EEG. Como se ha señalado en estudios previos, no existe un método de eliminación de ruido que combine alta precisión con eficiencia algorítmica en todas las situaciones [R2]. Los métodos basados en wavelets, aunque precisos, requieren una adecuada preparación de las señales para ser realmente efectivos. La implementación de un pretratamiento mediante filtros FIR o IIR antes del filtrado wavelet es crucial para asegurar una eliminación de ruido más eficaz y mantener la integridad de la señal original.
+La reducción en la eficacia del filtrado wavelet y la falta de diferencias notables entre las señales originales y filtradas podrían estar relacionadas con la ausencia de pretratamiento de las señales EEG. Como se ha señalado en estudios previos, no existe un método de eliminación de ruido que combine alta precisión con eficiencia algorítmica en todas las situaciones [10]. Los métodos basados en wavelets, aunque precisos, requieren una adecuada preparación de las señales para ser realmente efectivos. La implementación de un pretratamiento mediante filtros FIR o IIR antes del filtrado wavelet es crucial para asegurar una eliminación de ruido más eficaz y mantener la integridad de la señal original.
 
 ## **Archivos de códigos** <a name="id7"></a>
 [Señal filtrada de ECG con transformada wavelet](https://github.com/adri201022/ISB-Grupo-11/blob/7caa18f4cc3dd7cca9a34894013ee3a05a5de28a/Documentaci%C3%B3n/Laboratorios/L7_Filtros_Wavelet/C%C3%B3digo_ECG.py)
+
+[Señal filtrada de EMG con transformada wavelet]
 
 ## **Referencias** <a name="id8"></a>
 
@@ -174,7 +182,11 @@ La reducción en la eficacia del filtrado wavelet y la falta de diferencias nota
 [5] J. Castanedo, "Aplicación de la transformada wavelet en la caracterización de señales eléctricas". Accessed May 17, 2024. [Online]. Available: https://addi.ehu.es/bitstream/handle/10810/29202/Memoria.pdf
 [6] M.Alfaouri y K.Daqrouq,"ECG Signal Denoising by Wavelet Transform Thresholding",American Journal of Applied Sciences,vol. 5, no. 3,pp. 276-281, 2008
 
-[R1] M.Al-kadi (2013, 2 de febrero). Effectiveness of Wavelet Denoising on Electroencephalogram Signals. Science Direct. https://www.sciencedirect.com/science/article/pii/S1665642313715244
+[7] N. Nazmi, M. A. A. Rahman, S.-I. Yamamoto, S. A. Ahmad, H. Zamzuri, y S. A. Mazlan, «A Review of Classification Techniques of EMG Signals during Isotonic and Isometric Contractions», Sensors, vol. 16, n.o 8, p. 1304, ago. 2016, doi: 10.3390/s16081304. Disponible en: https://doi.org/10.3390/s16081304
 
-[R2] Grobbelaar, M. (2022, 22 de julio). A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform. MDPI. https://www.mdpi.com/2624-6120/3/3/35
+[8] N. Sobahi, «Denoising of EMG signals based on Wavelet Transform», ResearchGate, Enero de 2011. Disponible en: https://www.researchgate.net/publication/267957236_Denoising_of_EMG_Signals_Based_on_Wavelet_Transform. [Accedido: 17 de mayo de 2024]
+
+[9] M.Al-kadi (2013, 2 de febrero). Effectiveness of Wavelet Denoising on Electroencephalogram Signals. Science Direct. https://www.sciencedirect.com/science/article/pii/S1665642313715244
+
+[10] Grobbelaar, M. (2022, 22 de julio). A Survey on Denoising Techniques of Electroencephalogram Signals Using Wavelet Transform. MDPI. https://www.mdpi.com/2624-6120/3/3/35
 ‌
