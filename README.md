@@ -35,23 +35,10 @@ Se abordan varios aspectos importantes relacionados con el manejo de datos estru
 
 ## 3. Temática del proyecto
 
-**Planteamiento de la problemática**
+# Análisis electromiográfico (EMG) para identificar lesiones del ligamento cruzado anterior (LCA) en deportistas
 
-La distrofia muscular de Duchenne (DMD) es una enfermedad neuromuscular degenerativa de origen genético, que está caracterizada por la debilitación de los músculos y la pérdida progresiva del andar. Esta enfermedad afecta a los niños, ya que los síntomas principales aparecen entres los 2 a 3 años. Los cuales son los siguientes:
+El proyecto se enfoca en utilizar análisis electromiográfico para investigar los patrones de activación muscular en deportistas, tanto sanos como lesionados, con el objetivo de identificar marcadores específicos y factores de riesgo neuromusculares asociados con lesiones del ligamento cruzado anterior (LCA). Al comparar estos patrones entre diferentes grupos de deportistas, especialmente teniendo en cuenta las diferencias de sexo y edad, la investigación pretende proporcionar una base sólida para el desarrollo futuro de estrategias de prevención personalizadas y programas de rehabilitación optimizados. Estos hallazgos no solo avanzarán en el conocimiento científico sobre las lesiones del LCA, sino que también podrán guiar a profesionales de la salud, entrenadores y fisioterapeutas en la creación de intervenciones más efectivas y específicas para reducir la incidencia de estas lesiones y mejorar la calidad de vida de los atletas.
 
- * Caídas frecuentes
- * Dificultad para levantarse
- * Saltar
- * Subir escaleras
- * Sn algunos casos, trastornos del lenguaje.
-
-En la actualidad no se cuenta con una cura absoluta para la enfermedad, pero existen terapias que pueden ralentizar la progresión de la enfermedad. Esta afecta a uno de cada 3800- 6300 varones nacidos. Además, que su prevalencia mundial es de 1 por cada 20 000 varones. A nivel nacional, no se cuenta con datos estadísticos sobre la prevalencia de la enfermedad; sin embargo, de acuerdo con la asociación Duchenne parent Project Perú, existen entre 3000 a 4000 personas que padecen de DMD.[4]
-
-Los pacientes con distrofia muscular de Duchene en Perú enfrentan desafíos significativos en su proceso de rehabilitación debido a la falta de recursos médicos especializados. Las terapias físicas convencionales pueden ser limitadas en su capacidad para monitorear y evaluar la función muscular de manera precisa, lo que dificulta el diseño de programas de rehabilitación personalizados y efectivos para cada paciente. Además, la ausencia de una cura definitiva agrega una capa adicional de dificultad para quienes padecen esta enfermedad.
-
-**Propuesta de solución**
-
-Para abordar esta problemática, proponemos integrar tecnología EMG (electromiografía) en sesiones de terapia física para pacientes con distrofia muscular de Duchene en Perú. La electromiografía (EMG) es un método diagnóstico empleado para examinar la condición de los músculos y las células nerviosas que los regulan, llamadas neuronas motoras. Se plantea diseñar un prototipo de dispositivo EMG. Este prototipo debería ser compacto, fácil de usar y adecuado para las necesidades específicas de los pacientes con distrofia muscular de Duchene en Perú. Durante las sesiones de terapia física, se registrarían las señales EMG mientras los pacientes realizan ejercicios específicos. Los datos EMG se mostrarían en tiempo real a los terapeutas y pacientes, lo que les permitiría ajustar la técnica de los ejercicios para maximizar la activación muscular y optimizar la rehabilitación. La implementación de esta solución no solo permitirá una rehabilitación más efectiva, sino que también proporcionará una herramienta precisa para la evaluación del progreso del tratamiento a lo largo del tiempo [5]
 
 ## 4. Participantes
 ### Adrian Alberto Gutierrez Gonzales
@@ -97,6 +84,4 @@ Buenas soy Rodrigo Gonzales, estudiante de 4to año de la carrera de ingeniería
 
 [3]De La Cruz Rodríguez, U. L. (2024). Sílabo del curso "Introducción a Señales Biomédicas". Universidad Peruana Cayetano Heredia.
 
-[4] I. Badía  and E. P. Oros , “Distrofia muscular de Duchenne. Artículo monográfico.,” ▷ RSI - Revista Sanitaria de Investigación, https://revistasanitariadeinvestigacion.com/distrofia-muscular-de-duchenne-articulo-monografico/#google_vignette (accessed Apr. 3, 2024). 
 
-[5] “Electromiografía - Mayo Clinic,” Mayoclinic.org, 2019. https://www.mayoclinic.org/es/tests-procedures/emg/about/pac-20393913#:~:text=La%20electromiograf%C3%ADa%20(EMG)%20es%20un,los%20controlan%20(neuronas%20motoras). (accessed Apr. 03, 2024).
