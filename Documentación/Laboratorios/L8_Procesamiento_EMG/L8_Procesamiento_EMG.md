@@ -11,7 +11,7 @@
 2. [Objetivos](#id2)
 3. [Filtro de señal EMG](#id3)
 4. [Segmentación de señal EMG](#id4)
-5. [Características de señal EMG](#id5)
+5. [Extracción de características de señal EMG](#id5)
 6. [Discusión](#id6)
 7. [Archivos de códigos](#id7)
 8. [Referencias](#id8)
