@@ -25,29 +25,43 @@ A continuación se presentan las principales etapas implicadas en la adquisició
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/7191d6fc-8021-49a1-8340-25c3bfa453b3">
 </p>
-<p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3]</b> </p>
+<p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3].</b> </p>
 
 ### Procesamiento de señal EMG
-El procesamiento de señales EMG es esencial para interpretar adecuadamente la actividad muscular registrada. Este proceso involucra varias etapas clave: adquisición, filtrado, rectificación, normalización, segmentación y extracción de características. A continuación, se describen cada una de estas etapas.
+El procesamiento de señales EMG es esencial para interpretar adecuadamente la actividad muscular registrada. Este proceso involucra varias etapas clave: adquisición, filtrado, rectificación, normalización, segmentación y extracción de características. A continuación, se describen cada una de estas etapas [4].
 
 1. Adquisión
+
 2. Filtrado
+  
 3. Rectificación
+
 4. Normalización
+
 5. Segmentación
+
 6. Extracción de características
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
-  <li>1</li>
-  <li>2</li>
+  <li>Detallar cada etapa involucrada en la captura y análisis de señales electromiográficas para comprender su funcionamiento y aplicación práctica.</li>
+  <li>Analizar críticamente las técnicas empleadas en el preprocesamiento de señales EMG, evaluando su capacidad para reducir el ruido, mejorar la calidad de la señal y facilitar la extracción de información relevante.</li>
 </ul>
 
 ## **Filtro de señal EMG** <a name="id3"></a>
+### Metodología
+
+### Resultados
 
 ## **Segmentación de señal EMG** <a name="id4"></a>
+### Metodología
+
+### Resultados
 
 ## **Extracción de características de señal EMG** <a name="id5"></a>
+### Metodología
+
+### Resultados
 
 ## **Discusión** <a name="id6"></a>
 
@@ -59,3 +73,5 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 [2]Y. Wu, X. Hu, Z. Wang, J. Wen, J. Kan, y W. Li, «Exploration of Feature Extraction Methods and Dimension for sEMG Signal Classification», Applied Sciences, vol. 9, n.o 24, p. 5343, dic. 2019, doi: 10.3390/app9245343.
 
 [3]J. J. G. Murillo, A. Ilzarbe, y S. Osuna, «Procesado de señales EMG en Trastornos Neuromusculares», 2013, doi: 10.13140/2.1.4902.9445.
+
+[4]A. M. Moslhi, H. H. Aly, y M. ElMessiery, «The Impact of Feature Extraction on Classification Accuracy Examined by Employing a Signal Transformer to Classify Hand Gestures Using Surface Electromyography Signals», Sensors, vol. 24, n.o 4, p. 1259, feb. 2024, doi: 10.3390/s24041259.
