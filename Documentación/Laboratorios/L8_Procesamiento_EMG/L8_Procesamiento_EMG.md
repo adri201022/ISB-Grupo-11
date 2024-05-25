@@ -28,7 +28,7 @@
 
 ## **Segmentación de señal EMG** <a name="id4"></a>
 
-## **Características de señal EMG** <a name="id5"></a>
+## **Extracción de características de señal EMG** <a name="id5"></a>
 
 ## **Discusión** <a name="id6"></a>
 
