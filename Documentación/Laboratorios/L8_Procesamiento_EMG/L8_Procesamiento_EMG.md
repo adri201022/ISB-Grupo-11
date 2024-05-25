@@ -17,6 +17,18 @@
 8. [Referencias](#id8)
 
 ## **Introducción** <a name="id1"></a>
+### Electromiografía
+La electromiografía (EMG) se refiere a la señal eléctrica generada colectivamente por los músculos, la cual es controlada por el sistema nervioso y se produce durante la contracción muscular. Esta señal refleja las propiedades anatómicas y fisiológicas de los músculos. Específicamente, una señal EMG captura la actividad eléctrica de las unidades motoras de un músculo, que pueden ser registradas de dos maneras: EMG de superficie y EMG intramuscular. La EMG de superficie (sEMG) y la EMG intramuscular (iEMG) se obtienen mediante electrodos no invasivos y electrodos invasivos, respectivamente. Actualmente, se prefiere el uso de señales detectadas en la superficie para obtener información sobre el tiempo o la intensidad de la activación muscular superficial [1]. La señal EMG es una señal aleatoria no estacionaria que usualmente requiere la reducción de ruido y la amplificación de la señal para su adecuado análisis [2].
+
+A continuación se presentan las principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG registradas a partir de una fibra muscular [3]:
+
+<p align="center">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/7191d6fc-8021-49a1-8340-25c3bfa453b3">
+</p>
+<p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3]</b> </p>
+
+
+
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
@@ -35,3 +47,8 @@
 ## **Archivos de códigos** <a name="id7"></a>
 
 ## **Referencias** <a name="id8"></a>
+[1]R. Chowdhury, M. Reaz, M. Ali, A. Bakar, K. Chellappan, y T. Chang, «Surface Electromyography Signal Processing and Classification Techniques», Sensors, vol. 13, n.o 9, pp. 12431-12466, sep. 2013, doi: 10.3390/s130912431.
+
+[2]Y. Wu, X. Hu, Z. Wang, J. Wen, J. Kan, y W. Li, «Exploration of Feature Extraction Methods and Dimension for sEMG Signal Classification», Applied Sciences, vol. 9, n.o 24, p. 5343, dic. 2019, doi: 10.3390/app9245343.
+
+[3]J. J. G. Murillo, A. Ilzarbe, y S. Osuna, «Procesado de señales EMG en Trastornos Neuromusculares», 2013, doi: 10.13140/2.1.4902.9445.
