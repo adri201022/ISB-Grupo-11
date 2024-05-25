@@ -27,8 +27,15 @@ A continuación se presentan las principales etapas implicadas en la adquisició
 </p>
 <p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3]</b> </p>
 
+### Procesamiento de señal EMG
+El procesamiento de señales EMG es esencial para interpretar adecuadamente la actividad muscular registrada. Este proceso involucra varias etapas clave: adquisición, filtrado, rectificación, normalización, segmentación y extracción de características. A continuación, se describen cada una de estas etapas.
 
-
+1. Adquisión
+2. Filtrado
+3. Rectificación
+4. Normalización
+5. Segmentación
+6. Extracción de características
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
