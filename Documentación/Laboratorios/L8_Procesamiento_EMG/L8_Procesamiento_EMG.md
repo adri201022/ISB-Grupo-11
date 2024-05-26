@@ -77,6 +77,14 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 
 ## **Discusión** <a name="id6"></a>
 
+- Curtosis:
+La curtosis es una medida estadística que evalúa la puntualidad de una distribución de datos, donde una alta curtosis indica una distribución con colas pesadas y un pico agudo. Un estudio indica que, durante las contracciones musculares se observan picos en la curtosis debido a la variabilidad en la activación de las unidades motoras, los cuales reflejan una alta concentración de valores extremos en la señal EMG, lo cual se relaciona con los movimientos musculares bruscos o espasmos. [a] Entonces, el valor de curtosis es de 20.12 debido a que la señal EMG contiene contracciones y estos se representan como picos pronunciados en la actividad muscular registrada.
+
+[a] S. A. Ahmad y P. H. Chappell, «Surface EMG pattern analysis of the wrist muscles at different speeds of contraction», Journal Of Medical Engineering & Technology, vol. 33, n.o 5, pp. 376-385, ene. 2009, doi: 10.1080/03091900802491246. Disponible en: https://pubmed.ncbi.nlm.nih.gov/19440916/
+
+- Entropía:
+El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de variaciones y cambios en la señal EMG, debido a la actividad muscular durante las contracciones. La entropía es una medida estadística que cuantifica la incertidumbre o impredecibilidad de una señal. Esta se calcula en función de la distribución de los valores de amplitud de la señal y su capacidad para predecir el valor de la siguiente medida. Esto puede estar asociado a patrones de activación muscular irregulares, que son comunes en condiciones de fatiga muscular o en presencia de trastornos neuromusculares, donde la señal EMG tiende a mostrar una mayor variabilidad debido a la desorganización en la activación de las unidades motoras. [3]
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 ## **Referencias** <a name="id8"></a>
