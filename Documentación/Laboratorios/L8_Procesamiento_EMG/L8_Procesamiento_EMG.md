@@ -35,10 +35,11 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 4. **Rectificación**
 La rectificación de onda completa implica cambiar todas las amplitudes negativas a positivas, lo que permite calcular parámetros esenciales de la señal, como la media, el pico y el área bajo la curva. Estos parámetros son cruciales para realizar otros análisis matemáticos, ya que contienen la información más relevante sobre la actividad de las unidades motoras durante un período de tiempo determinado [3].
 5. **Normalización**
-
+Los valores absolutos de amplitud de EMG pueden no ser precisos debido a varios factores, como la presencia de grasa subcutánea, la impedancia de la piel y la posición de los electrodos, entre otros aspectos, que pueden variar entre mediciones de diferentes músculos o individuos en un estudio [3]. Se lleva a cabo la normalización de las señales EMG como medida para contrarrestar esta variabilidad, convirtiendo los valores de actividad eléctrica en porcentajes de la actividad muscular durante una contracción de referencia. Esto implica dividir las señales sEMG recolectadas por un valor de referencia sEMG bajo condiciones idénticas, lo que simplifica las comparaciones entre sujetos y mejora la eficiencia del análisis computacional [4].
 6. **Segmentación**
-
+La segmentación divide los datos de señales sEMG en segmentos para extraer características. Se busca un equilibrio entre la precisión de la extracción de características y la reducción de los retrasos computacionales. El tamaño óptimo de la ventana varía según la aplicación específica, con investigaciones que sugieren diferentes valores para el control de prótesis. Se utilizan dos métodos principales para segmentar las señales sEMG: el método de ventanas adyacentes y el método de ventanas superpuestas. Mientras que el primero divide los datos en segmentos no superpuestos, dejando inactivo el procesador entre segmentos, el segundo implica solapamiento entre segmentos y permite la extracción de características adicionales, demostrando una mayor precisión en la clasificación [4].
 7. **Extracción de características**
+Aunque es posible entrenar clasificadores utilizando señales crudas preprocesadas, por lo general se obtiene una mayor precisión al extraer características de estas señales antes de entrenar el modelo. La extracción de características no solo mejora el rendimiento de los clasificadores, sino que también reduce la dimensionalidad, lo que simplifica el procesamiento y la clasificación posteriores. Estas características se dividen en tres categorías: características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio tiempo-frecuencia [4].
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
