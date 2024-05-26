@@ -61,20 +61,37 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 </ul>
 
 ## **Filtro de señal EMG** <a name="id3"></a>
-### Metodología
-
+Para el caso del filtrado de la señal, hemos escogido la señal la cual presentaba una oposición para poder tener picos bien definidos. En el caso del filtrado hemos utilizado dos tipos de filtros uno es el notch y el otro es un pasabanda. Hemos utilizado el filtro notch para poder eliminar el ruido ambiental, que es aproximadamente a 60 Hz y hemos utilizo un filtro pasabanda con un fc_low= 20 Hz y un fc_high=400, ya que debemos eliminar las oscilaciones rápidas de la señal de origen técnico. A continuación presentaremos las gráficas de las señales con sus respectivos filtros además de la respuesta en frecuencia de las gráficas para mostrar que el filtro ha logrado eliminar las frecuencias no deseadas.[3]
 ### Resultados
-
-## **Segmentación de señal EMG** <a name="id4"></a>
-### Metodología
-
-### Resultados
+|                   | Señal | Respuesta en  frequencia |  
+|-------------------|--------------------------|----------------------|
+| Señal cruda    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ef91bed1-011b-444b-bff5-77acae76aa8d" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/4f3845cf-7639-4ac5-a81a-a08a98a1aab5" width="350" height="200"> | 
+| Filtro notch  | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c94d5df9-9062-4728-8237-bcdf9078ca4b" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/06181381-9d51-4890-b385-506ab3f75c26" width="350" height="200"> |
+| Filtro pasabanda    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/6600f7ba-d789-48d8-89c7-807fb4c003f9" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/46f269f2-a7af-439b-a3c1-0a438a5c97a0" width="350" height="200"> |
 
 ## **Extracción de características de señal EMG** <a name="id5"></a>
-### Metodología
-
 ### Resultados
 
+#### Detección de contracciones
+<p align="center">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/bc088114-cf54-4e96-877a-70396813e2cc" width="500" height="350">
+</p>
+
+#### Detección de señales de activación
+
+<p align="center">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/3c251644-3ac1-4faf-931a-e448fd1d5179" width="500" height="350">
+</p>
+Los parámetros que hemos obtenido son los siguiente:
+
+  * Maximum EMG (mV): 1.4675550416135534
+  * Minimum EMG (mV): -1.58931173663445
+  * Average EMG (mV): 8.74087570491112e-08
+  * Standard Deviation EMG :  0.13173288644172418
+  * RMS EMG: 0.13173288644175318
+  * Median Frequency : 66.40625
+  * Kurtosis de la señal: 20.120428088525248
+  * Entropía de la señal: 4.024323098738408
 ## **Discusión** <a name="id6"></a>
 
 - Curtosis:
