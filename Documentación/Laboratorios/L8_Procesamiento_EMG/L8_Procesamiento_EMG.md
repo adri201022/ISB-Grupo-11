@@ -98,7 +98,7 @@ Los parámetros que hemos obtenido son los siguiente:
   * Entropía de la señal: 4.024323098738408
 ## **Discusión** <a name="id6"></a>
 
--Relación señal rudio (RNS)
+- Relación señal rudio (RNS):
 
 La relación señal-ruido (SNR) es una medida de la calidad de una señal que compara el nivel de la señal deseada con el nivel del ruido de fondo. Una alta SNR indica una señal más limpia y de mejor calidad. Según el estudio "Techniques of EMG signal analysis: detection, processing, classification and applications," una SNR más alta sugiere que la señal de activación muscular es más clara y fuerte, lo que refleja una mejor calidad en la adquisición de datos EMG. Para justificar la calidad de las señales EMG, se pueden calcular las SNR y compararlas: una SNR más alta en condiciones de contracción muscular indica una señal más robusta y menos ruidosa [6]. Por ejemplo, si la señal de contracción con oposición muestra una SNR de 30 dB frente a 20 dB en contracción sin oposición, esto indica una mejor calidad de la señal en la primera [6].
 
@@ -112,7 +112,7 @@ Contracción con Oposición: Generalmente muestra la SNR más alta debido al aum
 Evaluación de Calidad:
 Una SNR más alta generalmente indica una señal de mayor calidad. Es importante considerar la estabilidad de la SNR a lo largo de la duración de la señal, ya que grandes fluctuaciones pueden indicar inconsistencias [6].
 
--RMS
+- RMS:
 
 El RMS (Root Mean Square) es una medida de la magnitud efectiva de una señal, proporcionando una indicación del poder de la señal. Según "Delsys," el análisis de amplitud RMS utiliza una ventana móvil para calcular el RMS de las señales EMG, lo que facilita la evaluación de la potencia de la señal en diferentes condiciones [7]. Una señal EMG con un valor RMS más alto durante contracciones musculares indica una mayor actividad muscular y una señal más potente. Al comparar las señales EMG en reposo, sin oposición y con oposición, se puede observar que una mayor RMS en condiciones de contracción con oposición sugiere una señal más robusta y de mejor calidad. Por ejemplo, si la señal EMG de contracción con oposición muestra un RMS significativamente mayor que las otras, esto indica una mayor fuerza y consistencia en la señal registrada [7].
 
