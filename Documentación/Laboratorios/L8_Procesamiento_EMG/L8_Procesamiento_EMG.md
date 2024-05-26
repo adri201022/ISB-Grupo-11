@@ -41,11 +41,13 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/440691dc-7937-454d-a6c6-a2fac1acc688">
 </p>
 <p align="center"><b>Tabla 1: Nueve métodos diferentes de extracción de características en el dominio temporal basados en datos de sensores de vibración [5].</b> </p>
+
 >6.2. *Características en el Dominio de la Frecuencia*: A diferencia de las características en el dominio temporal, estas características no se obtienen directamente de los datos crudos, sino aplicando la transformada de Fourier a la señal. Incluyen la densidad espectral de potencia de la señal (PSD) [4].
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/67cfb364-7c8a-489e-aa3c-ba40547d4353">
 </p>
 <p align="center"><b>Tabla 2: Métodos diferentes de extracción de características en el dominio de frecuencia [4].</b> </p>
+
 >6.3. *Características en el Dominio Tiempo-Frecuencia (TFD)*: Estas características combinan información temporal y frecuencial, permitiendo observar diferentes componentes de frecuencia en distintos momentos. Son útiles para capturar componentes de frecuencia específicos que podrían no ser detectados por métodos tradicionales. Se emplean diversos métodos, como la transformada continua y discreta de wavelets, para descomponer las señales, cada uno con sus propias ventajas. La transformada de wavelets es especialmente eficaz debido a su capacidad para adaptarse a diversas formas de onda [4].
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/6cc86bae-8ab4-4c44-b8d4-7b4cbafe6088">
