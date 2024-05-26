@@ -38,7 +38,7 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 6. **Extracción de características**: Aunque es posible entrenar clasificadores utilizando señales crudas preprocesadas, por lo general se obtiene una mayor precisión al extraer características de estas señales antes de entrenar el modelo. La extracción de características no solo mejora el rendimiento de los clasificadores, sino que también reduce la dimensionalidad, lo que simplifica el procesamiento y la clasificación posteriores. Estas características se dividen en tres categorías: características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio tiempo-frecuencia [4].
 >6.1. *Características en el dominio temporal*: Estas características se analizan observando cómo varía la amplitud de la señal a lo largo del tiempo, lo que elimina la necesidad de realizar más transformaciones y aprovecha su simplicidad y bajo costo computacional [4].
 <p align="center">
-  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/440691dc-7937-454d-a6c6-a2fac1acc688">
+  <img width="600" height="400" src="https://github.com/adri201022/ISB-Grupo-11/assets/164538327/440691dc-7937-454d-a6c6-a2fac1acc688">
 </p>
 <p align="center"><b>Tabla 1: Nueve métodos diferentes de extracción de características en el dominio temporal basados en datos de sensores de vibración [5].</b> </p>
 
