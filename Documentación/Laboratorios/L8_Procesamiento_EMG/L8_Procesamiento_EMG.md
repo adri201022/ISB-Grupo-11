@@ -108,6 +108,7 @@ Se deben comparar las SNR obtenidas de cada señal:
 Señal en Reposo: Debe tener la SNR más baja, ya que la señal es mínima y el ruido es más evidente.
 Contracción sin Oposición: Se espera una SNR moderada debido a la actividad muscular.
 Contracción con Oposición: Generalmente muestra la SNR más alta debido al aumento del esfuerzo muscular que genera una señal más fuerte en comparación con el ruido [6].
+
 Evaluación de Calidad:
 Una SNR más alta generalmente indica una señal de mayor calidad. Es importante considerar la estabilidad de la SNR a lo largo de la duración de la señal, ya que grandes fluctuaciones pueden indicar inconsistencias [6].
 
@@ -121,16 +122,38 @@ Se deben comparar los valores RMS obtenidos de cada señal:
 Señal en Reposo: Debe tener el valor RMS más bajo, ya que hay una mínima activación muscular.
 Contracción sin Oposición: Se esperan valores RMS moderados debido a la actividad muscular.
 Contracción con Oposición: Generalmente muestra los valores RMS más altos debido al aumento del esfuerzo muscular contra la resistencia [7].
+
 Evaluación de Calidad:
 Un valor RMS más alto generalmente indica una contracción muscular más fuerte y estable. Sin embargo, también es esencial considerar la consistencia y estabilidad de los valores RMS a lo largo de la duración de la señal. Grandes fluctuaciones podrían indicar ruido o inconsistencias [7].
 
 - Curtosis:
   
-La curtosis es una medida estadística que evalúa la puntualidad de una distribución de datos, donde una alta curtosis indica una distribución con colas pesadas y un pico agudo. Un estudio indica que, durante las contracciones musculares se observan picos en la curtosis debido a la variabilidad en la activación de las unidades motoras, los cuales reflejan una alta concentración de valores extremos en la señal EMG, lo cual se relaciona con los movimientos musculares bruscos o espasmos. [8] Entonces, el valor de curtosis es de 20.12 debido a que la señal EMG contiene contracciones y estos se representan como picos pronunciados en la actividad muscular registrada.
+La curtosis es una medida estadística que evalúa la puntualidad de una distribución de datos, donde una alta curtosis indica una distribución con colas pesadas y un pico agudo. Un estudio indica que, durante las contracciones musculares se observan picos en la curtosis debido a la variabilidad en la activación de las unidades motoras, los cuales reflejan una alta concentración de valores extremos en la señal EMG, lo cual se relaciona con los movimientos musculares bruscos o espasmos. [8] Entonces, el valor de curtosis es de 20.12 debido a que la señal EMG contiene contracciones y estos se representan como picos pronunciados en la actividad muscular registrada [8].
+
+Comparación de los Valores de Curtosis:
+Se deben comparar los valores de curtosis obtenidos de cada señal:
+
+Señal en Reposo: Debe tener la curtosis más baja, ya que se espera una actividad mínima y una distribución más uniforme.
+Contracción sin Oposición: Se esperan valores de curtosis moderados debido a la activación muscular.
+Contracción con Oposición: Generalmente muestra los valores de curtosis más altos debido a la intensa actividad muscular, reflejando picos pronunciados en la señal EMG [8].
+
+Evaluación de Calidad:
+Un valor de curtosis más alto puede indicar una señal más detallada y con mayor cantidad de picos asociados a la actividad muscular. Es esencial evaluar la estabilidad de estos valores a lo largo de la duración de la señal para asegurar la consistencia y calidad de los datos registrados [8].
 
 - Entropía:
   
 El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de variaciones y cambios en la señal EMG, debido a la actividad muscular durante las contracciones. La entropía es una medida estadística que cuantifica la incertidumbre o impredecibilidad de una señal. Esta se calcula en función de la distribución de los valores de amplitud de la señal y su capacidad para predecir el valor de la siguiente medida. Esto puede estar asociado a patrones de activación muscular irregulares, que son comunes en condiciones de fatiga muscular o en presencia de trastornos neuromusculares, donde la señal EMG tiende a mostrar una mayor variabilidad debido a la desorganización en la activación de las unidades motoras. [3]
+
+Comparación de los Valores de Entropía:
+Se deben comparar los valores de entropía obtenidos de cada señal:
+
+Señal en Reposo: Debe tener la entropía más baja, indicando una señal más predecible y menos variaciones.
+Contracción sin Oposición: Se esperan valores de entropía moderados debido a la actividad muscular.
+Contracción con Oposición: Generalmente muestra los valores de entropía más altos debido al aumento de la actividad muscular y la variabilidad en la señal [3].
+
+Evaluación de Calidad:
+Un valor de entropía más alto generalmente indica una señal con mayor variabilidad y complejidad, lo que puede reflejar una activación muscular más dinámica. Es importante evaluar la estabilidad de los valores de entropía a lo largo de la duración de la señal para asegurar la consistencia y calidad de los datos registrados [3].
+El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de variaciones y cambios en la señal EMG, debido a la actividad muscular durante las contracciones [3].
 
 ## **Archivos de códigos** <a name="id7"></a>
 [Tratamiento de señal  EMG con en colab](https://github.com/adri201022/ISB-Grupo-11/blob/e9d8c968b1b8d78ac6a85327db33cc323e768762/Documentaci%C3%B3n/Laboratorios/L8_Procesamiento_EMG/tratamiento_de_senal_emg.ipynb)
