@@ -33,7 +33,7 @@ El procesamiento de señales EMG es esencial para interpretar adecuadamente la a
 1. **Adquisión**: A pesar de la naturaleza no estacionaria de las señales sEMG, se pueden detectar con electrodos de superficie. Estos electrodos se clasifican según su tipo y densidad. Es crucial que el sensor sEMG cumpla con el teorema de Nyquist-Shannon, con una frecuencia de muestreo mayor a 1000 Hz para garantizar la precisión en la captura de señales [4].
 2. **Filtrado**: Las señales EMG captadas suelen estar afectadas por ruido y artefactos originados por diversas fuentes, como el movimiento de los         electrodos, la actividad eléctrica de otros músculos (crosstalk) y la interferencia ambiental. Para mitigar estas interferencias y        mejorar la calidad de la señal, se recurre al filtrado. En algunos estudios, se emplearon tanto un filtro pasa banda como un filtro notch para extraer las señales sEMG, mientras que otros recomendaron el uso de un filtro Butterworth con parámetros específicos [4].
 4. **Rectificación**
-
+La rectificación de onda completa implica cambiar todas las amplitudes negativas a positivas, lo que permite calcular parámetros esenciales de la señal, como la media, el pico y el área bajo la curva. Estos parámetros son cruciales para realizar otros análisis matemáticos, ya que contienen la información más relevante sobre la actividad de las unidades motoras durante un período de tiempo determinado [3].
 5. **Normalización**
 
 6. **Segmentación**
