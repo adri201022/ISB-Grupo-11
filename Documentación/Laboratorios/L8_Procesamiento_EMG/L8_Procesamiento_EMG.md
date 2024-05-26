@@ -68,6 +68,10 @@ Para el caso del filtrado de la señal, hemos escogido la señal la cual present
 | Señal cruda    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/ef91bed1-011b-444b-bff5-77acae76aa8d" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/4f3845cf-7639-4ac5-a81a-a08a98a1aab5" width="350" height="200"> | 
 | Filtro notch  | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c94d5df9-9062-4728-8237-bcdf9078ca4b" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/06181381-9d51-4890-b385-506ab3f75c26" width="350" height="200"> |
 | Filtro pasabanda    | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/6600f7ba-d789-48d8-89c7-807fb4c003f9" width="350" height="200"> | <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/46f269f2-a7af-439b-a3c1-0a438a5c97a0" width="350" height="200"> |
+### RNS
+<p align="center">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/fdc93a1c-e234-46de-8087-ba143d7ff5b7" width="500" height="350">
+</p>
 
 ## **Extracción de características de señal EMG** <a name="id5"></a>
 ### Resultados
@@ -103,6 +107,7 @@ La curtosis es una medida estadística que evalúa la puntualidad de una distrib
 El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de variaciones y cambios en la señal EMG, debido a la actividad muscular durante las contracciones. La entropía es una medida estadística que cuantifica la incertidumbre o impredecibilidad de una señal. Esta se calcula en función de la distribución de los valores de amplitud de la señal y su capacidad para predecir el valor de la siguiente medida. Esto puede estar asociado a patrones de activación muscular irregulares, que son comunes en condiciones de fatiga muscular o en presencia de trastornos neuromusculares, donde la señal EMG tiende a mostrar una mayor variabilidad debido a la desorganización en la activación de las unidades motoras. [3]
 
 ## **Archivos de códigos** <a name="id7"></a>
+[Tratamiento de señal  EMG con en colab](https://github.com/adri201022/ISB-Grupo-11/blob/e9d8c968b1b8d78ac6a85327db33cc323e768762/Documentaci%C3%B3n/Laboratorios/L8_Procesamiento_EMG/tratamiento_de_senal_emg.ipynb)
 
 ## **Referencias** <a name="id8"></a>
 [1]R. Chowdhury, M. Reaz, M. Ali, A. Bakar, K. Chellappan, y T. Chang, «Surface Electromyography Signal Processing and Classification Techniques», Sensors, vol. 13, n.o 9, pp. 12431-12466, sep. 2013, doi: 10.3390/s130912431.
