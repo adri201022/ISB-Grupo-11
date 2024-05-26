@@ -98,12 +98,38 @@ Los parámetros que hemos obtenido son los siguiente:
   * Entropía de la señal: 4.024323098738408
 ## **Discusión** <a name="id6"></a>
 
-- Curtosis:
-La curtosis es una medida estadística que evalúa la puntualidad de una distribución de datos, donde una alta curtosis indica una distribución con colas pesadas y un pico agudo. Un estudio indica que, durante las contracciones musculares se observan picos en la curtosis debido a la variabilidad en la activación de las unidades motoras, los cuales reflejan una alta concentración de valores extremos en la señal EMG, lo cual se relaciona con los movimientos musculares bruscos o espasmos. [a] Entonces, el valor de curtosis es de 20.12 debido a que la señal EMG contiene contracciones y estos se representan como picos pronunciados en la actividad muscular registrada.
+-Relación señal rudio (RNS)
 
-[a] S. A. Ahmad y P. H. Chappell, «Surface EMG pattern analysis of the wrist muscles at different speeds of contraction», Journal Of Medical Engineering & Technology, vol. 33, n.o 5, pp. 376-385, ene. 2009, doi: 10.1080/03091900802491246. Disponible en: https://pubmed.ncbi.nlm.nih.gov/19440916/
+La relación señal-ruido (SNR) es una medida de la calidad de una señal que compara el nivel de la señal deseada con el nivel del ruido de fondo. Una alta SNR indica una señal más limpia y de mejor calidad. Según el estudio "Techniques of EMG signal analysis: detection, processing, classification and applications," una SNR más alta sugiere que la señal de activación muscular es más clara y fuerte, lo que refleja una mejor calidad en la adquisición de datos EMG. Para justificar la calidad de las señales EMG, se pueden calcular las SNR y compararlas: una SNR más alta en condiciones de contracción muscular indica una señal más robusta y menos ruidosa [6]. Por ejemplo, si la señal de contracción con oposición muestra una SNR de 30 dB frente a 20 dB en contracción sin oposición, esto indica una mejor calidad de la señal en la primera [6].
+
+Comparación de las SNR:
+Se deben comparar las SNR obtenidas de cada señal:
+
+Señal en Reposo: Debe tener la SNR más baja, ya que la señal es mínima y el ruido es más evidente.
+Contracción sin Oposición: Se espera una SNR moderada debido a la actividad muscular.
+Contracción con Oposición: Generalmente muestra la SNR más alta debido al aumento del esfuerzo muscular que genera una señal más fuerte en comparación con el ruido [6].
+Evaluación de Calidad:
+Una SNR más alta generalmente indica una señal de mayor calidad. Es importante considerar la estabilidad de la SNR a lo largo de la duración de la señal, ya que grandes fluctuaciones pueden indicar inconsistencias [6].
+
+-RMS
+
+El RMS (Root Mean Square) es una medida de la magnitud efectiva de una señal, proporcionando una indicación del poder de la señal. Según "Delsys," el análisis de amplitud RMS utiliza una ventana móvil para calcular el RMS de las señales EMG, lo que facilita la evaluación de la potencia de la señal en diferentes condiciones [7]. Una señal EMG con un valor RMS más alto durante contracciones musculares indica una mayor actividad muscular y una señal más potente. Al comparar las señales EMG en reposo, sin oposición y con oposición, se puede observar que una mayor RMS en condiciones de contracción con oposición sugiere una señal más robusta y de mejor calidad. Por ejemplo, si la señal EMG de contracción con oposición muestra un RMS significativamente mayor que las otras, esto indica una mayor fuerza y consistencia en la señal registrada [7].
+
+Comparación de los Valores RMS:
+Se deben comparar los valores RMS obtenidos de cada señal:
+
+Señal en Reposo: Debe tener el valor RMS más bajo, ya que hay una mínima activación muscular.
+Contracción sin Oposición: Se esperan valores RMS moderados debido a la actividad muscular.
+Contracción con Oposición: Generalmente muestra los valores RMS más altos debido al aumento del esfuerzo muscular contra la resistencia [7].
+Evaluación de Calidad:
+Un valor RMS más alto generalmente indica una contracción muscular más fuerte y estable. Sin embargo, también es esencial considerar la consistencia y estabilidad de los valores RMS a lo largo de la duración de la señal. Grandes fluctuaciones podrían indicar ruido o inconsistencias [7].
+
+- Curtosis:
+  
+La curtosis es una medida estadística que evalúa la puntualidad de una distribución de datos, donde una alta curtosis indica una distribución con colas pesadas y un pico agudo. Un estudio indica que, durante las contracciones musculares se observan picos en la curtosis debido a la variabilidad en la activación de las unidades motoras, los cuales reflejan una alta concentración de valores extremos en la señal EMG, lo cual se relaciona con los movimientos musculares bruscos o espasmos. [8] Entonces, el valor de curtosis es de 20.12 debido a que la señal EMG contiene contracciones y estos se representan como picos pronunciados en la actividad muscular registrada.
 
 - Entropía:
+  
 El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de variaciones y cambios en la señal EMG, debido a la actividad muscular durante las contracciones. La entropía es una medida estadística que cuantifica la incertidumbre o impredecibilidad de una señal. Esta se calcula en función de la distribución de los valores de amplitud de la señal y su capacidad para predecir el valor de la siguiente medida. Esto puede estar asociado a patrones de activación muscular irregulares, que son comunes en condiciones de fatiga muscular o en presencia de trastornos neuromusculares, donde la señal EMG tiende a mostrar una mayor variabilidad debido a la desorganización en la activación de las unidades motoras. [3]
 
 ## **Archivos de códigos** <a name="id7"></a>
@@ -119,3 +145,9 @@ El valor de entropía de 4.02 que obtuvimos nos indica una gran cantidad de vari
 [4]A. M. Moslhi, H. H. Aly, y M. ElMessiery, «The Impact of Feature Extraction on Classification Accuracy Examined by Employing a Signal Transformer to Classify Hand Gestures Using Surface Electromyography Signals», Sensors, vol. 24, n.o 4, p. 1259, feb. 2024, doi: 10.3390/s24041259.
 
 [5]M. Huang y Z. Liu, «Research on Mechanical Fault Prediction Method Based on Multifeature Fusion of Vibration Sensing Data», Sensors, vol. 20, n.o 1, p. 6, dic. 2019, doi: 10.3390/s20010006.
+
+[6] Reaz, M. (2006, 18 de junio). Techniques of EMG signal analysis: detection, processing, classification and applications. Biol. Proced. https://biologicalproceduresonline.biomedcentral.com/counter/pdf/10.1251/bpo115.pdf
+
+[7] Delsys.com. (2024, 1 de enero). Amplitude Analysis: Root-mean-square EMG Envelope - Delsys. Delsys. https://delsys.com/amplitude-analysis-root-mean-square-emg-envelope/
+
+[8] S. A. Ahmad y P. H. Chappell, «Surface EMG pattern analysis of the wrist muscles at different speeds of contraction», Journal Of Medical Engineering & Technology, vol. 33, n.o 5, pp. 376-385, ene. 2009, doi: 10.1080/03091900802491246. Disponible en: https://pubmed.ncbi.nlm.nih.gov/19440916/
