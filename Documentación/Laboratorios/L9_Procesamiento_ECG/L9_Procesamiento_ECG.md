@@ -83,7 +83,15 @@ Para esta parte hemos obtenido los datos importantes que destaca la bibliografí
 - **SD1**: 0.29 s
 - **SD2**: 0.11 s
 ## **Discusión** <a name="id6"></a>
+Durante esta sección se discutirán los resultados para el SDNN, rMSSD, SD1 y SD2.
 
+###SDNN
+
+###rMSSD
+
+###SD1
+
+###SD2
 
 ## **Archivos de códigos** <a name="id7"></a>
 
