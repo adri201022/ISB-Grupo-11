@@ -85,13 +85,15 @@ Para esta parte hemos obtenido los datos importantes que destaca la bibliografí
 ## **Discusión** <a name="id6"></a>
 Durante esta sección se discutirán los resultados para el SDNN, rMSSD, SD1 y SD2.
 
-### SDNN
+#### SDNN
 
-### rMSSD
+#### rMSSD
 
-### SD1
+Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas (rMSSD), tenemos que identificar que esta métrica o parámetro es un indicador de la actividad parasimpática del sistema nervioso autónomo, y se suele usar bastante para evaluar la variabilidad de frecuencia cardíaca (HRV) en estudios de salud y deporte. En nuestros resultados vemos un incremento significativo  del rMSSD del valor inicial de la señal en resposo de 19.33ms de la señal en reposo a los dos casos señal en respiraciones rápidas (171.79 ms) y señal durante actividad (172.71 ms). Esto nos sugiere una mayor activación parasimpática en ambas condiciones. Este comportamiento es consistente con estudios previos que asocian el aumento del rMSSD con estados de alta demanda física y respiratoria.
 
-### SD2
+#### SD1
+
+#### SD2
 
 ## **Archivos de códigos** <a name="id7"></a>
 
