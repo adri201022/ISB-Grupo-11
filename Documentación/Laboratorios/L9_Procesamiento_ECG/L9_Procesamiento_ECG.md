@@ -27,7 +27,27 @@ mV)
 </p>
 <p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
 
+Onda P: La despolarización de las
+aurículas antes de la contracción
+provoca una pequeña deflexión
+de bajo voltaje, seguida con un
+retraso.
 
+Complejo QRS: La
+despolarización de los ventrículos
+antes de la contracción provoca
+una gran deflexión de voltaje. Es
+la sección con mayor amplitud de
+ECG.
+
+Onda T: Repolarización
+ventricular, es la última sección y
+más complicada de visualizar.
+
+<p align="center">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b8ea7da0-bb34-4660-b3fd-17f23dcc4223">
+</p>
+<p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
 
 
 
