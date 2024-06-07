@@ -18,6 +18,13 @@
 
 ## **Introducción** <a name="id1"></a>
 
+El electrocardiograma (ECG) es una señal que registra la actividad eléctrica del corazón.
+Su adquisición se suele hacer de forma digital o mediante un papel milimitrado de dimensión 1 mm x 1 mm,
+con líneas gruesas de 5 mm (cada mm representa la amplitud de las ondas ECG medidas en mV; 10 mm =1
+mV)
+
+![image](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09)
+
 
 ## **Objetivos** <a name="id2"></a>
 
