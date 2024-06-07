@@ -24,7 +24,7 @@
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 
-En el caso del filtrado de las señales, primero hemos utilizado un filtro notch para poder eliminar el ruido ambiental que aparece a menúdo en estos tipos de tomas. El segundo filtro que hemos usado es un filtro pasa baja bessel de tercer órden que tiene una frecuencia de corte de 30 Hz. Estamos usando este filtro ya que la bibliografía encontrada nos la recomienda para minimizar el efecto de ruido en altas frecuencias y artefactos en la detección de picos R.
+En el caso del filtrado de las señales, primero hemos utilizado un filtro notch para poder eliminar el ruido ambiental que aparece a menúdo en estos tipos de tomas. El segundo filtro que hemos usado es un filtro pasa baja bessel de tercer órden que tiene una frecuencia de corte de 30 Hz. Estamos usando este filtro ya que la bibliografía encontrada nos la recomienda para minimizar el efecto de ruido en altas frecuencias y artefactos en la detección de picos R [G2].
 
 ### Señal en reposo
 |                   | Señal cruda                          | Filtro Notch                          | Filtro Bessel                        |
@@ -60,7 +60,7 @@ En el caso del filtrado de las señales, primero hemos utilizado un filtro notch
 
 ## **HRV** <a name="id5"></a>
 
-Para esta parte hemos obtenido los datos importantes que destaca la bibliografía encontrada, las cuales son SDNN, rMSSD, SD1 y SD2.
+Para esta parte hemos obtenido los datos importantes que destaca la bibliografía encontrada, las cuales son SDNN, rMSSD, SD1 y SD2 [G2].
 
 ### Señal en reposo
 #### Resultados HRV
