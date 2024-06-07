@@ -23,7 +23,7 @@ Su adquisición se suele hacer de forma digital o mediante un papel milimitrado 
 con líneas gruesas de 5 mm (cada mm representa la amplitud de las ondas ECG medidas en mV; 10 mm =1
 mV)
 <p align="center">
-  <img src="[https://github.com/adri201022/ISB-Grupo-11/assets/164538327/7191d6fc-8021-49a1-8340-25c3bfa453b3](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09)">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09">
 </p>
 <p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3].</b> </p>
 
