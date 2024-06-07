@@ -66,6 +66,19 @@ Suele ser 1/3 mayor que la onda R o mayores que 0.4 mseg en duración [1].
 ##### Onda T: 
 Representa la repolarización ventricular, suele tener una duración de 160 mseg y ser uniforme [1].
 
+### Uso de la librería biosignal para el procesamiento de señales ECG
+
+El procesamiento de bioseñales en Python incluye casos de uso como el reconocimiento automático de emociones para detectar cambios en las emociones en función de las bioseñales de un usuario [2].
+
+Las grandes y variadas bibliotecas de Python pueden modelar y analizar funciones, estructuras y dinámicas biológicas y fisiológicas. Además, Python proporciona muchas buenas herramientas de análisis de datos para biometría y procesamiento de señales como NumPy, SciPy y Pandas. Python tiene una base sólida sobre la cual se pueden construir aplicaciones flexibles, ya que aprovecha las bibliotecas C, C++ e incluso FORTRAN.
+
+Para concluir, estos son los principales beneficios del procesamiento de bioseñales de biosppy en Python:
+
+Un entorno de desarrollo adecuado tanto para tareas computacionales como de visualización.
+Una gran cantidad de bibliotecas de código abierto para este propósito.
+Disponibilidad de herramientas populares de exploración y visualización de datos.
+Disponibilidad de paquetes con capacidades avanzadas como manipulación de matrices y matrices, procesamiento de imágenes, alarmas amg, procesamiento de señales digitales y visualización.
+
 ## **Objetivos** <a name="id2"></a>
 
 <ul>
