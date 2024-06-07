@@ -23,9 +23,11 @@ Su adquisición se suele hacer de forma digital o mediante un papel milimitrado 
 con líneas gruesas de 5 mm (cada mm representa la amplitud de las ondas ECG medidas en mV; 10 mm =1
 mV)
 <p align="center">
-  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09">
+  <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/d1bc3440-643f-46a6-aa1d-3156429f651f">
 </p>
 <p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
+
+
 
 
 
