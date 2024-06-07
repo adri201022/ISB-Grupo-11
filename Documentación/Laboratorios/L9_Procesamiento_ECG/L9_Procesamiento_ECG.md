@@ -89,7 +89,7 @@ Durante esta sección se discutirán los resultados para el SDNN, rMSSD, SD1 y S
 
 #### rMSSD
 
-Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas (rMSSD), tenemos que identificar que esta métrica o parámetro es un indicador de la actividad parasimpática del sistema nervioso autónomo, y se suele usar bastante para evaluar la variabilidad de frecuencia cardíaca (HRV) en estudios de salud y deporte. En nuestros resultados vemos un incremento significativo  del rMSSD del valor inicial de la señal en resposo de 19.33ms de la señal en reposo a los dos casos señal en respiraciones rápidas (171.79 ms) y señal durante actividad (172.71 ms). Esto nos sugiere una mayor activación parasimpática en ambas condiciones. Este comportamiento es consistente con estudios previos que asocian el aumento del rMSSD con estados de alta demanda física y respiratoria.
+Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas (rMSSD), tenemos que identificar que esta métrica o parámetro es un indicador de la actividad parasimpática del sistema nervioso autónomo, y se suele usar bastante para evaluar la variabilidad de frecuencia cardíaca (HRV) en estudios de salud y deporte. En nuestros resultados vemos un incremento significativo  del rMSSD del valor inicial de la señal en resposo de 19.33ms de la señal en reposo a los dos casos señal en respiraciones rápidas (171.79 ms) y señal durante actividad (172.71 ms). Esto nos sugiere una mayor activación parasimpática en ambas condiciones. Este comportamiento es consistente con estudios previos que asocian el aumento del rMSSD con estados de alta demanda física y respiratoria [R1].
 
 #### SD1
 
@@ -100,3 +100,5 @@ Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas 
 [Tratamiento de señal  ECG en colab](https://github.com/adri201022/ISB-Grupo-11/blob/4b4ce18e4fabbbc0655e8162bcf6cdbd4163f358/Documentaci%C3%B3n/Laboratorios/L9_Procesamiento_ECG/Tratamiento%20de%20ECG.ipynb)
 
 ## **Referencias** <a name="id8"></a>
+
+[R1] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
