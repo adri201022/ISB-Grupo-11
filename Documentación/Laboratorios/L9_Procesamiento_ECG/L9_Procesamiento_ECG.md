@@ -21,28 +21,28 @@
 El electrocardiograma (ECG) es una señal que registra la actividad eléctrica del corazón.
 Su adquisición se suele hacer de forma digital o mediante un papel milimitrado de dimensión 1 mm x 1 mm,
 con líneas gruesas de 5 mm (cada mm representa la amplitud de las ondas ECG medidas en mV; 10 mm =1
-mV)
+mV) [1]
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/d1bc3440-643f-46a6-aa1d-3156429f651f">
 </p>
-<p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
+<p align="center"><b>Figura 1: Componentes de la señales ECG [1].</b> </p>
 
 Onda P: La despolarización de las
 aurículas antes de la contracción
 provoca una pequeña deflexión
 de bajo voltaje, seguida con un
-retraso.
+retraso [1].
 
 Complejo QRS: La
 despolarización de los ventrículos
 antes de la contracción provoca
 una gran deflexión de voltaje. Es
 la sección con mayor amplitud de
-ECG.
+ECG [1].
 
 Onda T: Repolarización
 ventricular, es la última sección y
-más complicada de visualizar.
+más complicada de visualizar [1].
 
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b8ea7da0-bb34-4660-b3fd-17f23dcc4223">
@@ -52,19 +52,19 @@ más complicada de visualizar.
 ##### Onda P: 
 Suele tener una duración menor de 120 mseg (< 3 cuadrados) y una
 amplitud inferior a 0.25 mV (2.5 mm equivalente a 2 1/2 cuadrados). Fuera de estos límites suele
-denominarse hipertrofia auricular.
+denominarse hipertrofia auricular [1].
 
 ##### Complejo QRS: 
 Compuesto por tres ondas trifásicas: dos ondas negativas Q y S y una onda positiva R. La
 duración del complejo QRS va entre 60 a 120 mseg. Los parámetros como duración, amplitud y
 morfología son útiles para el diagnóstico de arritmias cardiacas, anormalidades de la conducción,
-hipertrofia ventricular, infarto agudo de miocardio, desequilibrio electrolíticos y entre otros.
+hipertrofia ventricular, infarto agudo de miocardio, desequilibrio electrolíticos y entre otros [1].
 
 ##### Onda Q: 
-Suele ser 1/3 mayor que la onda R o mayores que 0.4 mseg en duración.
+Suele ser 1/3 mayor que la onda R o mayores que 0.4 mseg en duración [1].
 
 ##### Onda T: 
-Representa la repolarización ventricular, suele tener una duración de 160 mseg y ser uniforme.
+Representa la repolarización ventricular, suele tener una duración de 160 mseg y ser uniforme [1].
 
 ## **Objetivos** <a name="id2"></a>
 
