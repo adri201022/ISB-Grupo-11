@@ -176,7 +176,7 @@ Respecto a los resultados de SD2, es fundamental comprender que esta métrica ev
 
 ## **Referencias** <a name="id8"></a>
 
-[1] [Clase 8 _ ECG analisis.pptx](https://github.com/user-attachments/files/15745839/Clase.8._.ECG.analisis.pptx)
+[1] Venancio Huerta Julissa. "Tratamiento de la señal ECG" [Clase 8 _ ECG analisis.pptx](https://github.com/user-attachments/files/15745839/Clase.8._.ECG.analisis.pptx)
 
 
 [G1] B. De La Cruz Torres, C. L. Lopez, and J. N. Orellana, “Analysis of heart rate variability at rest and during aerobic exercise: a study in healthy people and cardiac patients,” British Journal of Sports Medicine, vol. 42, no. 9, pp. 715–720, May 2008, doi: 10.1136/bjsm.2007.043646. Available: https://pubmed.ncbi.nlm.nih.gov/18199627/
