@@ -25,9 +25,8 @@ mV)
 <p align="center">
   <img src="https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09">
 </p>
-<p align="center"><b>Figura 1: Principales etapas implicadas en la adquisición de la señal, preprocesamiento y extracción de características de señales EMG [3].</b> </p>
+<p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
 
-![image](https://github.com/adri201022/ISB-Grupo-11/assets/42382650/b4b9d7e3-ffb7-4395-926a-d81397ddcb09)
 
 
 ## **Objetivos** <a name="id2"></a>
