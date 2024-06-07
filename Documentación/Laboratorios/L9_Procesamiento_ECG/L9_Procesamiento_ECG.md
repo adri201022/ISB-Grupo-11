@@ -49,15 +49,22 @@ más complicada de visualizar.
 </p>
 <p align="center"><b>Figura 1: Componentes de la señales ECG [3].</b> </p>
 
-Onda P: Suele tener una duración menor de 120 mseg (< 3 cuadrados) y una
+##### Onda P: 
+Suele tener una duración menor de 120 mseg (< 3 cuadrados) y una
 amplitud inferior a 0.25 mV (2.5 mm equivalente a 2 1/2 cuadrados). Fuera de estos límites suele
 denominarse hipertrofia auricular.
-Complejo QRS: Compuesto por tres ondas trifásicas: dos ondas negativas Q y S y una onda positiva R. La
+
+##### Complejo QRS: 
+Compuesto por tres ondas trifásicas: dos ondas negativas Q y S y una onda positiva R. La
 duración del complejo QRS va entre 60 a 120 mseg. Los parámetros como duración, amplitud y
 morfología son útiles para el diagnóstico de arritmias cardiacas, anormalidades de la conducción,
 hipertrofia ventricular, infarto agudo de miocardio, desequilibrio electrolíticos y entre otros.
-Onda Q: Suele ser 1/3 mayor que la onda R o mayores que 0.4 mseg en duración.
-Onda T: Representa la repolarización ventricular, suele tener una duración de 160 mseg y ser uniforme.
+
+##### Onda Q: 
+Suele ser 1/3 mayor que la onda R o mayores que 0.4 mseg en duración.
+
+##### Onda T: 
+Representa la repolarización ventricular, suele tener una duración de 160 mseg y ser uniforme.
 
 ## **Objetivos** <a name="id2"></a>
 
