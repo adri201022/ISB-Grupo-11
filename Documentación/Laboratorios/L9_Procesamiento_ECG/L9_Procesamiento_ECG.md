@@ -21,6 +21,16 @@
 
 ## **Objetivos** <a name="id2"></a>
 
+<ul>
+  <li>Detallar cada etapa involucrada en la captura y análisis de señales electrocardiacas para comprender su funcionamiento y aplicación práctica.</li>
+  <li>Analizar el estrés, la vitalidad y variabilidad del ritmo cardiaco</li>
+</ul>
+ <li>Hallar los picos de la onda R y graficarlos (alternativa: usar la función punking)</li>
+</ul>
+<li>Hallar el HRV (basándose en un artículo base) </li>
+</ul>
+  <li>Analizar críticamente las técnicas empleadas en el preprocesamiento de señales ECG, evaluando su capacidad para reducir el ruido, mejorar la calidad de la señal y facilitar la extracción de información relevante.</li>
+</ul>
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 
