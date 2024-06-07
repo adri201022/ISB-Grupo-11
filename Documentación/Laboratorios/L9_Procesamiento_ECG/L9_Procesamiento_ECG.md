@@ -86,12 +86,15 @@ Para esta parte hemos obtenido los datos importantes que destaca la bibliografí
 Durante esta sección se discutirán los resultados para el SDNN, rMSSD, SD1 y SD2.
 
 #### SDNN
+Se trata de la desviación estándar de todos los intervalos entre latidos R-R. Tomando en cuenta los valores de referencia y el nivel de riesgo que brinda un estudio hecho por De la Cruz (2008) tenemos que, en reposo un valor de SDRR de 33.85 ms indica una variabilidad moderada, lo que demuestra un buen equilibrio entre los sistemas simpático y parasimpático, pero señalaría un nivel de riesgo alto para la salud cardiovascular ya que tiene un valor menor a 50 ms. Pero cuando se realizan respiraciones rápidas, el SDNN sube a 122.54 ms, demostrando la capacidad de adaptación debido a la activación del sistema parasimpático durante la respiración controlada, además que al ser mayor a 100 ms indicaría un nivel de riesgo bajo, lo que evidencia una buena salud. Finalmente, durante la actividad física el SDNN es de 117.89 ms, lo cual es menor en comparación con las respiraciones rápidas, pero sigue siendo un valor alto. Además, indica un bajo nivel de riesgo y muestra que tanto el corazón como el sistema nervioso se adaptan bien al esfuerzo físico. [G1] 
 
 #### rMSSD
 
 Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas (rMSSD), tenemos que identificar que esta métrica o parámetro es un indicador de la actividad parasimpática del sistema nervioso autónomo, y se suele usar bastante para evaluar la variabilidad de frecuencia cardíaca (HRV) en estudios de salud y deporte. En nuestros resultados vemos un incremento significativo  del rMSSD del valor inicial de la señal en resposo de 19.33ms de la señal en reposo a los dos casos señal en respiraciones rápidas (171.79 ms) y señal durante actividad (172.71 ms). Esto nos sugiere una mayor activación parasimpática en ambas condiciones. Este comportamiento es consistente con estudios previos que asocian el aumento del rMSSD con estados de alta demanda física y respiratoria [R1].
 
 #### SD1
+
+Representa la desviación estándar de las distancias perpendiculares al eje de identidad en el gráfico de Poincaré. [G2] En reposo, el valor de SD1 es de 0.09 segundos, lo que significa que la frecuencia cardíaca es constante, debido a que, en reposo, el cuerpo humano no se encuentra bajo mucho estrés. Mientras que, durante las respiraciones rápidas y la actividad física, el valor de SD1 aumenta a 0.29 segundos. Esto indica que la frecuencia cardíaca presenta una mayor variación durante estas actividades, ya que los cambios en la respiración afectan la señal del ECG, haciendo que los intervalos entre latidos sean más irregulares. Lo mismo ocurre durante la actividad física, donde el esfuerzo causa alteraciones en la frecuencia cardíaca.
 
 #### SD2
 
@@ -103,6 +106,10 @@ Respecto a los resultados de SD2, es fundamental comprender que esta métrica ev
 
 ## **Referencias** <a name="id8"></a>
 
+[G1] B. De La Cruz Torres, C. L. Lopez, and J. N. Orellana, “Analysis of heart rate variability at rest and during aerobic exercise: a study in healthy people and cardiac patients,” British Journal of Sports Medicine, vol. 42, no. 9, pp. 715–720, May 2008, doi: 10.1136/bjsm.2007.043646. Available: https://pubmed.ncbi.nlm.nih.gov/18199627/
+
 [R1] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
+
+[G2] “Effect of Different ECG Leads on Estimated R-R Intervals and Heart Rate Variability Parameters - PubMed”. PubMed. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://pubmed.ncbi.nlm.nih.gov/31946698/
 
 [R2] S. Lee. “Stochastic vagus nerve stimulation affects acute heart rate dynamics in rats”. Home - PLOS. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194910
