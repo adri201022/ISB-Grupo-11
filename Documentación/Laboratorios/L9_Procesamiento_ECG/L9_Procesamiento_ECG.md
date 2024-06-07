@@ -95,6 +95,8 @@ Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas 
 
 #### SD2
 
+Respecto a los resultados de SD2, es fundamental comprender que esta métrica evalúa tanto la variabilidad de largo como de corto plazo en la variabilidad de frecuencia cardíaca (HRV). SD2 se obtiene de los gráficos de Poincaré y es utilizada para evaluar la dinámica autonómica a lo largo del tiempo [R2]. En nuestros resultados, observamos un incremento en los valores de SD2 durante las respiraciones rápidas (0.12 s) y la actividad física (0.11 s) en comparación con el reposo (0.04 s). Este incremento sugiere una mayor complejidad y variabilidad en las condiciones de mayor demanda fisiológica; a diferencia, del SD2 de las condiciones iniciales (0.04 s), estos resultados son consistentes con investigaciones previas que asocian altos valores de SD2 con una mayor variabilidad autonómica y adaptabilidad [R2].
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 [Tratamiento de señal  ECG en colab](https://github.com/adri201022/ISB-Grupo-11/blob/4b4ce18e4fabbbc0655e8162bcf6cdbd4163f358/Documentaci%C3%B3n/Laboratorios/L9_Procesamiento_ECG/Tratamiento%20de%20ECG.ipynb)
@@ -102,3 +104,5 @@ Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas 
 ## **Referencias** <a name="id8"></a>
 
 [R1] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
+
+[R2] S. Lee. “Stochastic vagus nerve stimulation affects acute heart rate dynamics in rats”. Home - PLOS. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194910
