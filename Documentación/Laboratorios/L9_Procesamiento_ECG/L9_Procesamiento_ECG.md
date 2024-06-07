@@ -176,6 +176,9 @@ Respecto a los resultados de SD2, es fundamental comprender que esta métrica ev
 
 ## **Referencias** <a name="id8"></a>
 
+[1] [Clase 8 _ ECG analisis.pptx](https://github.com/user-attachments/files/15745839/Clase.8._.ECG.analisis.pptx)
+
+
 [G1] B. De La Cruz Torres, C. L. Lopez, and J. N. Orellana, “Analysis of heart rate variability at rest and during aerobic exercise: a study in healthy people and cardiac patients,” British Journal of Sports Medicine, vol. 42, no. 9, pp. 715–720, May 2008, doi: 10.1136/bjsm.2007.043646. Available: https://pubmed.ncbi.nlm.nih.gov/18199627/
 
 [R1] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
