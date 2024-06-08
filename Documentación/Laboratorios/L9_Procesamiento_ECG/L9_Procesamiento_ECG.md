@@ -97,7 +97,7 @@ Biosig: Es una biblioteca de código avierto para el procesamiento de señales b
 
 ## **Filtro de señal ECG** <a name="id3"></a>
 
-En el caso del filtrado de las señales, primero hemos utilizado un filtro notch para poder eliminar el ruido ambiental que aparece a menúdo en estos tipos de tomas. El segundo filtro que hemos usado es un filtro pasa baja bessel de tercer órden que tiene una frecuencia de corte de 30 Hz. Estamos usando este filtro ya que la bibliografía encontrada nos la recomienda para minimizar el efecto de ruido en altas frecuencias y artefactos en la detección de picos R [G2].
+En el caso del filtrado de las señales, primero hemos utilizado un filtro notch para poder eliminar el ruido ambiental que aparece a menúdo en estos tipos de tomas. El segundo filtro que hemos usado es un filtro pasa baja bessel de tercer órden que tiene una frecuencia de corte de 30 Hz. Estamos usando este filtro ya que la bibliografía encontrada nos la recomienda para minimizar el efecto de ruido en altas frecuencias y artefactos en la detección de picos R [3].
 
 ### Señal en reposo
 |                   | Señal cruda                          | Filtro Notch                          | Filtro Bessel                        |
@@ -133,7 +133,7 @@ En el caso del filtrado de las señales, primero hemos utilizado un filtro notch
 
 ## **HRV** <a name="id5"></a>
 
-Para esta parte hemos obtenido los datos importantes que destaca la bibliografía encontrada, las cuales son SDNN, rMSSD, SD1 y SD2 [G2].
+Para esta parte hemos obtenido los datos importantes que destaca la bibliografía encontrada, las cuales son SDNN, rMSSD, SD1 y SD2 [3].
 
 ### Señal en reposo
 #### Resultados HRV
@@ -167,7 +167,7 @@ Respecto a los resultados de la raiz cuadrática media de diferencias sucesivas 
 
 #### SD1
 
-Representa la desviación estándar de las distancias perpendiculares al eje de identidad en el gráfico de Poincaré. [G2] En reposo, el valor de SD1 es de 0.09 segundos, lo que significa que la frecuencia cardíaca es constante, debido a que, en reposo, el cuerpo humano no se encuentra bajo mucho estrés. Mientras que, durante las respiraciones rápidas y la actividad física, el valor de SD1 aumenta a 0.29 segundos. Esto indica que la frecuencia cardíaca presenta una mayor variación durante estas actividades, ya que los cambios en la respiración afectan la señal del ECG, haciendo que los intervalos entre latidos sean más irregulares. Lo mismo ocurre durante la actividad física, donde el esfuerzo causa alteraciones en la frecuencia cardíaca.
+Representa la desviación estándar de las distancias perpendiculares al eje de identidad en el gráfico de Poincaré. [3] En reposo, el valor de SD1 es de 0.09 segundos, lo que significa que la frecuencia cardíaca es constante, debido a que, en reposo, el cuerpo humano no se encuentra bajo mucho estrés. Mientras que, durante las respiraciones rápidas y la actividad física, el valor de SD1 aumenta a 0.29 segundos. Esto indica que la frecuencia cardíaca presenta una mayor variación durante estas actividades, ya que los cambios en la respiración afectan la señal del ECG, haciendo que los intervalos entre latidos sean más irregulares. Lo mismo ocurre durante la actividad física, donde el esfuerzo causa alteraciones en la frecuencia cardíaca.
 
 #### SD2
 
@@ -183,10 +183,12 @@ Respecto a los resultados de SD2, es fundamental comprender que esta métrica ev
 
 [2] Proxet. “Python and Biosignals: Use Cases and Best Practices | Proxet”. Proxet | #1 Software Development Company. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.proxet.com/blog/biosignals-processing-in-python-best-ways-for-its-implementation
 
+[3] “Effect of Different ECG Leads on Estimated R-R Intervals and Heart Rate Variability Parameters - PubMed”. PubMed. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://pubmed.ncbi.nlm.nih.gov/31946698/
+
 [G1] B. De La Cruz Torres, C. L. Lopez, and J. N. Orellana, “Analysis of heart rate variability at rest and during aerobic exercise: a study in healthy people and cardiac patients,” British Journal of Sports Medicine, vol. 42, no. 9, pp. 715–720, May 2008, doi: 10.1136/bjsm.2007.043646. Available: https://pubmed.ncbi.nlm.nih.gov/18199627/
 
 [R1] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
 
-[G2] “Effect of Different ECG Leads on Estimated R-R Intervals and Heart Rate Variability Parameters - PubMed”. PubMed. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://pubmed.ncbi.nlm.nih.gov/31946698/
+
 
 [R2] S. Lee. “Stochastic vagus nerve stimulation affects acute heart rate dynamics in rats”. Home - PLOS. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194910
