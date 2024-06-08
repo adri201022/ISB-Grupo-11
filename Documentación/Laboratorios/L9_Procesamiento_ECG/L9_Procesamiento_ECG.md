@@ -181,6 +181,10 @@ Vitalidad y HRV
 
 La vitalidad, entendida como un estado general de energía y bienestar, también se correlaciona con la HRV. Una alta HRV es indicativa de un sistema nervioso autónomo flexible y eficiente, capaz de adaptarse rápidamente a cambios y demandas del entorno. En contraste, una baja HRV sugiere un sistema menos adaptable, lo cual puede estar asociado con fatiga, enfermedades crónicas y una menor capacidad de recuperación frente a estresores [8]. En individuos con alta vitalidad, la HRV tiende a ser mayor, reflejando una mejor regulación autónoma y una mayor capadidad de recuperación [8].
 
+Variabilidad del ritmo cardíaco y HRV
+
+La variabilidad del ritmo cardíaco (HRV) se refiere a las fluctuaciones en los intervalos entre latidos consecutivos del corazón, conocidas como intervalos RR. Es un indicador crucial de la salud del sistema nervioso autónomo (SNA), que regula las funciones involuntarias del cuerpo, incluyendo la actividad cardíaca. Una alta HRV refleja un equilibrio saludable entre las ramas simpática y parasimpática del SNA, y una capacidad eficiente del corazón para adaptarse a diversas demandas fisiológicas y ambientales. En cambio, una baja HRV puede indicar una dominancia simpática o una insuficiencia del control parasimpático, lo cual se asocia con un mayor riesgo de enfermedades cardiovasculares y otras condiciones de salud adversas [8].
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 [Tratamiento de señal  ECG en colab](https://github.com/adri201022/ISB-Grupo-11/blob/4b4ce18e4fabbbc0655e8162bcf6cdbd4163f358/Documentaci%C3%B3n/Laboratorios/L9_Procesamiento_ECG/Tratamiento%20de%20ECG.ipynb)
