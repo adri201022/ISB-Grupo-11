@@ -177,6 +177,10 @@ Estrés y HRV
 
 El estrés puede afectar significativamente la HRV. El estrés psicológico reduce la HRV, especialmente disminuyendo la actividad simpática. Esto se traduce en una menor variabilidadd de alta frecuencia (HF) y una mayor variabilidad de baja frecuencia (LF), indicando un predominio del tono simpático y parasimpático [7]. Por ejemplo en situaciones de estrés ocupacional, se observa una disminución de la HRV, reflejando una respuesta adaptativa del cuerpo al estrés constante, lo cual es un marcador de riesgo para enfermedades cardiovasculares y otros problemas de salud relacionados con el estrés [7].
 
+Vitalidad y HRV
+
+La vitalidad, entendida como un estado general de energía y bienestar, también se correlaciona con la HRV. Una alta HRV es indicativa de un sistema nervioso autónomo flexible y eficiente, capaz de adaptarse rápidamente a cambios y demandas del entorno. En contraste, una baja HRV sugiere un sistema menos adaptable, lo cual puede estar asociado con fatiga, enfermedades crónicas y una menor capacidad de recuperación frente a estresores [8]. En individuos con alta vitalidad, la HRV tiende a ser mayor, reflejando una mejor regulación autónoma y una mayor capadidad de recuperación [8].
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 [Tratamiento de señal  ECG en colab](https://github.com/adri201022/ISB-Grupo-11/blob/4b4ce18e4fabbbc0655e8162bcf6cdbd4163f358/Documentaci%C3%B3n/Laboratorios/L9_Procesamiento_ECG/Tratamiento%20de%20ECG.ipynb)
@@ -196,3 +200,5 @@ El estrés puede afectar significativamente la HRV. El estrés psicológico redu
 [6] S. Lee. “Stochastic vagus nerve stimulation affects acute heart rate dynamics in rats”. Home - PLOS. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194910
 
 [7] I. Sarah, T. M. N, B. Mathias y B. Niranjan. “Heart Rate Variability for Evaluating Psychological Stress Changes in Healthy Adults: A Scoping Review”. Karger Publishers. Accedido el 8 de junio de 2024. [En línea]. Disponible: https://karger.com/nps/article/82/4/187/845046/Heart-Rate-Variability-for-Evaluating
+
+[8] J. Held. “Heart rate variability change during a stressful cognitive task in individuals with anxiety and control participants - BMC Psychology”. BioMed Central. Accedido el 8 de junio de 2024. [En línea]. Disponible: https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-021-00551-4
