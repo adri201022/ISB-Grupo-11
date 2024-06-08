@@ -173,6 +173,10 @@ Representa la desviación estándar de las distancias perpendiculares al eje de 
 
 Respecto a los resultados de SD2, es fundamental comprender que esta métrica evalúa tanto la variabilidad de largo como de corto plazo en la variabilidad de frecuencia cardíaca (HRV). SD2 se obtiene de los gráficos de Poincaré y es utilizada para evaluar la dinámica autonómica a lo largo del tiempo [6]. En nuestros resultados, observamos un incremento en los valores de SD2 durante las respiraciones rápidas (0.12 s) y la actividad física (0.11 s) en comparación con el reposo (0.04 s). Este incremento sugiere una mayor complejidad y variabilidad en las condiciones de mayor demanda fisiológica; a diferencia, del SD2 de las condiciones iniciales (0.04 s), estos resultados son consistentes con investigaciones previas que asocian altos valores de SD2 con una mayor variabilidad autonómica y adaptabilidad [6].
 
+Estrés y HRV
+
+El estrés puede afectar significativamente la HRV. El estrés psicológico reduce la HRV, especialmente disminuyendo la actividad simpática. Esto se traduce en una menor variabilidadd de alta frecuencia (HF) y una mayor variabilidad de baja frecuencia (LF), indicando un predominio del tono simpático y parasimpático [7]. Por ejemplo en situaciones de estrés ocupacional, se observa una disminución de la HRV, reflejando una respuesta adaptativa del cuerpo al estrés constante, lo cual es un marcador de riesgo para enfermedades cardiovasculares y otros problemas de salud relacionados con el estrés [7].
+
 ## **Archivos de códigos** <a name="id7"></a>
 
 [Tratamiento de señal  ECG en colab](https://github.com/adri201022/ISB-Grupo-11/blob/4b4ce18e4fabbbc0655e8162bcf6cdbd4163f358/Documentaci%C3%B3n/Laboratorios/L9_Procesamiento_ECG/Tratamiento%20de%20ECG.ipynb)
@@ -190,3 +194,5 @@ Respecto a los resultados de SD2, es fundamental comprender que esta métrica ev
 [5] A. Natarajan. “Frontiers | Heart rate variability during mindful breathing meditation”. Frontiers. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1017350/full
 
 [6] S. Lee. “Stochastic vagus nerve stimulation affects acute heart rate dynamics in rats”. Home - PLOS. Accedido el 7 de junio de 2024. [En línea]. Disponible: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194910
+
+[7] I. Sarah, T. M. N, B. Mathias y B. Niranjan. “Heart Rate Variability for Evaluating Psychological Stress Changes in Healthy Adults: A Scoping Review”. Karger Publishers. Accedido el 8 de junio de 2024. [En línea]. Disponible: https://karger.com/nps/article/82/4/187/845046/Heart-Rate-Variability-for-Evaluating
