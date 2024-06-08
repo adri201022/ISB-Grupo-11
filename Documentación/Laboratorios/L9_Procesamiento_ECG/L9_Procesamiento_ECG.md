@@ -173,15 +173,15 @@ Representa la desviación estándar de las distancias perpendiculares al eje de 
 
 Respecto a los resultados de SD2, es fundamental comprender que esta métrica evalúa tanto la variabilidad de largo como de corto plazo en la variabilidad de frecuencia cardíaca (HRV). SD2 se obtiene de los gráficos de Poincaré y es utilizada para evaluar la dinámica autonómica a lo largo del tiempo [6]. En nuestros resultados, observamos un incremento en los valores de SD2 durante las respiraciones rápidas (0.12 s) y la actividad física (0.11 s) en comparación con el reposo (0.04 s). Este incremento sugiere una mayor complejidad y variabilidad en las condiciones de mayor demanda fisiológica; a diferencia, del SD2 de las condiciones iniciales (0.04 s), estos resultados son consistentes con investigaciones previas que asocian altos valores de SD2 con una mayor variabilidad autonómica y adaptabilidad [6].
 
-Estrés y HRV
+#### Estrés y HRV
 
 El estrés puede afectar significativamente la HRV. El estrés psicológico reduce la HRV, especialmente disminuyendo la actividad simpática. Esto se traduce en una menor variabilidadd de alta frecuencia (HF) y una mayor variabilidad de baja frecuencia (LF), indicando un predominio del tono simpático y parasimpático [7]. Por ejemplo en situaciones de estrés ocupacional, se observa una disminución de la HRV, reflejando una respuesta adaptativa del cuerpo al estrés constante, lo cual es un marcador de riesgo para enfermedades cardiovasculares y otros problemas de salud relacionados con el estrés [7].
 
-Vitalidad y HRV
+#### Vitalidad y HRV
 
 La vitalidad, entendida como un estado general de energía y bienestar, también se correlaciona con la HRV. Una alta HRV es indicativa de un sistema nervioso autónomo flexible y eficiente, capaz de adaptarse rápidamente a cambios y demandas del entorno. En contraste, una baja HRV sugiere un sistema menos adaptable, lo cual puede estar asociado con fatiga, enfermedades crónicas y una menor capacidad de recuperación frente a estresores [8]. En individuos con alta vitalidad, la HRV tiende a ser mayor, reflejando una mejor regulación autónoma y una mayor capadidad de recuperación [8].
 
-Variabilidad del ritmo cardíaco y HRV
+#### Variabilidad del ritmo cardíaco y HRV
 
 La variabilidad del ritmo cardíaco (HRV) se refiere a las fluctuaciones en los intervalos entre latidos consecutivos del corazón, conocidas como intervalos RR. Es un indicador crucial de la salud del sistema nervioso autónomo (SNA), que regula las funciones involuntarias del cuerpo, incluyendo la actividad cardíaca. Una alta HRV refleja un equilibrio saludable entre las ramas simpática y parasimpática del SNA, y una capacidad eficiente del corazón para adaptarse a diversas demandas fisiológicas y ambientales. En cambio, una baja HRV puede indicar una dominancia simpática o una insuficiencia del control parasimpático, lo cual se asocia con un mayor riesgo de enfermedades cardiovasculares y otras condiciones de salud adversas [8].
 
