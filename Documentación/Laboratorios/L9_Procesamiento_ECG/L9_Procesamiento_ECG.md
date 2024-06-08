@@ -171,7 +171,7 @@ Representa la desviación estándar de las distancias perpendiculares al eje de 
 
 #### SD2
 
-Respecto a los resultados de SD2, es fundamental comprender que esta métrica evalúa tanto la variabilidad de largo como de corto plazo en la variabilidad de frecuencia cardíaca (HRV). SD2 se obtiene de los gráficos de Poincaré y es utilizada para evaluar la dinámica autonómica a lo largo del tiempo [R2]. En nuestros resultados, observamos un incremento en los valores de SD2 durante las respiraciones rápidas (0.12 s) y la actividad física (0.11 s) en comparación con el reposo (0.04 s). Este incremento sugiere una mayor complejidad y variabilidad en las condiciones de mayor demanda fisiológica; a diferencia, del SD2 de las condiciones iniciales (0.04 s), estos resultados son consistentes con investigaciones previas que asocian altos valores de SD2 con una mayor variabilidad autonómica y adaptabilidad [6].
+Respecto a los resultados de SD2, es fundamental comprender que esta métrica evalúa tanto la variabilidad de largo como de corto plazo en la variabilidad de frecuencia cardíaca (HRV). SD2 se obtiene de los gráficos de Poincaré y es utilizada para evaluar la dinámica autonómica a lo largo del tiempo [6]. En nuestros resultados, observamos un incremento en los valores de SD2 durante las respiraciones rápidas (0.12 s) y la actividad física (0.11 s) en comparación con el reposo (0.04 s). Este incremento sugiere una mayor complejidad y variabilidad en las condiciones de mayor demanda fisiológica; a diferencia, del SD2 de las condiciones iniciales (0.04 s), estos resultados son consistentes con investigaciones previas que asocian altos valores de SD2 con una mayor variabilidad autonómica y adaptabilidad [6].
 
 ## **Archivos de códigos** <a name="id7"></a>
 
