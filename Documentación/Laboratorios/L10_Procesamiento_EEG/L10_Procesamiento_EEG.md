@@ -1,4 +1,4 @@
-# Informe de Laboratorio 8: Procesamiento de una señal EMG
+# Informe de Laboratorio 10: Procesamiento de una señal EEG
 
 ## Integrantes
 - Adrian Alberto Gutierrez Gonzales (adrian.gutierrez@upch.pe)
