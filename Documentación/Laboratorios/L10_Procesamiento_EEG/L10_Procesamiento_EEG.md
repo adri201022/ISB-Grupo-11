@@ -35,12 +35,56 @@ Las señales EEG obtenidas de los electrodos colocados en el cuero cabelludo a m
 </ul>
 
 ## **Preprocesamiento de señal EEG** <a name="id3"></a>
+Se procederá a presentar el análisis de las señales preprocesadas del OpenBCI, utilizando el ultracortex. Es importante destacar que el OpenBCI guarda los datos en microvoltios (uV), por lo cual se convirtieron a milivoltios (mV). Además, la frecuencia de muestreo utilizada fue de 125 Hz. Esta frecuencia se empleó para calcular el tiempo y se trabajó con 8 canales.
+
+### Señales obtenida del ultracortex
+
+| Estado          | Señal                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------|
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/5ff1d445-799f-4b8b-b015-3a5ea5aaa8d5" width="800" height="300"></p> |
+| Ojos Abiertos      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7ef22b8f-bc86-423e-a0eb-1319090423c6" width="800" height="300"></p> |
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/1052106b-2cca-4082-ac5c-fb3b9d1b5803" width="800" height="300"></p> |
+| Ejercicio Matemático | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/bfb3f410-ea9b-45a2-aaa9-b4c844b44a9b" width="800" height="300"></p> |
 
 ## **Filtro de señal EEG** <a name="id4"></a>
+Para esta sección, se aplicó un filtro Butterworth pasa banda con el objetivo de eliminar ruidos innecesarios. El filtro se configuró para operar en el rango de frecuencias de 8 a 30 Hz. La decisión del filtro y las frecuencias de corte se basó en el análisis de un paper seleccionado previamente. Además, se utilizó un filtro Butterworth de orden 10 para proporcionar mayores tasas de caída entre la banda de paso y la banda de parada, lo cual puede ser necesario para alcanzar los niveles requeridos de atenuación en la banda de parada o para mejorar la nitidez del corte.
+
+| Estado          | Filtrado de Señal                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------|
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/c6f74026-a792-40e0-9159-444f066f05b9" width="800" height="300"></p> |
+| Ojos Abiertos      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/2b3a6184-c38f-4c1e-9276-9cdba0b79577" width="800" height="300"></p> |
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/a8053500-4b09-4991-98dd-620c01b4ce4b" width="800" height="300"></p> |
+| Ejercicio Matemático | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/9948094d-9e5f-410e-8c49-c71a750ee063" width="800" height="300"></p> |
+
 
 ## **Extracción de características de señal EEG** <a name="id5"></a>
+Para decidir las características del EEG a extraer, nos hemos guiado por el análisis detallado de un paper seleccionado. Este estudio estableció las bandas de frecuencia de interés y la generación de espectrogramas para el promedio de los canales como componentes clave de nuestro enfoque. Estas decisiones se basan en la necesidad de comprender y representar adecuadamente las diferentes bandas de frecuencia presentes en los datos del EEG, lo cual es crucial para nuestro análisis y posterior interpretación de los resultados.
+
+En primer lugar, se presentarán las bandas del EEG del promedio de los 8 canales.
+
+* Canal General
+  
+| Estado          | Bandas                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------|
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/b432ab51-3c97-4546-9e81-699a02c28673" width="800" height="400"></p> |
+| Ojos Abiertos      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/9cfbad07-9a10-4318-8444-f318dd2381af" width="800" height="400"></p> |
+| Ojos Cerrados      | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/28b05cad-95a3-4a4c-9569-d7c2fd9c754d" width="800" height="400"></p> |
+| Ejercicio Matemático | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/992e77f4-7753-4202-9409-c5eb66214404" width="800" height="400"></p> |
+
+Ahora se presentarán el espectograma del EEG del promedio de los 8 canales.
+
+* Ojos cerrados
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/7b8b91c6-125a-4bbb-b377-e1bf707c022b" width="800" height="400"></p>
+* Ojos abiertos-cerrados
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/e5835c3a-923b-4f66-b7a8-a0429fa76d9a" width="800" height="400"></p>
+* Ojos cerrados (post-ejercicio)
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/167a157b-845e-46b9-a9ef-2c77e4b2daf0" width="800" height="400"></p>
+* Ejercicios matemáticos
+<p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/452099d7-1b2a-4a85-b3ce-9742ff7f99cd" width="800" height="400"></p>
+
 
 ## **Discusión** <a name="id6"></a>
+
 
 
 ## **Archivos de códigos** <a name="id7"></a>
