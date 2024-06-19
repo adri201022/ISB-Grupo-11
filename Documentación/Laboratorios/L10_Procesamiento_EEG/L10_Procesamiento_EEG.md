@@ -88,7 +88,8 @@ Ahora se presentarán el espectograma del EEG del promedio de los 8 canales.
 
 
 ## **Archivos de códigos** <a name="id7"></a>
-[Código_de_señal_EEG](https://github.com/adri201022/ISB-Grupo-11/blob/f38a8ff4ef55b3cae89caa654b8a17cc0c873700/Documentaci%C3%B3n/Laboratorios/L10_Procesamiento_EEG/Senal_EEG.ipynb)
+
+[Código_de_señal_EEG](https://github.com/adri201022/ISB-Grupo-11/blob/f2a7943b77a79f54b5fcee86f1809a4c94e958cb/Documentaci%C3%B3n/Laboratorios/L10_Procesamiento_EEG/Senal_EEG.ipynb)
 
 ## **Referencias** <a name="id8"></a>
   
