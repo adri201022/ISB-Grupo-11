@@ -30,8 +30,8 @@ Las señales EEG obtenidas de los electrodos colocados en el cuero cabelludo a m
 
 ## **Objetivos** <a name="id2"></a>
 <ul>
-  <li>D</li>
-  <li>A</li>
+  <li>Comprender el proceso de preprocesamiento de señales EEG, ya que es fundamental para garantizar la calidad de los datos</li>
+  <li>Analizar la importancia y aplicaciones del procesamiento de señales EEG, lo que proporciona contexto sobre su relevancia en la investigación y la práctica clínica</li>
 </ul>
 
 ## **Preprocesamiento de señal EEG** <a name="id3"></a>
