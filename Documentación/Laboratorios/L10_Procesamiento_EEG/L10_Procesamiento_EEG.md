@@ -47,7 +47,7 @@ Se procederá a presentar el análisis de las señales preprocesadas del OpenBCI
 | Ejercicio Matemático | <p align="center"><img src="https://github.com/adri201022/ISB-Grupo-11/assets/164541653/bfb3f410-ea9b-45a2-aaa9-b4c844b44a9b" width="800" height="300"></p> |
 
 ## **Filtro de señal EEG** <a name="id4"></a>
-Para esta sección, se aplicó un filtro Butterworth pasa banda con el objetivo de eliminar ruidos innecesarios. El filtro se configuró para operar en el rango de frecuencias de 8 a 30 Hz. La decisión del filtro y las frecuencias de corte se basó en el análisis de un paper seleccionado previamente. Además, se utilizó un filtro Butterworth de orden 10 para proporcionar mayores tasas de caída entre la banda de paso y la banda de parada, lo cual puede ser necesario para alcanzar los niveles requeridos de atenuación en la banda de parada o para mejorar la nitidez del corte.
+Para esta sección, se aplicó un filtro Butterworth pasa banda con el objetivo de eliminar ruidos innecesarios. El filtro se configuró para operar en el rango de frecuencias de 8 a 30 Hz. La decisión del filtro y las frecuencias de corte se basó en el análisis de un paper seleccionado previamente. Además, se utilizó un filtro Butterworth de orden 10 para proporcionar mayores tasas de caída entre la banda de paso y la banda de parada, lo cual puede ser necesario para alcanzar los niveles requeridos de atenuación en la banda de parada o para mejorar la nitidez del corte.[4]
 
 | Estado          | Filtrado de Señal                                                                                      |
 |--------------------|---------------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Para esta sección, se aplicó un filtro Butterworth pasa banda con el objetivo 
 
 
 ## **Extracción de características de señal EEG** <a name="id5"></a>
-Para decidir las características del EEG a extraer, nos hemos guiado por el análisis detallado de un paper seleccionado. Este estudio estableció las bandas de frecuencia de interés y la generación de espectrogramas para el promedio de los canales como componentes clave de nuestro enfoque. Estas decisiones se basan en la necesidad de comprender y representar adecuadamente las diferentes bandas de frecuencia presentes en los datos del EEG, lo cual es crucial para nuestro análisis y posterior interpretación de los resultados.
+Para decidir las características del EEG a extraer, nos hemos guiado por el análisis detallado de un paper seleccionado. Este estudio estableció las bandas de frecuencia de interés y la generación de espectrogramas para el promedio de los canales como componentes clave de nuestro enfoque. Estas decisiones se basan en la necesidad de comprender y representar adecuadamente las diferentes bandas de frecuencia presentes en los datos del EEG, lo cual es crucial para nuestro análisis y posterior interpretación de los resultados.[4]
 
 En primer lugar, se presentarán las bandas del EEG del promedio de los 8 canales.
 
@@ -88,7 +88,7 @@ Ahora se presentarán el espectograma del EEG del promedio de los 8 canales.
 
 
 ## **Archivos de códigos** <a name="id7"></a>
-
+[Código_de_señal_EEG](https://github.com/adri201022/ISB-Grupo-11/blob/f38a8ff4ef55b3cae89caa654b8a17cc0c873700/Documentaci%C3%B3n/Laboratorios/L10_Procesamiento_EEG/Senal_EEG.ipynb)
 
 ## **Referencias** <a name="id8"></a>
   
@@ -97,3 +97,4 @@ Ahora se presentarán el espectograma del EEG del promedio de los 8 canales.
     [2]P. A. Abhang, B. W. Gawali, y S. C. Mehrotra, «Chapter 2 - Technological Basics of EEG Recording and Operation of Apparatus», en Introduction to EEG- and Speech-Based Emotion Recognition, P. A. Abhang, B. W. Gawali, y S. C. Mehrotra, Eds., Academic Press, 2016, pp. 19-50. doi: 10.1016/B978-0-12-804490-2.00002-6.
 
     [3]A. Chaddad, Y. Wu, R. Kateb, y A. Bouridane, «Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques», Sensors (Basel), vol. 23, n.o 14, p. 6434, jul. 2023, doi: 10.3390/s23146434.
+    [4] Goyal and A. Mehta, "Acquisition, pre-processing, and feature extraction of EEG," International Research Journal of Engineering and Technology (IRJET), vol. 8, no. 2, pp. 237-241, [Online]. Available: https://www.irjet.net/archives/V8/i2/IRJET-V8I237.pdf.
