@@ -81,7 +81,7 @@ else:
 
 ### Proyecto EEG
 1. Captura de Pantalla
-![Captura_ei_eeg](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/62828b11-4184-4b61-b2f1-4f34966b9a11)
+![Captura_ei_eeg](https://github.com/adri201022/ISB-Grupo-11/assets/164538327/23ab35e0-dc10-4447-b9eb-d42b2609b148)
 
 2. Link de EdgeImpulse
 [Link a Proyecto de EEG en EdgeImpulse](https://studio.edgeimpulse.com/public/431218/live)
