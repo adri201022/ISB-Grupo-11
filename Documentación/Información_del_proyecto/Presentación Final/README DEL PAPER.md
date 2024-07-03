@@ -15,7 +15,19 @@ Este estudio examina las señales electromiográficas (EMG) para comparar los pa
 Los deportes de alto rendimiento demandan una gran preparación física, y los deportistas de fútbol, vóley y básquet tienen una alta tendencia a sufrir lesiones en la zona de la rodilla, especialmente en el ligamento cruzado anterior (ACL). Por ello, nuestro equipo evaluó el desarrollado de una herramienta predictiva basada en el análisis de señales electromiográficas (EMG) para evaluar el riesgo de lesiones musculares en la rodilla, particularmente alrededor del ACL. Estas lesiones agudas son comunes y pueden derivar en problemas crónicos y osteoartritis temprana, subrayando la necesidad de métodos preventivos efectivos.
 
 ### Principales hallazgos:
+De todo el trabajo realizado, podemos destacar 4 puntos principalmente
 
+#### Patrones Similares de Activación Muscular:
+El estudio encontró que no existen diferencias significativas en la frecuencia media, la amplitud máxima promedio y la amplitud promedio del sobre entre atletas y no atletas en diferentes condiciones (reposo, ejercicio con carga, actividad de sentadillas). Esto sugiere que, bajo las circunstancias evaluadas, ambos grupos muestran niveles similares de activación muscular según estas métricas de señales sEMG.
+
+#### Limitada Capacidad Discriminatoria: 
+Los resultados indican que las características analizadas de las señales sEMG (frecuencia media, amplitud máxima, amplitud del sobre) no son lo suficientemente sensibles para distinguir entre atletas y no atletas en términos de riesgo de lesiones basado únicamente en patrones de activación muscular.
+
+#### Impacto del Tamaño de la Muestra: 
+El estudio reconoce la limitación del tamaño de muestra reducido, lo cual puede haber afectado la capacidad estadística para detectar diferencias sutiles. Esta limitación destaca la necesidad de estudios con cohortes más grandes para generalizar los hallazgos y explorar diferencias más matizadas en la activación muscular entre grupos.
+
+##### Implicaciones para la Evaluación del Riesgo de Lesiones: 
+A pesar de la falta de diferencias significativas observadas en este estudio, sigue siendo relevante el desarrollo de modelos predictivos para evaluar el riesgo de lesiones en los músculos de la rodilla. Investigaciones futuras con tamaños de muestra ampliados y posiblemente la incorporación de variables adicionales podrían proporcionar una comprensión más profunda de cómo las señales sEMG pueden predecir la susceptibilidad a lesiones en atletas y no atletas.
 ### Referencia al entregable 1 del equipo
 
 * [Entregable 1 "Sobre nosotros"](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L1_SobreNosotros.md)
