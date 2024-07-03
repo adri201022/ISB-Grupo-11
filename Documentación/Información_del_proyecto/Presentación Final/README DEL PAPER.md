@@ -11,7 +11,7 @@ Modelo Predictivo para Evaluar el Riesgo de Lesiones Musculares de la Rodilla en
 ### Resumen:
 
 ### Motivación:
-Los deportes de alto rendimiento demandan una gran preparación física, y los deportistas de fútbol, vóley y básquet tienen una alta tendencia a sufrir lesiones en la zona de la rodilla, especialmente en el ligamento cruzado anterior (ACL). Por ello, nuestro equipo ha desarrollado una herramienta predictiva basada en el análisis de señales electromiográficas (EMG) para evaluar el riesgo de lesiones musculares en la rodilla, particularmente alrededor del ACL. Estas lesiones agudas son comunes y pueden derivar en problemas crónicos y osteoartritis temprana, subrayando la necesidad de métodos preventivos efectivos.
+Los deportes de alto rendimiento demandan una gran preparación física, y los deportistas de fútbol, vóley y básquet tienen una alta tendencia a sufrir lesiones en la zona de la rodilla, especialmente en el ligamento cruzado anterior (ACL). Por ello, nuestro equipo evaluó el desarrollado de una herramienta predictiva basada en el análisis de señales electromiográficas (EMG) para evaluar el riesgo de lesiones musculares en la rodilla, particularmente alrededor del ACL. Estas lesiones agudas son comunes y pueden derivar en problemas crónicos y osteoartritis temprana, subrayando la necesidad de métodos preventivos efectivos.
 
 ### Principales hallazgos:
 
