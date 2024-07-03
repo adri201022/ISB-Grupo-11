@@ -21,4 +21,4 @@ Los deportes de alto rendimiento demandan una gran preparación física, y los d
 * [Entregable 1 "Sobre nosotros"](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L1_SobreNosotros.md)
 
 ### Enlace a paperswithcode
-* (https://paperswithcode.com/dataset/predictive-model-for-assessing-knee-muscle)
+* [Predictive Model for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG](https://paperswithcode.com/dataset/predictive-model-for-assessing-knee-muscle)
