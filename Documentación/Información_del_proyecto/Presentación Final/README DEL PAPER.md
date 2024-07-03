@@ -14,4 +14,6 @@ fsdfsdf
 
 ### Referencia al entregable 1 del equipo
 
+* [Entregable 1 "Sobre nosotros"](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L1_SobreNosotros.md)
+
 ### Enlace a paperswithcode
