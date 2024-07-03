@@ -3,9 +3,11 @@ Motivación (español) y Principales hallazgos (español). Dentro del texto debe
 entregable 1 (sobre el equipo) y al enlace de paperswithcode.
 
 ### Título en inglés:
-sfesfesf
+Predictive Model for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG
+
 ### Título en español:
-fsdfsdf
+Modelo Predictivo para Evaluar el Riesgo de Lesiones Musculares de la Rodilla en Deportistas y No Deportistas Mediante sEMG
+
 ### Resumen:
 
 ### Motivación:
