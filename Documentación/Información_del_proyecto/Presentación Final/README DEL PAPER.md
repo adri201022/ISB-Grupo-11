@@ -18,16 +18,17 @@ Los deportes de alto rendimiento demandan una gran preparación física, y los d
 De todo el trabajo realizado, podemos destacar 4 puntos principalmente
 
 #### Patrones Similares de Activación Muscular:
-El estudio encontró que no existen diferencias significativas en la frecuencia media, la amplitud máxima promedio y la amplitud promedio del sobre entre atletas y no atletas en diferentes condiciones (reposo, ejercicio con carga, actividad de sentadillas). Esto sugiere que, bajo las circunstancias evaluadas, ambos grupos muestran niveles similares de activación muscular según estas métricas de señales sEMG.
+Durante nuestro estudio, hicimos el descubrimiento de que no encontramos diferencias significativas en la frecuencia media, la amplitud máxima promedio y la amplitud promedio del sobre entre atletas y no atletas en diferentes condiciones (reposo, ejercicio con carga, actividad de sentadillas). Esto sugiere que, de lo que planteamos inicialmente, ambos grupos mostraron niveles similares de activación muscular según estas métricas de señales sEMG.
 
 #### Limitada Capacidad Discriminatoria: 
-Los resultados indican que las características analizadas de las señales sEMG (frecuencia media, amplitud máxima, amplitud del sobre) no son lo suficientemente sensibles para distinguir entre atletas y no atletas en términos de riesgo de lesiones basado únicamente en patrones de activación muscular.
+Nuestros resultados indican que las características que analizamos de las señales sEMG (frecuencia media, amplitud máxima, amplitud del sobre) no mostraron ser lo suficientemente sensibles para distinguir entre atletas y no atletas en términos de riesgo de lesiones basado únicamente en patrones de activación muscular.
 
 #### Impacto del Tamaño de la Muestra: 
-El estudio reconoce la limitación del tamaño de muestra reducido, lo cual puede haber afectado la capacidad estadística para detectar diferencias sutiles. Esta limitación destaca la necesidad de estudios con cohortes más grandes para generalizar los hallazgos y explorar diferencias más matizadas en la activación muscular entre grupos.
+Reconocemos que el tamaño de muestra reducido limitó nuestra capacidad para detectar diferencias más sutiles. Este hallazgo subraya la necesidad de futuros estudios con cohortes más amplias para validar y generalizar nuestros resultados, explorando así diferencias más matizadas en la activación muscular entre grupos.
 
 ##### Implicaciones para la Evaluación del Riesgo de Lesiones: 
-A pesar de la falta de diferencias significativas observadas en este estudio, sigue siendo relevante el desarrollo de modelos predictivos para evaluar el riesgo de lesiones en los músculos de la rodilla. Investigaciones futuras con tamaños de muestra ampliados y posiblemente la incorporación de variables adicionales podrían proporcionar una comprensión más profunda de cómo las señales sEMG pueden predecir la susceptibilidad a lesiones en atletas y no atletas.
+A pesar de las limitaciones observadas, nuestros hallazgos destacan la relevancia continua de desarrollar modelos predictivos para evaluar el riesgo de lesiones en los músculos de la rodilla. Consideramos que investigaciones futuras podrían beneficiarse de incluir variables adicionales y de aumentar el tamaño de muestra, lo que podría proporcionar una comprensión más profunda de cómo las señales sEMG pueden predecir la susceptibilidad a lesiones en atletas y no atletas.
+
 ### Referencia al entregable 1 del equipo
 
 * [Entregable 1 "Sobre nosotros"](https://github.com/adri201022/ISB-Grupo-11/blob/main/Documentación/Laboratorios/L1_SobreNosotros.md)
