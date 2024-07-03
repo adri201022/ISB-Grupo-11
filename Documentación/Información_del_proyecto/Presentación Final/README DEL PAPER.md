@@ -6,4 +6,12 @@ entregable 1 (sobre el equipo) y al enlace de paperswithcode.
 sfesfesf
 ### Título en español:
 fsdfsdf
+### Resumen:
+
 ### Motivación:
+
+### Principales hallazgos:
+
+### Referencia al entregable 1 del equipo
+
+### Enlace a paperswithcode
