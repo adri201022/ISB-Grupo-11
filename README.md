@@ -36,10 +36,10 @@ Se abordan varios aspectos importantes relacionados con el manejo de datos estru
 ## 3. Temática del proyecto
 
 ### Título en inglés:
-Predictive Model for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG
+Predictive Study for Assessing Knee Muscle Injury Risk in Athletes and Non-Athletes Using sEMG
 
 ### Título en español:
-Modelo Predictivo para Evaluar el Riesgo de Lesiones Musculares de la Rodilla en Deportistas y No Deportistas Mediante sEMG
+Estudio Predictivo para Evaluar el Riesgo de Lesiones Musculares de la Rodilla en Deportistas y No Deportistas Mediante sEMG
 
 ### Resumen:
 Este estudio examina las señales electromiográficas (EMG) para comparar los patrones de activación muscular entre atletas y no atletas durante el descanso, ejercicios de sentadillas y sentadillas con peso extra. Utilizando bitalino para la adquisición de datos y estandarizando señales a milivoltios, el estudio aplicó filtrado de paso de banda y muesca para mejorar la claridad de la señal. El análisis estadístico mediante la prueba t de Student no encontró diferencias significativas (p > 0,05). en frecuencia media, amplitud máxima y amplitud envolvente entre los grupos en todas las condiciones. El estudio reconoce limitaciones debido a un tamaño de muestra pequeño, lo que afecta la generalización. Se necesitan más investigaciones con cohortes más grandes para comprender mejor las diferencias en la EMG y sus implicaciones para la evaluación del riesgo de lesiones.
